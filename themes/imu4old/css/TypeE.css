@@ -1,0 +1,54 @@
+/*Overwriting basic color properties */
+
+
+/*div#bodywrap {
+ background: url(http://imu.uiowa.edu/themes/imu4/images/riverroom2.png);
+ }*/
+
+div#interior-links-wrapper .ads li {
+	background-color: transparent;
+}
+div#interior-links-wrapper {
+	background: none;
+	/*width: 160px;*/
+}
+.main-feature-tabs2 {
+	width: 100%;
+}
+div#foot_bevel {
+	/*width: 937px;
+	margin-right: 15px;
+	margin-left: 21px;*/
+display:none;
+}
+/*Content */
+
+#content-image {
+	width: 765px;
+	border-bottom: 1px dotted;
+	min-height: 350px;
+	padding-bottom: 20px;
+}
+#content-image img {
+	margin-left: 15px;
+	margin-top: 15px;
+}
+#content1 {
+	width: 720px;
+	margin-left: 22px;
+	margin-top: 22px;
+	margin-bottom: 35px;
+	line-height: 1.7em;
+}
+
+#content1 img {
+float: left;
+padding: 0 15px 10px 0;
+}
+
+#content-container 
+
+{
+border-bottom:8px solid #666666;
+
+}

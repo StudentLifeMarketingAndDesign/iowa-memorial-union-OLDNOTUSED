@@ -1,0 +1,5 @@
+#nav li:hover ul {
+	left: auto;
+	margin-left: -80px;
+	top: 50px;
+}

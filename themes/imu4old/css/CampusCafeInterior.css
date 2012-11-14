@@ -1,0 +1,106 @@
+
+
+blockquote {
+	float: right;
+	width: 350px;
+	height: auto;
+	margin: 0px -10px 10px 20px;
+	background-color: #F9F9EA;
+	border: 1px dotted #999999;
+	
+}
+blockquote img{
+	margin-bottom:15px;
+	
+}
+
+
+#content1 blockquote h2, #content2 blockquote h2 {
+	color:#333333;
+	padding: 0px 0px 0px 20px;
+	margin-top:10px;
+}
+
+h1 {
+color:#000000;}
+
+.main-feature-tabs2
+
+{
+	
+}
+
+#content-container
+
+{border: #FFFFFF;
+}
+
+#breadcrumbs p 
+
+{
+color:#FFFFFF;
+}
+
+div#bodywrap {
+ background: url(http://imu.uiowa.edu/themes/imu4/images/campus_cafes/chalkboard.jpg);
+ }
+
+div#interior-links-wrapper .ads li {
+	background-color: transparent;
+}
+div#interior-links-wrapper {
+	background: none;/*width: 160px;*/
+}
+.main-feature-tabs2 {
+	width: 100%;
+}
+div#foot_bevel {
+	width: 937px;
+	margin-right: 15px;
+	margin-left: 21px;
+}
+/*Content */
+
+#content-image {
+	width: 765px;
+	border-bottom: 1px dotted;
+	min-height: 350px;
+	padding-bottom: 20px;
+}
+#content-image img {
+	margin-left: 15px;
+	margin-top: 15px;
+	border: 1px solid #333333
+}
+#content1 {
+	width: 720px;
+	margin-left: 22px;
+	margin-top: 0px;
+	margin-bottom: 55px;
+	line-height: 1.7em;
+}
+
+html>body #content1  { *margin-top:20px; }
+
+.boxes{
+height: auto;
+}
+
+#content1 img {
+float: left;
+padding: 0px 0px 0px 0px;
+}
+
+#content-container 
+
+{
+border-bottom:8px solid #666666;
+
+}
+
+div#foot_bevel {
+	/*width: 937px;
+	margin-right: 15px;
+	margin-left: 21px;*/
+display:none;
+}

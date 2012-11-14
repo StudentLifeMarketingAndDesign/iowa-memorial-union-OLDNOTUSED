@@ -1,0 +1,173 @@
+#minisite-header {
+	display: none;	
+}
+
+#breadcrumbs {
+	display: none;	
+}
+
+#search_box {
+	display: none;	
+}
+
+#content-container {
+	margin-top: 100px;
+}
+.main-feature-tabs2 {
+	visibility: hidden;
+}
+#content-wrapper {
+	width: 610px;
+	float: left;
+	padding-left: 45px;
+	padding-right: 45px;
+	
+}
+#main-image-wrapper {
+	background: url(../images/now2/now_main_image.jpg) no-repeat;
+	width: 712px;
+	background-position: 0px 70px;
+	height: 400px;
+	float: left;
+}
+div#interior-links-wrapper {
+	margin-top: 10px;
+	margin-right: 35px;
+	width: 150px;
+}
+.corner {
+	float: left;
+	margin-left: -45px;
+	margin-top: -7px;
+}
+.main-image {
+	float: left;
+	margin: 0;
+	position: relative;
+	margin-left: 46px;
+	margin-top: 87px;
+}
+#featured-event-wrapper {
+	width: 712px;
+	border-top: dotted 1px;
+	border-bottom: dotted 1px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	float: left;
+}
+
+
+#event-wrapper h1 {
+	line-height: normal;
+}
+
+.featured-event {
+	padding: 15px 0;	
+}
+
+.featured-event img {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.featured-event h1 {
+	line-height: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+.description {
+	margin: 0;
+	margin-left: 219px;
+	padding-left: 15px;
+}
+
+.description h1, .event-date {
+	color: #c7005f;	
+}
+
+#social-media-wrapper, #events {
+	width: 712px;
+	
+}
+
+#events {
+	padding-top: 15px;
+	margin-bottom: 23px;
+	background: url(../images/now2/event_wrapper.png) repeat-y;
+}
+
+#events-wrapper {
+	padding-top: 15px;	
+}
+
+#social-media-wrapper {
+	padding-top: 15px;
+	min-height: 200px;
+	border-bottom: dotted 1px;
+}
+
+#links {
+	width: 347px;
+	float: left;		
+}
+
+#links ul li{
+	display: inline;
+	
+}
+
+
+#links ul {
+	margin: 0;
+	padding: 15px 0;
+	
+}
+
+
+#twitter {
+	margin-left: 33px;
+	width: 300px;
+	float: right;	
+}
+
+.event {
+	width: 300px;
+		
+}
+
+.event h2 {
+	float: left;
+}
+
+p.event-date {
+	float: right;	
+}
+
+p.event-description{
+	clear:both;	
+}
+
+.even {
+	float: right;
+}
+
+.odd {
+	float: left;
+	padding-right: 50px;
+	clear: both;
+}
+
+.first {
+	clear: none;
+}
+
+.title_image{
+	float: none;	
+}
+
+.clear.events {
+
+
+
+}

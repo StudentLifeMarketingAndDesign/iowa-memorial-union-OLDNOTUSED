@@ -1,0 +1,61 @@
+body {
+	background-color: #666666;
+}
+a:link {
+	color: #006699;
+	text-decoration: none;
+}
+.style1 {
+	color: #999999;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+.style3 {font-size: 10px}
+.style4 {color: #FFFFFF; }
+
+div#footer2 {
+	display: none;
+}
+
+div#footer {
+	display: none;
+}
+
+#foot_bevel {
+	display: none;
+}
+
+div#ui-logo {
+	display: none;
+}
+
+div#nav {
+	display: none;
+}
+
+div#navwrapper {
+	display: none;
+}
+
+div#logo {
+	display: none;
+}
+
+#nav-bkgrd-right  {
+	display: none;
+}
+
+div#search_box {
+	display: none;
+}
+
+div#breadcrumbs {
+	display: none;
+}

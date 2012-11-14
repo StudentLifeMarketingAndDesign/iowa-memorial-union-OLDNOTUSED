@@ -1,0 +1,1 @@
+<img src="http://apps.imu.uiowa.edu/owa_stats/{$URLSegment}[{$ID}].png" />

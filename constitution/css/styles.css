@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,
+body {
+	font-family:Arial, Helvetica, sans-serif;
+   margin:0;
+   padding:0;
+   height:100%;
+   background:#fade8e;
+}
+
+.column em {
+	font-style:italic;}
+	
+.column strong {
+	font-weight:bold;	
+}
+
+.column h3 {
+margin: 0 0 10px 0;
+color:#4e92a0;
+font:bold 18px/22px Arial, Helvetica, sans-serif;}
+
+.column h2 {
+	margin: 0 0 20px 0;
+	color:#e71d25;
+	text-transform:uppercase;
+	font:normal 27px/27px 'Josefin Sans Std Light', Arial, Helvetica, sans-serif;}
+	
+p, ol  {
+	color:#063d64;
+	font:lighter 22px/22px 'Josefin Sans Std Light', Arial, Helvetica, sans-serif;}
+
+.column ol, .column li  {
+	margin:0 0 20px 0;
+	list-style-type:decimal;}
+	
+	
+.column p {
+	margin:0 0 15px 0;}
+
+.column a:hover {
+	text-decoration:underline;
+	color:#C30}
+	
+a {
+	color:#069;
+	text-decoration:underline;}
+.clear {
+clear:both;}
+
+h1.logo  {
+	float:left;
+	display:block;
+	text-indent:-9999px;
+	width:980px;
+	outline:none;
+	background:url(../images/const_logo.png) no-repeat 0px 0px;
+	height:500px;}
+
+
+.column {margin: 0 0 0 70px;
+	width:400px;
+	float:left;}
+
+#container {
+   min-height:100%;
+   position:relative;
+   background:#fade8e;
+}
+
+#wrapper {
+	width:980px;
+	min-height:1900px;
+	 background:url(../images/footer.jpg) no-repeat -30px bottom;
+	margin:0px auto 0px auto;}
+	
+
+#body {
+	background:white;
+	min-height:664px;
+	width:980px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+

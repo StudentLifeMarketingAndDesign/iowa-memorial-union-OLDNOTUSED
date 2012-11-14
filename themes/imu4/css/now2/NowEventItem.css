@@ -1,0 +1,59 @@
+#main-image-wrapper {
+height: 370px;
+margin-bottom:16px;
+
+}
+
+#single_event h1 {
+	color: #1783bd;	
+	text-transform: uppercase;
+}
+
+#single_event h2 {
+	color: #c7005f;	
+	text-transform: uppercase;
+}
+
+#single_event h3 {
+	color: #1783bd;	
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+#single_event  {
+	padding-top:20px;
+}
+
+#links ul {
+	margin-top: 10px;
+}
+
+
+#info h1{
+color:#c7005f;
+font: normal lighter 24px/22px Arial, Helvetica, sans-serif;}
+
+#info h2{
+margin:0px;
+color:#333333;
+font: normal lighter 18px/20px Arial, Helvetica, sans-serif;}
+
+#info h3{
+margin:0px;
+color:#119ece;
+font: normal bold 13px/20px Arial, Helvetica, sans-serif;}
+
+#info {
+margin-top:45px;
+margin-bottom:125px;
+float:right;
+width:200px;
+height:370px;
+/*background: url(../images/blacktrans2.png) repeat;*/}
+
+div#foot_bevel 
+{
+
+display:none;
+
+}

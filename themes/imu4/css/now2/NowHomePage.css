@@ -1,0 +1,210 @@
+#main-image-wrapper {
+	background: url(../../images/now2/now_main_image.jpg) no-repeat;
+	height: 400px;
+	background-position: 0px 30px;
+	cursor: pointer;
+
+}
+
+#info h1{
+color:#c7005f;
+font: normal lighter 24px/22px Arial, Helvetica, sans-serif;}
+
+#info h2{
+margin:0px;
+color:#333333;
+font: normal lighter 18px/20px Arial, Helvetica, sans-serif;}
+
+#info h3{
+margin:0px;
+color:#119ece;
+font: normal bold 13px/20px Arial, Helvetica, sans-serif;}
+
+#info {
+margin-top:45px;
+margin-bottom:125px;
+float:right;
+width:200px;
+height:370px;
+/*background: url(../images/blacktrans2.png) repeat;*/}
+	
+
+#featured-event-wrapper {
+	width: 712px;
+	border-top: dotted 1px;
+	border-bottom: dotted 1px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	float: left;
+}
+
+#event-wrapper h1 {
+	line-height: normal;
+}
+
+.featured-event {
+	padding: 15px 0;	
+}
+
+.featured-event img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: left;
+}
+
+.featured-event h1 {
+	margin: 8px 0 0 0;
+	padding: 0;
+}
+
+.featured-event h1 a{
+	line-height: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color: #c7005f;
+	text-decoration: none;
+}
+
+.featured-event h1 a:hover {text-decoration: underline;}
+
+.featured-event h2 {
+	
+	margin: 8px 0 0 0;
+	padding: 0;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#333;
+	font-weight: normal;
+
+}
+
+.featured-event h2 a {
+	
+	text-decoration: none;
+
+}
+
+
+
+
+.description {
+	margin: 0;
+	margin-left: 219px;
+	padding-left: 15px;
+}
+
+.description h1, .event-date {
+	color: #c7005f;	
+}
+
+.description h2 a:hover {text-decoration: underline;}
+
+#social-media-wrapper, #events {
+	width: 712px;
+	
+}
+
+#events {
+	padding-top: 15px;
+	margin-bottom: 23px;
+	background: url(../images/now2/event_wrapper.png) repeat-y;
+}
+
+#events-wrapper {
+	padding-top: 15px;
+	
+}
+
+#social-media-wrapper {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	min-height: 200px;
+	border-bottom: dotted 1px;
+}
+
+#links {
+	width: 347px;
+	float: left;
+}
+
+#twitter_div {
+	margin-left: 33px;
+	width: 300px;
+	float: right;	
+}
+
+#twitter_div h2 {
+	margin:0;
+	padding: 0;
+}
+
+#twitter_div a{
+	color: #c7005f;
+}
+
+#twitter_update_list{
+	font-size: 0.9em;
+	margin: 0;
+	padding: 5px 0;
+	list-style: none;
+}
+
+#twitter_update_list li{
+	padding: 5px 0;
+}
+
+.event {
+	width: 300px;
+		
+}
+
+.event h2 {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+p.event-date {
+	clear: both;
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+}
+
+p.event-description{
+	clear:both;	
+}
+
+.even {
+	float: right;
+}
+
+.odd {
+	float: left;
+	padding-right: 50px;
+	clear: both;
+}
+
+.first {
+	clear: none;
+}
+
+.title_image{
+	float: none;	
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+.clear.events {
+
+}
+
+div#foot_bevel (line 372)
+
+{
+
+display:none;
+
+}

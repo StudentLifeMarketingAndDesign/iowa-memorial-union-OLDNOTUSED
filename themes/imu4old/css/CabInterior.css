@@ -1,0 +1,238 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+div#interior-links-wrapper .ads li{
+	background-color: transparent;
+}
+
+.main-feature-tabs2 {
+	width: 100%;
+}
+
+
+div#foot_bevel {
+	width:935px;
+	text-align: left;
+	background-color:#666666;
+	font-size: 10px;
+	height: 6px;
+	clear: both;
+	background-repeat: no-repeat;
+	margin-right: 15px;
+	margin-left: 22px;
+}
+
+hr {
+height:1px;
+width:auto;
+background-color:#993333;
+}
+
+strong {
+	color:#552428;
+}
+
+blockquote 
+
+
+{
+float: right;
+width: 221px;
+height: auto;
+margin-top: 10px;
+margin-right: 0px;
+margin-bottom: 10px;
+margin-left: 15px;
+background-color: white;
+background-image:none;
+}
+
+
+
+
+h1 {
+	padding: 0;
+	margin: 0;
+
+}
+/*Content */
+
+#content1 img {
+	float: left;
+	padding-bottom:0px;
+}
+
+#content1 {
+	width: 720px;
+	height: 100%;
+	margin: 0px 0px 70px 0px;
+	padding: 0px 22px 0px 22px;
+}
+
+#content1, #interior-links-wrapper {
+	height: 100%;
+
+}
+
+	
+#content1 p {
+	line-height: 1.7em;
+}
+
+/*#minisite-header {
+	height:86px;
+	width:600px;
+	margin-left: 38px;
+	display: block;
+	clear: left;
+	margin-bottom: 5px;
+}
+*/
+#minisite-header {
+clear:left;
+display:block;
+height:66px;
+padding-top:10px;
+margin-top:10px;
+margin-bottom:5px;
+margin-left:38px;
+width:600px;
+}
+
+
+div#bodywrap {
+	height: auto;
+	width: 980px;
+	border-right: 1px solid #666666;
+	border-left: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	background: #FFFFFF url(../images/cab/rays5.jpg) repeat-y;
+}
+	
+#content1 p {
+	padding-left: 10px;
+	margin-top: 5px;
+	line-height: 18px;
+	background-color: #FFFFFF;
+		}
+		
+
+ #content1 h2 {
+	font: bold italic 20px "trebuchet ms";
+	color: #666;
+	margin: 17px 0px 10px 9px;
+	padding-top:10px;
+		}
+	
+
+
+#image {
+	float: left;
+	width: 422px;
+	display: block;
+	text-align: left;
+	height: 365px;
+	background-color: transparent;
+}
+
+#image img{
+	padding: 0px 0px 0px 0px;
+	border-top: 12px  solid  #A32E18;
+}
+
+
+
+#content1 h1 {
+	font: italic 26px/24px "trebuchet ms";
+	color: #A32E18;
+	width: 230px;
+	margin: 20px 0px 6px 0px;
+	padding-left: 0px;
+	text-transform: none;
+		}
+		
+	
+#content1 h3 {
+	font: normal 12px/10px "arial";
+	width: 240px;
+	margin: 0px 0px 10px 0px;
+	color: #666666;
+	padding: 0px 0px 2px 0px;
+	float: left;
+	display: block;
+		text-transform: none;
+		}
+
+#content1 p{
+	color: #333333;
+	margin-right: 40px;
+
+}
+
+#content2 {
+	height: auto;
+	width: 750px;
+	background-color: #FFFFFF;
+	float: left;
+	padding: 20px 0px 6px 10px;
+		}
+/*
+#event1 p , #event2 p , #event3 p, #event4 p, #event5 p, #event6 p, #event7 p{
+	
+	color: #333333;
+	float: right;
+	width: 450px;
+	height: 120px;
+	margin: 0px 0px 0px 0px;
+}*/
+	
+.location {
+	font: normal bold 12px/10px "arial";
+	font-size: 11px;
+	color: #333333;
+	padding-bottom:5px;
+		}
+		
+.time {
+	font: normal bold 11px/16px "arial";
+	color: #666666;
+	text-transform: uppercase;
+	margin-top:5px;
+		}
+
+ .event {
+	font: lighter 20px/18px "arial";
+	color: #A32E18;
+	margin-bottom: 10px;
+		}
+		
+		 .event a{
+	text-decoration:none;
+		color: #A32E18;
+		}
+		
+
+	
+#title-box {
+	float: left;
+	margin: -5px 0px 0px 0px;
+	display: block;
+	width: 413px;
+	background-repeat: repeat;
+	line-height: 22px;
+	padding: 5px 0px 10px 0px;
+	height: auto;
+		}	
+	
+#content-container {
+background:  url(../images/cab/cab-columns.png) repeat-y;
+	
+}
+
+#mediaspace {
+	padding-top: 55px;
+	padding-left: 25px;
+	float: right;
+}
+		

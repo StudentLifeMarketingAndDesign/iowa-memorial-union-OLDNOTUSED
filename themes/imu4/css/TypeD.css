@@ -1,0 +1,156 @@
+
+/*Overwriting basic color properties */
+
+div#interior-links-wrapper .ads li{
+	background-color: transparent;
+}
+
+.main-feature-tabs2 {
+	width: 100%;
+}
+
+.block {
+height:300px;
+background-color:red;
+width:auto;}
+
+div#foot_bevel {
+	width:935px;
+	text-align: left;
+	background-color:#666666;
+	font-size: 10px;
+	height: 6px;
+	clear: both;
+	background-repeat: no-repeat;
+	margin-right: 15px;
+	margin-left: 22px;
+}
+
+h1 {
+
+padding: 0;
+margin: 0;
+
+}
+/*Content */
+
+#content1 img {
+float: left;
+padding: 0 25px 10px 0;
+}
+
+#content1 {
+width: 720px;
+margin: 25px 0px 70px 0px;
+padding: 22px;
+
+}
+
+#content1, #interior-links-wrapper {
+	height: 100%;
+}
+
+.boxes2 {
+background-image: url(../images/students/social_back.png); width: auto; height: auto;}
+	
+.stay {
+margin-top:-44px;
+margin-left:-22px;}
+
+
+	
+	#connected h3
+{
+height: auto;
+width: auto;
+font-family: Arial,Helvetica,sans-serif;
+font-style: normal;
+font-variant: normal;
+font-weight: lighter;
+font-size: 12px;
+line-height:19px;
+font-size-adjust: none;
+font-stretch: ;
+-x-system-font: none;
+color: #333333;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+padding-top: 5px;
+padding-right: 20px;
+padding-bottom: 5px;
+padding-left: 0px;
+}
+#content1 p {
+line-height: 1.7em;
+}
+
+.smallboxes {
+	width: auto;
+
+}
+
+#content2 .smallboxes h4 , #content1 .smallboxes h4{
+	padding-left:4px;
+	background-color:#C5ECFF;
+}
+
+.image-block {
+width:225px;
+margin-right:15px;}
+
+#content1 h5.color2 {
+color:#666666; 
+background-color:white;
+border-top: 1px dotted #999999;
+padding-bottom:10px;}
+
+.number {
+line-height:15px;
+font-size:12px;
+}
+
+.number li {
+padding-bottom:10px;
+padding-right:20px;
+}
+
+#featurebox {
+padding:20px 40px 20px 20px;
+margin-right:5px;
+width:auto;
+min-height:420px;
+background-color:#f7c877;
+border:1px solid #666;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+behavior:url(/assets/cultural_centers/border-radius.htc);}
+
+
+html>body #featurebox p, #featurebox h3 { *padding-right: 40px;}
+
+#featurebox img {
+padding-right:40px;
+margin-bottom:40px;
+}
+
+#address-box {
+margin-left:0px;
+margin-right:20px;
+margin-bottom:50px;
+float:left;
+width:216px;
+height:207px;
+background-image: url(/assets/cultural_centers/LGBThouse2.jpg);}
+
+#address-box h2{
+font:bold 13px arial;
+color:white;
+margin-top:170px;
+
+padding: 10px 0px 10px 10px;
+text-transform:uppercase;
+height:auto;
+background-image: url(../images/campus_event_services/blacktrans.png);}
+

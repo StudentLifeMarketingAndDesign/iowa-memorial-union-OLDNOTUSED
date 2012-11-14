@@ -1,0 +1,117 @@
+#content-container {
+	
+}
+
+#content_wrapper1, #content_wrapper2{
+	width: 740px;
+	padding: 10px;
+	float: left;
+}
+
+h1 a {
+	color: #669999;
+	text-decoration: none;
+	border-bottom: solid 1px;
+}
+
+p {
+	font-size: 14px;	
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+
+#content_wrapper1 img {
+	float: left;
+}
+
+#content_wrapper2 {
+	margin-top: 24px;
+}
+
+#ubs_content_wrapper{
+	float: left;
+	width: 305px;
+	margin-left: 10px;
+}
+
+#info_block1 p{
+	margin-left: 120px;
+	margin-top: 0;
+	
+		
+}
+
+#info_block1 {
+	height: 117px;
+	min-height: 117px;
+	width: 294px;
+}
+
+.info_block2{
+	margin-top: 9px;
+	min-height: 118px;
+	padding-bottom: 15px;
+}
+
+.info_block2 p{
+	margin-top: 0;
+	
+}
+
+.info_block p{
+	font-size: 14px;	
+}
+
+.info_block {
+	background-color: #eeb35a;
+	color: white;
+	padding: 15px;
+	margin-bottom: 15px;
+	font-size: 12px;
+	min-height: 305px;
+	
+}
+
+.info_block img{
+	margin-right: 10px;
+	padding-bottom: 15px;
+	
+}
+
+.info_block h2{
+	font-size: 12px;	
+}
+
+.content1 {
+	margin-top: 15px;
+	
+}
+
+#content2, #content3, #content4 {
+	width: 231px;
+	float: left;
+}
+
+#content3, #content4 {
+	margin-left: 10px;
+}
+
+.clear {
+
+	clear: both;
+
+}
+
+.sharing a img{
+	margin-right: 10px;
+	border: none;
+}
+
+.store_logo {
+	height: 100px;
+} 

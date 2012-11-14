@@ -1,0 +1,24 @@
+.typography * { 
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.typography a.edit-link {
+	color: #840012
+
+}
+
+.typography a {
+	text-decoration: none;
+	text-transform: none;
+	color: #666;
+}
+
+.typography #heading h1 a {
+	color: white;
+}
+
+.typography h2.subheader {
+
+	margin-top: 0px;
+}
+

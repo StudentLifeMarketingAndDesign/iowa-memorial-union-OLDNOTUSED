@@ -1,0 +1,266 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*--------type e------ */
+	
+#typeE h6 {
+	font: normal italic 11px Arial, Helvetica, sans-serif;
+	margin: 2px 0px 2px 0px;
+	color: #993333;
+		}
+		
+#typeE {
+	float: left;
+	width: 750px;
+	display: block;
+	text-align: left;
+	height: 450px;
+	border-bottom: 1px dotted #999999;
+	padding-left: 12px;
+	background: #FFFFFF url(../images/moneyback.gif) no-repeat 9px -10px;
+}
+
+#typeE img {
+	border: none;
+	margin-top: 12px;
+}
+
+#typeE  h1 {
+	font: normal lighter 24px Arial, Helvetica, sans-serif;
+	color: #4E7989;
+	background-color: #CCCCCC;
+	margin: -5px 0px 0px 12px;
+}
+
+#typeE_1_feature {
+	float: left;
+	width: 517px;
+	display: block;
+	text-align: left;
+	height: 337px;
+	padding-left: 7px;
+	margin-top: 58px;
+}
+
+#typeE p{
+	margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #666666;
+}
+
+#typeE h6 {
+	font: normal lighter 18px "trebuchet ms";
+	color: #0099CC;
+	margin-bottom: 4px;
+	margin-top: 0px;
+}
+
+#typeE h2 {
+	font: normal bold 18px "trebuchet ms";
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	margin-bottom: 0px;
+	margin-top: 69px;
+}
+
+#typeE h3 {
+	font-family: "TREBUCHET MS";
+	font-size: 36px;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	margin-top: -9px;
+	margin-bottom: 5px;
+}
+
+
+#typeD-image img {
+	display: none;
+}
+
+#typeD-image 
+	{
+	background: url(../images/coins.jpg) no-repeat 0px 10px;
+	}
+
+
+
+.typeE_1_feature2  {
+	background: url(../images/scmms.png)  no-repeat 13px 10px;
+	margin-top: 0px;
+	height: 356px;
+	width: 200px;
+	float: right;
+	padding: 145px 15px 0px 20px;
+    font: normal 10px/12px Arial, Helvetica, sans-serif;
+	color: #666666;
+	margin-top: 0px;
+	display: inline;
+		}
+	
+.typeE_1_feature2 h5{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #333333;
+	margin-bottom: 0px;
+	display: inline;
+}
+
+.typeE_1_feature2 img {
+	margin-left: 0px;
+	
+}
+
+#typeD-feature h6 {
+	font-family: "trebuchet ms";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: lighter;
+	color: #008FBF;
+	margin: 0px 20px 0px 20px;
+}
+
+#typeD-feature a {
+	text-decoration: none;
+	color: #993333;
+		}
+
+#typeD-feature {
+	margin-top: 0px;
+	height: auto;
+	width: 663px;
+	background-color: #FFFFFF;
+	float: left;
+		}
+		
+		html>body #typeD-feature { *margin-top:10px; }
+		
+#typeD-feature form {
+	font: normal 12px/24px Arial, Helvetica, sans-serif;
+	margin-left: 10px;
+	color: #666666;
+		}
+		
+#typeD-feature ul {
+	
+	list-style: none;
+	line-height: 19px;
+		}
+		
+		#typeD-feature li {
+	margin-left: -20px;
+
+		}
+
+#typeD-feature p {
+	font: normal 12px/24px Arial, Helvetica, sans-serif;
+	color: #333333;
+	margin: 0px 0px 0px 20px;
+		}
+		
+
+/*---GREEN BACKGROUND FOR E_1--*/
+
+div#bodywrap {
+	
+	background-color: #C1DFAE;
+}
+
+	
+div#foot_bevel {
+	width: 937px;
+	margin-right: 15px;
+	margin-left: 21px;
+}
+
+
+/*--------type e1------ */
+
+#typeE_1_pullquote {
+	width: 177px;
+	height: 256px;
+	float: right;
+	padding: 0px 25px 0px 25px;
+	color: #333333;
+	font: normal 11px/18px Arial, Helvetica, sans-serif;
+		}
+		
+	
+		
+#typeE_1_pullquote h5 {
+	color: #6E866D;
+	font: normal 25px/18px Arial, Helvetica, sans-serif;
+	border-bottom: thin solid #FF6600;
+	margin: 2px 0px 9px 0px;
+	padding-bottom: 5px;
+		}
+
+
+.typeE_1_pullquote {
+	width: 177px;
+	height: 256px;
+	float: right;
+	padding: 0px 25px 0px 25px;
+	color: #333333;
+	font: normal 11px/18px Arial, Helvetica, sans-serif;
+		}
+		
+	
+		
+.typeE_1_pullquote h5 {
+	color: #6E866D;
+	font: normal 25px/18px Arial, Helvetica, sans-serif;
+	border-bottom: thin solid #FF6600;
+	margin: 2px 0px 9px 0px;
+	padding-bottom: 5px;
+		}
+
+#typeE_sideimage {
+	background-color: #FFFFFF;
+	float: left;
+	width: 85px;
+	text-align: left;
+	height: 800px;
+	border-right: 1px dotted #999999;
+	clear: left;
+}
+
+
+
+
+
+/*--------type d (type c, and e use d elements)------ */
+
+
+
+
+#typeD-image {
+	background-color: #FFFFFF;
+	float: left;
+	width: 85px;
+	text-align: left;
+	height: 800px;
+	border-right: 1px dotted #999999;
+	clear: left;
+}
+
+
+	
+
+
+/*--------type cde------ */
+
+	
+	#subfeature-wrapper2 {
+	float:left;
+	width:933px;
+	height:auto;
+	margin-left:11px;
+	text-align:left;
+	border: 1px solid #666666;	
+	background: #FFFFFF url(../images/back3.gif) repeat-y;
+}
+
+/* IE 6 Win Hack */ html>body #subfeature-wrapper2 { margin-left: 22px;}

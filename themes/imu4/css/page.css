@@ -1,0 +1,688 @@
+/* CSS Document */
+
+
+/* ---------------------------------------------- universal elements --------------------------------------- */
+img a {
+border: none;
+text-decoration:none;
+}
+
+img{
+border: none;
+text-decoration:none;
+}
+
+h1 {
+font: lighter 24px/26px Arial, Helvetica, sans-serif;
+color: #000000;
+}
+h2.nav {
+	position: absolute;
+	text-indent: -2000px;
+}
+h4.hide {
+	position: absolute;
+	text-indent: -2000px;
+}
+
+.main-feature-tabs2 {
+	height:10px;
+	width: 933px;
+	float: left;
+	padding-top: 5px;
+	background-color: #CCCCCC;
+	border-bottom: 1px solid #666666;
+}
+.more4 {
+	font: normal 9px Arial, Helvetica, sans-serif;
+	color: #666666;
+	background-color: #F3F7E8;
+	margin-left: 18px;
+}
+body {
+	width: 980px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	background-color: #999999;
+	margin: 0px auto 0px auto;
+}
+div#bodywrap {
+	height: auto;
+	width: 980px;
+	border-right: 1px solid #666666;
+	border-left: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	background-color: #FFFFFF;
+}
+
+#logo {
+	width: 980px;
+	height: 18px;
+	background-color: #3f3736;
+
+}
+
+#ui-logo {
+	height:17px;
+	width:938px;
+	background: #3F3736;
+	padding: 3px 0px 0px 42px;
+}
+#ui-logo img {
+	border: none;
+}
+#breadcrumbs {
+	clear: left;
+	float: left;
+	width: 500px;
+	padding-left: 32px;
+}
+#search_box {
+	padding-top: 5px;
+	width: 250px;
+	height: 25px;
+	float: left;
+}
+#search_box #s {
+	width: 200px;
+}
+#search_box #go {
+	margin-top: 0px;
+}
+#breadcrumbs p {
+	border-left: 1px solid #999999;
+	font: normal 8px/14px Arial, Helvetica, sans-serif;
+	padding: 0px 0px 0px 5px;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+#minisite-header {
+	height:65px;
+	width:600px;
+	margin-left: 38px;
+	display: block;
+	clear: left;
+}
+#minisite-header h1 {
+	font: normal bolder 32px "Trebuchet MS";
+	color: #666666;
+	letter-spacing: -2px;
+	margin: 0px 0px 0px 2px;
+	padding-top: 15px;
+}
+#minisite-header img {
+	border: none;
+}
+
+
+#header {
+	width: 980px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #999;
+	background: white;
+}
+
+#imulogo {
+	position: absolute;
+	margin-left: 675px;
+	margin-top: 15px;
+	
+}
+
+#uiowalogo {
+     position: absolute;
+margin-left: 25px;
+margin-top: 1px;
+
+}
+
+#menu {
+	background-color:#616161;
+	clear:both;
+	background: url(../images/grayshade2.png);
+
+
+
+}
+
+
+
+#nav, #nav ul {
+	padding: 0;
+
+	list-style: none;
+}
+
+#nav {
+margin: 0;
+margin-left: 165px;
+}
+
+#nav ul {
+	margin: 0;
+}
+
+
+
+
+
+#nav ul li {
+padding: 0;	
+}
+
+#nav a {
+color: white;
+display: block;
+float: left;
+font-size: 15px;
+font-weight: bold;
+margin-left: 0pt;
+padding-top: 5px;
+padding-right: 20px;
+padding-bottom: 5px;
+padding-left: 20px;
+text-decoration: none;
+font-family: Helvetica,Arial,sans-serif;
+text-transform: lowercase;
+}
+
+#nav li {
+	float: left;
+	padding: 5px 0;
+}
+
+
+#nav li ul {
+	position: absolute;
+	width: 13em;
+	left: -999em;
+	background: #616161;
+
+}
+
+#nav li a:hover{
+	color: #FFFF99;
+	text-decoration: underline;
+	
+}
+
+#nav ul li a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+#nav li:hover ul {
+	left: auto;
+	margin-left: 15px;
+	top: 50px;
+}
+
+#nav li ul li a {
+	font-size: 13px;
+	padding: 10px 10px;
+	
+}
+
+#nav li ul li {
+	width: 13em;	
+}
+#nav li ul li:hover {
+	background: #3f3736;	
+}
+
+/*--------------------------------------------- lists nested under hovered list items ---------------------------------------------*/
+
+/* Content Container */
+
+#content-container {
+	height: 100%;
+	margin: auto;
+	width: 935px;
+	padding: 0px;
+	background-image: url(../images/faux_columns.png);
+	border: solid 1px #666666;
+}
+
+
+
+
+/*----------------------------------------------- side-interior links and ads  ----------------------------------------------- */
+
+div#interior-links-wrapper {
+	font: Geneva, Arial, Helvetica, sans-serif;
+	color: #999999;
+	list-style-type: none;
+	text-decoration: none;
+/*	letter-spacing: 0px; */
+	height: auto;
+	margin-left: 0px;
+	width: 170px;
+	float: right;
+	display: inline;
+	background: none;
+	margin-bottom:0px;
+	font-size: 12px;
+}
+.clear {
+	height: 0;
+	clear:both;
+}
+.clear-left {
+	height: 0;
+	clear:left;
+}
+div#interior-links-wrapper h3 {
+	font: normal bolder 13px/16px Trebuchet MS;
+	text-transform: uppercase;
+	color: #950000;
+	margin: 20px 20px 0px 20px;
+}
+div#interior-links-wrapper h3 a {
+	color: #950000;
+	text-decoration: underline;
+}
+.name {
+	padding-left: 20px;
+	padding-top: 30px;
+}
+div#interior-links-wrapper a {
+	text-decoration:none;
+	color: #666666;
+}
+
+div#interior-links-wrapper a:hover {
+	text-decoration:underline;
+}
+
+.external-link {
+	background: url(../images/external_link.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+	padding-right: 13px;
+}
+
+
+div#interior-links-wrapper img {
+	border:none;
+}
+div#interior-links-wrapper .interiorlinks li {
+	list-style: none;
+	text-decoration:none;
+	margin-left: -20px;
+	border-top: 1px solid #CCCCCC;
+	line-height: 14px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right:15px;
+	
+}
+.interiorlinks {
+/*padding-bottom: 101px;*/
+}
+/* IE 6 Win Hack html>body .interiorlinks  { padding-bottom: 134px;}
+ html>body .interiorlinks  { *padding-bottom: 113px;}*/
+
+
+
+div#interior-links-wrapper .ads li {
+	margin-top: 10px;
+	margin-left: -30px;
+	font: normal 10px Geneva, Arial, Helvetica, sans-serif;
+	color: #999999;
+	list-style-type: none;
+	text-align: center;
+	height: auto;
+	background-color: transparent;
+}
+.line {
+	padding-left:0px;
+}
+
+/*---------------------------------------------- footer ---------------------------------------------- */
+
+
+
+div#foot_bevel {
+	width:935px;
+	text-align: left;
+	background-color:#666666;
+	font-size: 10px;
+	height: 6px;
+	clear: both;
+	background-repeat: no-repeat;
+	margin-right: 15px;
+	margin-left: 22px;
+}
+div#footer2 {
+	width:958px;
+	height:300px;
+	color: #333333;
+	padding-left: 22px;
+	display: block;
+	border-top: 1px solid #666666;
+	background-color: #F7F9F8;
+	background-image: url(http://imu.uiowa.edu/themes/imu4/images/imu_logo2.gif);
+	background-repeat: no-repeat;
+	background-position: 42px 20px;
+}
+div#footer {
+	width:965px;
+	text-align: left;
+	font-size: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	height: 20px;
+	clear: both;
+}
+.foot-block1 {
+	float: left;
+	line-height: 14px;
+	margin-top: 45px;
+	text-align: left;
+	padding-right: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.foot-block2 {
+	float: left;
+	padding-left: 35px;
+	width: 500px;
+	margin-top: 15px;
+	clear: both;
+}
+
+.foot-block2 p, .contact-box p {
+	font: normal 11px/12px Arial, Helvetica, sans-serif;
+	text-align: left;
+	color:#333333;
+	margin: 0px;
+
+}
+
+.foot-block2 a {
+	text-decoration:none;
+	color: #333333;
+}
+.foot-block1 a:hover {
+	text-decoration:underline;
+}
+.foot-block1 a {
+	text-decoration:none;
+	color:#333333;
+}
+/* IE 6 Win Hack */ html>body div#footer {
+	height:20px;
+	padding: 5px 0px 5px 15px;
+	border-top-width: 2px;
+}
+/* IE 7 Hack */ html>body div#footer {
+*height:25px;
+}
+div#footer a {
+	color:#ffffff;
+	font-size:10px;
+}
+div#footer a:link {
+	color:#ffffff;
+}
+div#footer a:visited {
+	color:#ffffff;
+}
+
+#edit-link {
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/*--------------------------------------------- sitewide layout elements ---------------------------------------------*/
+
+hr {
+	height: 20px;
+	width: 100%;
+	background:url(../images/corner.png) no-repeat;
+	border: none;
+	margin-top: 0px;
+}
+hr.corner {
+	height: 20px;
+	width: 100%;
+	border: none;
+	margin-bottom: 0px;
+}
+blockquote {
+	float: right;
+	width: 250px;
+	height: auto;
+	margin: 10px 5px 10px 15px;
+	background: #B3C5D8 url(../images/bottom_corners.png) no-repeat bottom;
+}
+
+blockquote ul {
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+
+blockquote img {
+	padding: 0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+}
+blockquote p {
+	font: normal lighter 12px/15px Arial, Helvetica, sans-serif;
+	padding: 0px 20px 15px 20px;
+}
+
+blockquote strong { font-weight: bold; }
+
+#content1 blockquote h2, #content2 blockquote h2 {
+	font: normal lighter 22px/19px arial;
+	color:#FFFFFF;
+	padding: 5px 20px 0px 20px;
+	margin: 0px;
+	text-transform: none;
+}
+
+.featuremenu {
+
+/* possibly adding a feature menu style here - BenL 3/17 */
+color: #E4A54B
+
+}
+
+/*-- image boxes --*/
+
+.image-block {
+	line-height: 12px;
+	text-align: left;
+	width: 235px;
+	height: 150px;
+	float: left;
+	margin: 0px 5px 0px 0px;
+	padding: 5px 0px 0px 0px;
+}
+.image-block img {
+	border:none;
+}
+#content1 h5.color1, #content2 h5.color1 {
+	background-color: #FF9900;
+}
+#content1 h5.color2, #content2 h5.color2 {
+	background-color:#999999;
+}
+#content1 h5.color3, #content2 h5.color3 {
+	background-color:#666666;
+}
+#content1 h5.color3, #content1 h5.color1, #content1 h5.color2, #content2 h5.color3, #content2 h5.color1, #content2 h5.color2 {
+	width: auto;
+	font: normal bold 14px/14px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	margin: 0px;
+	padding: 5px 15px 5px 5px;
+}
+#content1 h5.color3, #content1 h5.color1, #content1 h5.color2, #content2 h5.color3, #content2 h5.color1, #content2 h5.color2 a {
+	text-decoration:none;
+}
+.boxes {
+	line-height: 12px;
+	margin-top: 5px;
+	margin-right:5px;
+	text-align: left;
+	padding-right: 0px;
+	width: 235px;
+	height: 230px;
+	float: left;
+	padding-bottom: 15px;
+}
+.boxes img {
+	border:1px solid #333333;
+	padding: 0px 0px 0px 0px;
+}
+
+.boxes img.union_market {
+	border:none;
+	
+}
+
+#content1 .boxes h4, #content2 .boxes h4 {
+	clear:left;
+	font:lighter 14px Arial, Helvetica, sans-serif;
+	color:#000000;
+	margin: 0px;
+	padding: 5px 0px 5px 0px;
+}
+
+#content1 .boxes h4 a, #content2 .boxes h4 a {
+	text-decoration:none;
+	color:#000000;
+}
+#content1 .boxes h3 a, #content2 .boxes h3 a {
+	text-decoration:none;
+	color:#666666;
+}
+#content1 .boxes h3, #content2 .boxes h3 {
+	height: auto;
+	width: auto;
+	font:lighter 11px Arial, Helvetica, sans-serif;
+	color: #333333;
+	margin: 0px;
+	padding: 5px 20px 5px 0px;
+}
+
+/* Global Table Elements */
+table {
+	font: 11px/24px Verdana, Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+}
+th {
+	padding: 0 0.5em;
+	text-align: left;
+}
+td {
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+td+td {
+	border-left: 1px solid #CCC;
+}
+td tr h1 {
+	font-size: 12px;
+}
+/* Custom Tables */
+
+.position-description {
+	width: 100%;
+}
+.position-description td {
+	padding: 15px;
+}
+.positition-description tbody tr td h2 {
+	font-size: 10px;
+}
+
+/*-- CES Boxes --*/
+.smallboxes {
+	line-height: 12px;
+	margin: 0px 0px 0px 10px;
+	text-align: left;
+	padding: 0px 0px 15px 0px;
+	width: 145px;
+	height: 238px;
+	float:right;
+}
+.smallboxes img {
+	border:none;
+}
+#content2 .smallboxes h4 , #content1 .smallboxes h4{
+	height: auto;
+	width: auto;
+	font:lighter italic 16px Georgia;
+	color: #333333;
+	margin: 0px 0px 10px 0px;
+	padding: 4px 0px 5px 0px;
+	background-color:#FFF5DE;
+	border-bottom: 1px dotted #666666;
+	border-top: 1px solid #666666;
+}
+#content2 .smallboxes h4 a, #content1 .smallboxes h4 a {
+	text-decoration: none;
+	color: #333333;
+}
+#content2 .smallboxes h3, #content1 .smallboxes h3 {
+	font: normal lighter 11px georgia;
+	padding-right: 0px;
+	padding-top: 4px;
+	text-transform:none;
+	color:#666666;
+}
+
+/*Footer contact box*/ 
+
+.contact-box {
+	width: 194px;
+	height: 110px;
+	border-top: 1px dotted #999999;
+	border-bottom: 1px dotted #999999;
+	margin: 60px 30px 0px 0px;
+	padding: 20px 30px 45px 26px;
+	float: left;
+	background: #ECEFEF url(../images/footer_new.png) no-repeat;
+}
+
+.contact-box h5{
+	font: normal 15px/12px Arial, Helvetica, sans-serif;
+	text-align: left;
+	color:#000000;
+	margin-bottom:3px;
+	margin-top:0px;
+	
+}
+
+/*SEARCH BOX */
+
+#search_box input 
+
+{
+	font-size: 9px;
+	width: 220px;
+	height:15px;
+	margin-right: 0px;
+}
+
+#search_box input.searchbutton
+
+{
+	font-weight: normal;
+	background: transparent url(../images/search.png) no-repeat 2px 5px;
+	border:none;
+	color: #666666;
+	height:20px;
+	width: 20px;
+	text-decoration: none;
+	display: inline;
+}
+
+img.submit {
+	margin: auto;
+}

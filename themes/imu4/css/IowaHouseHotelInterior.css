@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* page.css elements */
+
+.main-feature-tabs2 {
+	display:none;
+}
+div#foot_bevel {
+	display:none;
+}
+div#bodywrap {
+	height: auto;
+	width: 980px;
+	border-right: 1px solid #666666;
+	border-left: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: -3px 100px;
+}
+#minisite-header {
+	height:45px;
+	width: 500px;
+	margin-left: -2px;
+	display: block;
+	clear: left;
+	
+}
+#minisite-header h1 {
+	background: url(../images/iowa_house_hotel/blue-trans.png) repeat;
+	height: 45px;
+	display: inline;
+	font: lighter italic 36px georgia;
+	color: #FFFFFF;
+	padding: 0px 43px 0px 43px;
+}
+div#interior-links-wrapper {
+	width: 171px;
+	background-color: transparent;
+	border-left: none;
+	margin-right: 25px;
+}
+/* end page.css elements */
+
+
+div#content-container {
+	float:left;
+	width:980px;
+	height:auto;
+	text-align:left;
+	background: none;
+	border: none;
+}
+#header-description h1 {
+	color: #FFFFFF;
+	height: 35px;
+	width: auto;
+	font: italic 20px Georgia, "Times New Roman", Times, serif;
+	background: url(../images/iowa_house_hotel/blacktrans.png) repeat;
+	margin-top: 72px;
+	text-align: left;
+	padding: 10px 20px 0px 43px;
+}
+#header-description {
+	float: left;
+	width: 782px;
+	display: block;
+	text-align: left;
+	height: 125px;
+	padding-left: 0px;
+}
+.image-block {
+	line-height: 12px;
+	margin-top: 5px;
+	text-align: left;
+	padding: 0px 20px 0px 0px;
+	width: auto;
+	height: auto;
+	padding-top: 10px;
+}
+.content-wrapper {
+	width: 765px;
+	margin-top: 0px;
+	
+}
+.content-wrapper * {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#content1, #content2 p {
+	font: normal lighter 14px georgia;
+}
+#content1 ul, #content2 ul {
+	list-style-type:square;
+	margin: 15px 10px 0px 30px;
+	padding: 0px 0px 0px 0px;
+	font: normal lighter 13px/17px georgia;
+}
+#content1 {
+	width: 390px;
+	float: left;
+	padding-left: 41px;
+}
+
+
+
+#content1, #content2 {
+	
+	text-align: left;
+	height: auto;
+	
+}
+
+#content1 h4, #content2 h4 {
+	font: normal lighter 22px georgia;
+	color: #0059A2;
+	}
+#content1 h1, #content2 h1 {
+	font: normal lighter 19px georgia;
+	color: #0059A2;
+}
+#content1 hr, #content2 hr {
+	background-color:#666666;
+	height: 1px;
+	border: none;
+}
+
+#content2 {
+	float: right;
+	width:283px;
+}
+
+
+
+/* customize rate table */
+
+.rate-table {
+width: 300px;
+}
+.rate-table tr.header{
+background: #950000;
+color: white;
+}

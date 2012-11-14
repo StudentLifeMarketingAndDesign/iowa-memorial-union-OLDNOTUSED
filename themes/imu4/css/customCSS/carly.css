@@ -1,0 +1,27 @@
+/*custom CSS for study space page */
+
+div#bodywrap {
+	height: auto;
+	width: 980px;
+	border-right: 1px solid #666666;
+	border-left: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	background: #FFFFFF url(../../images/study/purple.jpg) repeat-y;
+}
+
+blockquote {
+background: url(../../images/corner-top.png) no-repeat 0px 0px;
+width: 250px;
+margin-right: 0px;
+}
+
+#content1 blockquote h2 {
+color:#FFFFFF;
+margin-left: 20px;
+margin-top:10px;
+}
+
+blockquote p {
+color:FFFFFF;
+margin-left: 20px;
+}

@@ -1,0 +1,488 @@
+/*Other */
+div#interior-links-wrapper .ads li{
+	background-color: transparent;}
+
+div#bodywrap {
+	background-color:#434952;}
+#bodywrap {
+	background-image:url(../images/family-weekend.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 62px;
+	}
+	
+/*Header */
+#minisite-header h1 {
+	width:271px;
+	height:148px;
+	background:url(../images/familywkd1.png) no-repeat 40px -5px;
+	margin: -15px 0 0 220px;
+	text-indent:-9999px;
+	display: none;
+	}
+#minisite-header 
+	{width:600px;
+	height:150px;
+	padding-bottom: 62px;}	
+	
+	
+	
+/*Content all pages*/
+a {outline:none;}
+p.registration {
+	color:white;
+	font-weight:bold;
+	padding:0 35px 0 15px;
+	font-size:90%;
+	text-align:center;}
+div#description-column ul.interiorlinks {
+	margin:-25px 0 40px 0;}
+	
+
+
+div#interior-links-wrapper a, div#interior-links-wrapper h3 a {
+	color:white;}
+div#interior-links-wrapper {
+	padding:30px 0 0 0;}
+div#description-column h3 {
+	margin-top:30px;}
+.main-feature-tabs2 {
+	border:none;
+	background-color:transparent;}
+	
+	/*some new shizz */
+
+div#interior-links-wrapper a, div#interior-links-wrapper h3 a {
+	color:white;}
+div#interior-links-wrapper {
+	padding:30px 0 0 0;}
+.main-feature-tabs2 {
+	border:none;
+	background-color:transparent;
+	display:none;}
+	
+/*Begin COMMENTING OUT NAVIGATION*/
+	
+	
+div#content1 ul.nav li {display:inline;
+		list-style-type:none;
+		
+		}	
+div#content1 ul.nav {margin-top:-10px;
+					margin-left:-60px; width:980px;
+					}
+
+ul.nav li a.home {background:url(../images/interiorlinks.png); 
+				repeat:none; 
+				display:block;
+				height:26px; 
+				text-indent:-9999px;
+				background-position:0px -8px;
+				width:75px; 
+				float:left;}
+ul.nav li a.athletics {background:url(../images/interiorlinks.png); 
+				repeat:none;
+				display:block;
+				height:26px; 
+				text-indent:-9999px;
+				background-position:-82px -8px;
+				width:180px; 
+				float:left;}
+ul.nav li a.football {background:url(../images/interiorlinks.png); 
+				repeat:none;
+				display:block;
+				height:26px; 
+				text-indent:-9999px;
+				background-position:-271px -8px;
+					width:118px; 
+					float:left;}
+ul.nav li a.travel {background:url(../images/interiorlinks.png); 
+				repeat:none;
+				display:block;
+				height:26px; 
+				text-indent:-9999px;
+				background-position:-397px -8px;
+					width:100px; 
+					float:left;}
+ul.nav li a.faq {background:url(../images/interiorlinks.png); 
+				repeat:none; 
+				background-position:-505px -8px;
+				display:block;
+				height:26px; 
+				text-indent:-9999px;
+					width:83px; float:left;}
+ul.nav li a.events {background:url(../images/interiorlinks.png); 
+				repeat:none; 
+				background-position:-593px -8px;
+				display:block;
+				height:26px; 
+				text-indent:-9999px;
+				width:102px; 
+				float:left;
+				
+			
+				
+			}
+			
+
+
+
+ul.nav li a.home:hover {background:url(../images/interiorlinks.png); 
+				repeat:none; 
+				display:block;
+				height:26px; 
+				text-indent:-9999px;
+				background-position:0px -49px;
+				width:75px; 
+				float:left;}
+ul.nav li a.athletics:hover {background:url(../images/interiorlinks.png); 
+				repeat:none;
+				display:block;
+				height:26px; 
+				text-indent:-9999px;
+				background-position:-82px -49px;
+				width:180px; 
+				float:left;}
+ul.nav li a.football:hover {background:url(../images/interiorlinks.png); 
+				repeat:none;
+				display:block;
+				height:26px; 
+				text-indent:-9999px;
+				background-position:-271px -49px;
+					width:118px; 
+					float:left;}
+ul.nav li a.travel:hover {background:url(../images/interiorlinks.png); 
+				repeat:none;
+				display:block;
+				height:26px; 
+				text-indent:-9999px;
+				background-position:-397px -49px;
+					width:100px; 
+					float:left;}
+ul.nav li a.faq:hover {background:url(../images/interiorlinks.png); 
+				repeat:none; 
+				background-position:-505px -49px;
+				display:block;
+				height:26px; 
+				text-indent:-9999px;
+					width:83px; float:left;}
+ul.nav li a.events:hover {background:url(../images/interiorlinks.png); 
+				repeat:none; 
+				background-position:-593px -49px;
+				display:block;
+				height:26px; 
+				text-indent:-9999px;
+				width:102px; 
+				float:left;
+				
+				
+				}
+
+	
+	
+/*Main content page*/
+
+h3#connect{
+	width:195px;
+	height:40px;
+	background:url(../images/famsprite.png) no-repeat -14px -200px;
+	margin: 0;
+	text-indent:-9999px;}
+h2.shirt {margin:0px 0 0 15px;}
+h2#paragraph {
+	width:200px;
+	height:35px;
+	background:url(../images/famsprite.png) no-repeat -12px -265px;
+	text-indent:-9999px;
+	margin-bottom:-10px;}	
+
+p.video {
+	padding:10px 0 0 40px;}
+span.basics {
+	color:#ffcc66;
+	font-weight:bold;}	
+div#contacts-column {
+	font-size:80%;
+	color:white;}
+div#contacts-column p {
+	margin: 0px 0px 0px 0px;}
+div#contacts-column ul li a {
+	color:#fcf2c4;}
+div#contacts-column ul li {
+	font-size:110%;}
+div#description-column {
+	color:#FFE6B6;
+	font-size:110%;}
+div#description-column p{
+	margin:7px 0 0 5px;}
+div#events-column {
+	color:white;
+	font-size:95%;
+	width:420px;
+	min-height:450px;
+	float:left;
+	margin:45px 0px 0 25px;
+	padding-right:10px;}
+div#events-column a {
+	color:white;}
+div#events-column ul {margin:5px 0 -2px 0}
+div#events-column h2 a{
+	color:#ffcc66;
+	margin:0 0 -5px 0;}
+#friday {
+	width:290px;
+	height:45px;
+	background:url(../images/famsprite-2.png);
+	background-repeat:no-repeat; 
+	background-position:-18px -55px;
+	text-indent:-9999px;}
+#saturday {width:320px;
+	height:45px;
+	background:url(../images/famsprite-2.png);
+	background-repeat:no-repeat; 
+	background-position:-12px -110px;
+	text-indent:-9999px;}
+#sunday {width:300px;
+	height:45px;
+	background:url(../images/famsprite-2.png);
+	background-repeat:no-repeat; 
+	background-position:-8px -160px;
+	text-indent:-9999px;}
+div#events-column p {
+	margin:-3px 0 0 15px;}
+div#events-column h3 {
+	margin:0px 0 0px 0;
+	color:#ffcc66;}
+div#events-column ul li {
+	list-style: none;
+	margin:10px 0 5px 0;}	
+div#events-column p {
+	margin:5px 0 5px 0;}		
+div#events-column h2 {
+	color:#ffcc66;}
+#content-container{
+	width:975px;
+	background-color:transparent; 
+	background-image:url(../images/kinnickcutout.png); 
+	background-repeat:no-repeat;
+	background-position:790px 428px;
+	border:none;
+	padding-top:0px;}
+div#content1 {width:965px;
+	margin: -18px 0px 70px 0px;
+	padding: 22px;}
+	/*background-image:url(../images/famwkddate.png);
+	background-repeat: no-repeat;
+	background-position: 295px 2px;}*/
+div#description-column {
+	min-height:200px;
+	width:250px;
+	float:right;
+	font-size:95%;
+	padding:65px 30px 0 0px;}
+#registration a{
+	width:145px;
+	height:85px;
+	display:block;
+	background:url(../images/famwkd-button.png);
+	background-position:0 0;
+	margin: 5px 0 -15px 0;
+	text-indent:-9999px;
+	outline:none;}
+div#description-column a {
+	color:white;
+	list-style-type:none;
+	text-decoration:none;
+	}
+div#description-column a:hover {
+	color:gray;}
+div#contacts-column {
+	width:215px;
+	min-height:430px;
+	float:left;
+	padding-top:365px;
+	}
+div#contacts-column{
+	width:227px;
+	background-color:transparent; 
+	background-image:url(../images/imucutout.png); 
+	background-repeat:no-repeat;
+	background-position:-60px 10px;
+	border:none;
+	padding-top:0px;
+	float:left;
+	clear:left;}
+div#contacts-column {
+	margin:60px 0 0 -25px;}
+div#contacts-column h3 {
+	margin:265px 0 0 20px;}
+div#contacts-column p {
+	margin-left:20px;}
+
+/*Interior content pages*/
+#interior-page {
+	width:600px;
+	min-height:530px;
+	float:left;
+	margin:50px 0 0 40px;}
+/*#interior-page p img.dm {padding:10px; float:left;}*/
+#interior-page h1
+	{color:#FED27A;
+	font-weight:bold;}
+#interior-page h2 
+	{color:#FEE0A4;
+	font-weight:normal;}
+#interior-page h3, #interior-page p, #interior-page a 
+	{color:white;
+	}
+#interior-page h3, #interior-page h3 a {
+	font-weight:normal; color:#ffcc66; }
+#interior-page p, div#interior-page h3 {
+	margin-left:30px;}
+div#interior-page ul li ul.activities li.dept h3 {margin-left:0px;}
+#interior-page p img {
+	margin:-2px 0 20px 0;}
+h1.pages{
+	width:500px;
+	height:45px;
+	display:block;
+	background:url(../images/interiorpagesprite.png);
+	background-position:-12px -90px;
+	text-indent:-9999px;
+	outline:none;}
+h1#football {width:260px;
+	height:45px;
+	display:block;
+	background:url(../images/interiorpagesprite.png);
+	background-position:-12px -15px;
+	text-indent:-9999px;
+	outline:none;}
+h1#faq {width:500px;
+	height:45px;
+	display:block;
+	background:url(../images/interiorpagesprite.png);
+	background-position:-12px -165px;
+	text-indent:-9999px;
+	outline:none;}
+h1#event {width:240px;
+	height:45px;
+	display:block;
+	background:url(../images/interiorpagesprite.png);
+	background-position:-11px -240px;
+	text-indent:-9999px;
+	outline:none;}
+h1#athletics {width:275px;
+	height:57px;
+	display:block;
+	background:url(../images/athletic.png);
+	background-position:-5px -240px;
+	text-indent:-9999px;
+	outline:none;}	
+h1#order {width:517px;
+	height:74px;
+	display:block;
+	background:url(../images/shirt.png);
+	background-position:-5px -240px;
+	text-indent:-9999px;
+	outline:none;}
+
+h2#frievent {width:195px;
+	height:25px;
+	display:block;
+	background:url(../images/subheadsprite.png);
+	background-position:-5px -5px;
+	text-indent:-9999px;
+	outline:none;}
+h2#satevent {width:195px;
+	height:25px;
+	display:block;
+	background:url(../images/subheadsprite.png);
+	background-position:-5px -30px;
+	text-indent:-9999px;
+	outline:none;}
+h2#sunevent {width:195px;
+	height:25px;
+	display:block;
+	background:url(../images/subheadsprite.png);
+	background-position:-5px -55px;
+	text-indent:-9999px;
+	outline:none;}
+h2#deptevents {width:266px;
+	height:42px;
+	display:block;
+	background:url(../images/deptevents.png);
+	background-position:0 0;
+	text-indent:-9999px;
+	outline:none;}
+#interior-page h2.standout {color:#ffcc66;}
+
+#interior-page p.football {margin-left:0px;}
+h2.pages {
+	padding:5px 0 5px 0;
+	}
+div#interior-page h2.pages a {color:#FEE0A4;}
+div#interior-page h2.pages a:hover {color:#ffcc66;}
+div#interior-page ol {
+	color:white;
+	margin-left:20px;}
+#interior-page h3 {margin-left:0px;}
+div#interior-page ul {
+	color:white;}
+div#interior-page ul li h2 a {
+	color:#FEE0A4;}
+div#interior-page ul li {
+	list-style-type:none;}
+div#interior-page ul li h2{margin:0 0 5px 0;
+	font-weight:normal;
+	margin-left:-40px;
+	color:#ffcc66;}
+div#interior-page ul li ul.activities li{
+	margin:15px 0 0 -20px;
+	color:white;}
+div#interior-page ul li ul.activities li.dept h3 {
+	color:#FCF2C4;
+	text-transform:uppercase;
+	font-size:95%;}
+div#interior-page ul li ul.activities li.dept p {margin-left:0;}
+div#interior-page ul li ul.activities li ul li p {
+	margin-left:40px;}
+div#interior-page ul li ul.fee li a {margin-left:-40px;}
+div#interior-page ul li ul.fee li {margin:5px 0 5px 20px;}
+span.museum {font-weight:bold;
+	font-size:95%;
+	margin-left:0px;
+	text-transform:uppercase;
+	color:#FCF2C4;}
+/*removes FAQ indentation*/
+div#interior-page ul.questions p{
+	margin-left:-40px;}
+div#interior-page ul.questions li ul.fee, div#interior-page ul.questions li ul.activities{
+	margin-left:-60px;}
+div#interior-page ul.questions li ul.activities li ul li h4, div#interior-page ul.questions li ul.activities li ul li p {
+	margin-left:-20px;}/*end of coding to remove FAQ indentation*/
+
+/*Footer */
+div#sponsor-column {
+	width:580px;
+	margin:45px -20px 0px 0px;
+	float:left;
+	
+	}
+div#sponsor-column p img.left {
+	margin:-40px 0 0 60px;}
+div#sponsor-column h2
+	{width:100px;
+	height:45px;
+	
+	margin: -5px 0 40px 20px;
+	text-indent:-9999px;}
+div#foot_bevel {background-color:transparent;}
+div#events-column h3.soldout, div#interior-page h2.ticket {
+	color:red;
+	font-size:20px;}
+div#events-column h3 span.soldout {color:red;}
+
+
+/*IE STYLE*/
+html>body div#content1 { *margin-top:-35px;}
+html>body div#description-column {*margin-top:20px;}
+html>body ul.nav {*margin-left:0px; *margin-top:0px;}

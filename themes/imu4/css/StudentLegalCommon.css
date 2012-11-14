@@ -1,0 +1,159 @@
+h1, h2, h3, h4, h5, h6 p, ul, li {
+	font-family:Arial, Helvetica, sans-serif;
+	color:black;
+	}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+body p{font-size:1em;}
+#minisite-header {
+	display: none;
+}
+
+.main-feature-tabs2 {
+	display: none;	
+}
+
+#content-container {
+	background: url(http://imu.uiowa.edu/assets/StudentLegalServices/bg.png);
+	border: none;
+	padding: 0;
+	width: 980px;
+	margin-top: 50px;
+	
+}
+div#bodywrap {	/*background-color: #aee0fa;
+	background: rgba(174,224,250,1);*/
+		
+	background-color: #fff;
+	}
+#content-inner {
+	width: 757px;
+	float: right;
+	background-color: #fff;
+	background: rgba(250,250,250,.6);
+	min-height: 600px;
+	padding: 10px;
+	margin-top: 12px;
+	
+	}
+
+div#content-header img#cloud {margin:-50px 2px 0 -34px;
+background-color: #fff;
+	background: rgb(250,250,250) ; opacity: 0.8;
+
+}
+
+div#interior-links-wrapper{
+background-color: #fff;
+	background: rgb(250,250,250) ; opacity: 0.8;
+	width: 180px;	
+	}
+	
+/* IE 7 Win Hack */ html>body div#interior-links-wrapper ul.interiorlinks  ul li {*margin-left:0px;}
+
+div#interior-links-wrapper .interiorlinks li  {border:none; color:#1e2123;}
+div#interior-links-wrapper .interiorlinks li a:hover {}
+div#interior-links-wrapper .interiorlinks li a:active {color:#1e2123;}
+
+div#interior-links-wrapper h3 a {color:red;
+font-family:Arial, Helvetica, sans-serif;
+text-decoration:none;}
+
+div#interior-links-wrapper ul.interiorlinks  {
+
+}
+
+div#interior-links-wrapper ul.interiorlinks  ul li {
+font-size:12px;
+border-top:1px solid white;
+margin:0 0 0 -75px;}
+
+div#interior-links-wrapper ul.interiorlinks  ul li a {
+color:#666;}
+
+div#interior-links-wrapper ul.interiorlinks li a{
+color:black;
+
+}
+
+
+
+
+
+div#interior-links-wrapper ul.interiorlinks li  {
+font-size:16px;
+line-height:18px;
+background:none;
+color:#333;
+font-weight:bold;
+margin: 0px 0px 0px -35px;
+}
+
+div#interior-links-wrapper ul.interiorlinks li ul {
+margin:15px 0 0 0;}
+
+div#interior-links-wrapper ul.interiorlinks li ul li{
+background:none;
+margin:0 0 0 -40px;
+font-size:13px;
+}
+
+div#interior-links-wrapper ul.interiorlinks li ul li ul {background:none;
+border:none;
+margin: 20px -10px 20px 0;
+}
+
+div#interior-links-wrapper ul.interiorlinks li li li{
+font-size:11px;
+color:#666;
+border-top:none;
+font-weight:bold;background:none;
+
+margin: 0 0px 0 -40px;}
+
+div#interior-links-wrapper ul.interiorlinks li li li a{
+color:#666;
+
+}
+
+div#interior-links-wrapper ul.interiorlinks li li a {
+color:#666;}
+
+div#interior-links-wrapper h3 {
+}
+
+div#foot_bevel {
+	visibility:hidden;	
+}
+
+#breadcrumbs {
+	visibility:hidden;	
+}
+
+h1, h2, h3, h4, h5, h6 p, ul, li {
+	font-family:Arial, Helvetica, sans-serif;
+	color:black;
+	}
+body p{font-size:1em;
+display:block;
+}
+/*h1 {font-family: 'Reenie Beanie', arial, serif; font-size:18px;}
+h2 {font-size:18px;}
+h3 {font-size:14px;}
+h4 {font-size:12px;}
+h5 {font-size:10px;}
+h6 {font-size:10px;}*/
+/*IE STYLE*/
+/*html>body div#interior-links-wrapper  { *background-color:#aee0fa;}*/
+div#cloudfooter {background-image:url(http://imu.uiowa.edu/themes/imu4/images/cloud_footer.png);
+	background-repeat:repeat-x;
+	height:253px;
+	width:auto;
+	}

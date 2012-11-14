@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+
+#content1 h2 {
+-x-system-font:none;
+color:#93241f;
+font-family:"trebuchet ms";
+font-size:20px;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:italic;
+font-variant:normal;
+font-weight:bold;
+line-height:normal;
+margin:10px 0 30px 9px;
+padding-top:10px;
+}
+
+div#interior-links-wrapper .ads li{
+	background-color: transparent;
+}
+
+.main-feature-tabs2 {
+	width: 100%;
+}
+
+
+div#foot_bevel {
+	width:935px;
+	text-align: left;
+	background-color:#666666;
+	font-size: 10px;
+	height: 6px;
+	clear: both;
+	background-repeat: no-repeat;
+	margin-right: 15px;
+	margin-left: 22px;
+}
+
+
+
+.mission
+{
+font-size:12px;
+line-height: 18px;
+color:#666666;
+padding-left:324px;
+width: auto;
+height:auto;
+margin: 40px 10px 15px 15px;
+background-color: transparent;
+background-image:none;
+}
+
+hr {
+height:1px;
+width:auto;
+background-color:#993333;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+
+}
+
+
+
+#content1 {
+	width: 720px;
+	margin: 0px 0px 70px 0px;
+	padding: 0px 22px 0px 22px;
+	background: url(../images/cab.png) no-repeat -7px -70px;
+}
+
+/*
+html>body #block-block-20 form input.submit{ *margin-right:10px;}
+* html #block-block-20 form input.submit { margin-top:-22px; }*/
+* html #content1 { float:left;}
+* html #content1 { background-image:none;}
+
+ object { }
+
+#content1, #interior-links-wrapper {
+	height: 100%;
+
+}
+
+.youtube, .cab-image {
+	float:right;}
+	
+	
+#minisite-header {
+	height:86px;
+	width:600px;
+	margin-left: 38px;
+	display: block;
+	clear: left;
+	margin-bottom: 5px;
+}
+
+#minisite-header img{
+	margin-top: 25px;
+	margin-right: 5px;
+}
+
+div#bodywrap {
+	height: auto;
+	width: 980px;
+	border-right: 1px solid #666666;
+	border-left: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	background: #FFFFFF url(../images/cab/rays5.jpg) repeat-y;
+}
+
+
+
+* html #event1 { margin-top:-60px;}
+
+#event1, #event2, #event3,  #event4, #event5, #event6, #event7, #event8, #event9, #event10, #event11, #event12          {
+	font: normal lighter 12px "arial";
+	min-height: 237px;
+	width: 680px;
+
+margin-bottom:20px;
+padding:20px 0px 20px 20px;
+	border-top: 1px dashed #999999;
+}
+
+#event1 img, #event2 img, #event3 img,  #event4 img, #event5 img, #event6 img, #event7 img, #event8 img, #event9 img, #event10 img, #event11 img, #event12 img{
+border: 1px solid #ccc;
+margin:10px 20px 20px 20px;}
+
+
+.text {
+float:left;
+margin-top:10px;
+	width:300px;
+	}
+
+
+#event1 p, #event2 p, #event3 p,  #event4 p, #event5 p, #event6 p, #event7 p, #event8 p, #event9 p, #event10 p, #event11 p, #event12 p{
+	color: #333333;
+	margin:0px;
+	padding:0px;
+}
+	
+
+#event1 h2, #event2 h2, #event3 h2,  #event4 h2, #event5 h2, #event6 h2, #event7 h2, #event8 h2, #event9 h2, #event10 h2, #event11 h2, #event12 h2{
+	margin: 0px;
+	font: normal lighter 22px "arial";
+}
+	
+#event1 h3, #event2 h3, #event3 h3,  #event4 h3, #event5 h3, #event6 h3, #event7 h3, #event8 h3, #event9 h3, #event10 h3, #event11 h3, #event12 h3{
+	margin: 0px 0px 20px 0px;
+	font: normal lighter 15px "arial";
+	color:#999;
+	text-decoration:underline;
+}
+	
+#event1 h4, #event2 h4, #event3 h4,  #event4 h4, #event5 h4, #event6 h4, #event7 h4, #event8 h4, #event9 h4, #event10 h4, #event11 h4, #event12 h4{
+	margin:0px 0px 0px 0px;
+	font: normal lighter 12px "arial";
+color:#666;
+float:left;
+}
+
+
+#event1 h5, #event2 h5, #event3 h5,  #event4 h5, #event5 h5, #event6 h5, #event7 h5, #event8 h5, #event9 h5, #event10 h5, #event11 h5, #event12 h5{
+	margin:0px 0px 20px 0px;
+	font: normal lighter 12px "arial";
+text-transform:uppercase;
+color:red;
+float:left;
+}
+	
+#content-container {
+background:  url(../images/cab/cab-columns.png) repeat-y;
+}
+	
+	
+		

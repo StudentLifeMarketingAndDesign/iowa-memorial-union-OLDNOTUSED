@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* page.css elements */
+
+div#foot_bevel {
+	display:none;
+}
+.main-feature-tabs2 {
+	display:none;
+}
+#minisite-header {
+	height:45px;
+	width:600px;
+	margin-left: 38px;
+}
+div#interior-links-wrapper {
+	color: #999999;
+	width: 170px;
+	background-color: #FFFFFF;
+	border-left: 1px solid white;
+}
+/* end page.css elements */
+
+#content-container {
+	float:left;
+	width:955px;
+	height:auto;
+	background: none;
+	margin: auto;
+	border:none;
+}
+#header h6 {
+	color: #FFFFFF;
+	background: url(../images/campus_event_services/blacktrans.png) repeat;
+	height: 20px;
+	width: 350px;
+	margin: 0px;
+	padding: 3px 0px 0px 40px;
+	font: italic 12px Georgia;
+}
+#header {
+	background-color: #FFFFFF;
+	width: 772px;
+	display: block;
+	height: 327px;
+	padding-left: 0px;
+	background: url(../images/campus_event_services/mainlounge.jpg) no-repeat 0px -60px;
+	border-top: 10px solid #FFCC66;
+	border-bottom: 1px dotted #999999;
+}
+h5.header {
+	float: left;
+	width: 772px;
+	display: block;
+	text-align: left;
+	height: 25px;
+	padding-left: 0px;
+	background-color: #FFCC66;
+	margin-top: 280px;
+}
+#content2 {
+	float: right;
+	width: 470px;
+	text-align: left;
+	height: auto;
+	padding-top: 15px;
+	
+}
+
+
+
+#content2 p {
+	margin-top: 0px;
+	font: normal 11px/20px Georgia;
+	color: #333333;
+	padding-right: 0px;
+}
+
+.content-wrapper {
+	width: 772px;
+
+}
+#content1 {
+	float: left;
+	margin-top: 0px;
+	height: auto;
+	width: 251px;
+	float: left;
+	padding: 20px 0px 6px 34px;
+	background: url(../images/campus_event_services/w.png) no-repeat 10px 00px;
+}
+
+
+ #content1 p {
+	margin-top: 0px;
+	font: normal 12px/24px Georgia;
+	color: #333333;
+}
+.content-box {
+	height: auto;
+	float:right;
+	padding-top: 20px;
+
+}
+
+
+.clear {
+	clear: both;
+}
+
+
+

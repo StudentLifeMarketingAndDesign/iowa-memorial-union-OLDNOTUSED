@@ -1,0 +1,591 @@
+/* Hide a few global template elements */
+#minisite-header {
+	display: none;	
+}
+
+#breadcrumbs {
+	display: none;	
+}
+
+#search_box {
+	display: none;	
+}
+
+
+.main-feature-tabs2 {
+	visibility: hidden;
+}
+
+#foot_bevel {
+	display: none;
+}
+#nav li ul {
+z-index: 999;
+}
+
+
+#imulogo {
+z-index: 999;
+}
+
+/* Typography (overrides any typography previously loaded by global stylesheets like layout.css, etc)*/
+
+
+
+#content1 .rss{
+	position: absolute;
+	margin-left: 400px;
+	margin-top: -55px;
+}
+
+.student-organization h3{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+/* Main content blocks */
+
+#content-wrapper {
+	margin:0;
+	padding:0;
+}
+
+/* main features */
+.main-feature {
+	height: 380px;
+	background: #ddd;
+	width:980px;
+}
+
+.main-feature-link {
+	width: 600px;
+	height: 375px;
+	float: left;
+}
+
+.main-feature-link a {
+	height: 375px;
+	display: block;
+}
+
+
+/* Main Feature Link List 
+======================================================== */
+
+.main-feature ul {
+	list-style:  none;
+	margin-top: 50px;
+	float: right;
+	padding: 0;
+}
+
+.main-feature li a {
+	display: block;
+	padding: 20px;
+	width: 320px;
+
+	background: url('../images/nhp-feature-back.png') repeat-x top left;
+
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	
+	color:#fff;
+	margin-bottom:1px;
+	
+	border-top-left-radius:6px;
+	border-bottom-left-radius:6px;
+	-moz-border-radius-topleft:8px;
+	-moz-border-radius-bottomleft:8px;
+
+}
+
+.main-feature li a:hover{
+	background: url('../images/nhp-feature-back-over.png') repeat-x top left;
+
+}
+
+.main-feature .first  {
+}
+.main-feature .last {
+}
+
+.main-feature .active a {
+	background:  #ddd;
+}
+
+.main-feature ul li a .sub {
+	font-size:70%;
+	font-weight:normal;
+	color:#aaa;
+}
+
+.indicator {
+	position:absolute;
+	left:600px;
+	top:65px;
+}
+
+
+
+/*  Main Content
+
+======================================================== */
+
+#content-home {
+	overflow:auto;
+	width: 610px;
+	float: left;
+	margin:25px;
+
+	color:#666;
+}
+
+#content-home a {
+	color:#cc3399;
+	text-decoration:none;
+}
+
+#content-home h2 {
+	font-family: 'Kreon', serif;
+	font-weight:400; /*300,400,700*/
+	font-size:2.4em;
+	
+	color:#000;
+	
+	margin:0 0 20px 0;
+	padding:0 0 10px 0;
+	border-bottom:1px solid #ccc;
+}
+
+#content-home h2 a {
+	color:#000;
+	text-decoration:none;
+}
+
+#content-home h2 a .tint {
+	color:#aaa;
+}
+
+/* Main Content - Events 
+====================================================== */
+
+#events-home {
+	margin-bottom:5em;
+}
+
+#events-home .event {
+	overflow:auto;
+	margin-bottom:20px;
+}
+
+#events-home .event img{
+	float: left;
+	border:1px solid #cccccc;
+}
+
+
+#events-home .event .info {
+	margin:0;
+	padding:0 0 0 20px;
+	float: left;
+	width:438px;
+}
+
+#events-home .event .info h3 {
+	font-family: 'Kreon', serif;
+	font-weight:400;  /*300,400,700*/
+	font-size:1.8em;
+	
+	padding:0;
+	margin:10px 0 0 0;
+}
+
+#events-home .event .info h3 a {
+	color:#0099cc;
+	text-decoration:none;
+}
+
+#events-home .event .info h4 {
+	margin-bottom:0;
+	color:#000;
+}
+
+#events-home .event .info p.description {
+	margin-top:0;
+}
+
+
+
+/* Main Content - Blog
+====================================================== */
+
+#blog-home {
+	margin-bottom:5em;
+}
+
+#blog-home .blog-post {
+	padding:0 0 1em 0;
+	margin:0 0 1em 0;
+	border-bottom:1px dotted #ccc;
+	
+}
+
+#blog-home .blog-post h3 {
+	font-family: 'Kreon', serif;
+	font-weight:400;  /*300,400,700*/
+	font-size:1.8em;
+	
+	padding:0;
+	margin:1em 0 0 0;	
+	
+
+}
+
+#blog-home .blog-post h3 a {
+	color:#0099cc;
+	text-decoration:none;
+}
+
+#blog-home .blog-post .date {
+	font-weight:bold;
+	color:#000;
+}
+
+
+/* Main Content - Student Orgs
+====================================================== */
+
+#student-organizations {
+	overflow:auto;
+}
+
+#student-organizations .student-organization {
+	width:290px;
+	float:left;
+}
+
+#student-organizations .student-organization.odd {
+	margin-right:30px;
+}
+
+#student-organizations .student-organization img {
+	margin-bottom:1em;
+}
+
+#student-organizations .student-organization p {
+	font-size:90%;
+}
+
+
+
+/* Sidebar Content
+====================================================== */
+
+
+#sidebar-home {
+	width: 295px;
+	float: left;
+	margin:25px 0;
+	color:#666;
+}
+
+
+.sidebar-box {
+	border:1px solid #ccc;
+	margin-bottom:2em;
+}
+
+.sidebar-box h3 {
+	font-family: 'Kreon', serif;
+	font-weight:400; /*300,400,700*/
+	font-size:1.6em;
+	
+	background-color:#eee;
+	margin:0 0 10px 0;
+	padding:14px 10px 10px 10px;
+	
+}
+
+.sidebar-box .sidebar-content {
+	margin:10px;
+}
+
+.sidebar-box .facebook-embed {
+	border-bottom:1px dotted #ddd;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+
+
+/* Sidebar Social Media
+====================================================== */
+
+#social-media .badges,
+#social-media .badges li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	overflow:auto;
+}
+
+#social-media .badges li {
+	width:48px;
+	float:left;
+}
+
+#social-media .badges li a {
+	display:block;
+	width:48px;
+	height:0;
+	padding-top:48px;
+	overflow:hidden;
+	
+	background-repeat:no-repeat;
+}
+
+#social-twitter a { background-image:url('../images/social-twitter.png');}
+#social-facebook a { background-image:url('../images/social-facebook.png');}
+#social-flickr a { background-image:url('../images/social-flickr.png');}
+#social-youtube a { background-image:url('../images/social-youtube.png');}
+#social-rss a { background-image:url('../images/social-rss.png');}
+
+
+
+/* Mailing List Sidebar
+====================================================== */
+
+
+#newsletter {
+	
+}
+
+#newsletter fieldset,
+#newsletter input {
+	margin:0;
+	padding:0;
+}
+
+#newsletter input#mce-EMAIL {
+	border:1px solid #ccc;
+	padding:6px;
+	background-color:#eee;
+	
+	font-size:1em;
+	
+	width:180px;
+}
+
+#newsletter input#mc-embedded-subscribe {
+	margin:0;
+	padding:7px 14px;
+	border:none;
+	
+	font-size:1em;
+	font-weight:bold;
+	color:#fff;
+	
+	background: #3366cc; /* Old browsers */
+	background: -moz-linear-gradient(top, #3366cc 0%, #003366 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3366cc), color-stop(100%,#003366)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #3366cc 0%,#003366 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #3366cc 0%,#003366 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #3366cc 0%,#003366 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3366cc', endColorstr='#003366',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #3366cc 0%,#003366 100%); /* W3C */
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+
+#newsletter #mce-error-response, 
+#newsletter #mce-success-response { 
+	margin:10px 0;
+	padding:10px;
+	border:1px solid #600;
+	background-color:#900;
+	color:#ffffff;
+	font-size:80%;
+}
+
+#newsletter #mce-success-response {
+	background-color:#090;
+	border:1px solid #060;
+}
+
+#newsletter #mce-error-response a, 
+#newsletter #mce-success-response a {
+	color:#fff;
+	text-decoration:underline;
+}
+
+
+/* Side Ads
+====================================================== */
+
+.static_ad {
+	margin-bottom:2em;
+}
+
+
+
+
+
+
+#flickr {
+}
+
+#ubs-ad{
+	width: 295px;
+	height: 90px;
+	background: #ccc;
+}
+
+#blog h2 {
+	border: none;
+
+}
+
+/* Events Pagination */
+
+#now-pagination{
+	padding: 0;
+}
+
+#now-pagination li{
+	border:0; margin:0; padding:0;
+	font-size:11px;
+	list-style:none;
+	margin-right:2px;
+}
+
+#now-pagination a:link{
+	border:solid 1px #9aafe5;
+	margin-right:2px;
+}
+
+#now-pagination .previous-off, #now-pagination .next-off {
+	border:solid 1px #DEDEDE
+	color:#888888
+	display:block;
+	float:left;
+	font-weight:bold;
+	margin-right:2px;
+/*	padding:6px 8px;*/
+}
+
+#now-pagination .previous-off, #now-pagination .previous {
+	padding-left: 0;
+
+}
+
+#now-pagination .next a, #now-pagination .previous a {
+	font-weight:bold;
+} 
+
+#now-pagination .active{
+	background:#2e6ab1;
+	color:#FFFFFF;
+	font-weight:bold;
+	display:block;
+	float:left;
+	padding:8px 12px;
+}
+
+#now-pagination a:link, #now-pagination a:visited {
+	color:#0e509e;
+	display:block;
+	float:left;
+	padding:6px 12px;
+	text-decoration:none;
+}
+
+#now-pagination a:hover{
+	border:solid 1px #0e509e
+}
+
+.clear-left{
+	clear: left;
+} 
+
+.clear{
+	clear: both;
+
+}
+
+/* Gadget CSS */
+
+.gadget td{
+	border: none;
+}
+
+/* Social Media Tabs */
+
+.tabs {
+	margin-top: 20px;	
+	
+}
+
+ul.tabNavigation {
+	margin: 0;
+	padding: 0;
+	/*float: left; */
+	list-style: none;
+	height: 32px; /*--Set height of tabs--*/
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	width: 100%;
+}
+ 
+ul.tabNavigation li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 31px; /*--Vertically aligns the text within the tab--*/
+	border: 1px solid #999;
+	border-left: none;
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	position: relative;
+	background: #e0e0e0;
+}
+
+ul.tabNavigation li a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	font-size: 1.2em;
+	padding: 0 20px;
+	border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+	outline: none;
+}
+ 
+ul.tabNavigation li a.selected,
+ul.tabNavigation li a:hover {
+	background: #ccc;
+}
+		
+UL.tabNavigation li A:focus {
+	outline: 0;
+}
+ 
+div.tabs > div {
+	padding: 5px;
+	margin-top: 3px;
+	/*border: 5px solid #333;*/
+}
+		
+div.tabs > div h2 {
+	margin-top: 0;
+}
+ 
+ .published-0 {
+ 	display: none;
+ 
+ }
+

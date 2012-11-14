@@ -1,0 +1,179 @@
+#content2 .profiles h2 {font-size:1.8em; font-weight:bold; font-family: 'Sue Ellen Francisco', arial, serif;}
+#content1 .feature {width:710px; min-height:200px;
+	margin:40px 0 0 20px; overflow:auto;
+	background-color: rgba(255, 255, 255, .5)}
+
+#content-inner iframe{ float:right;margin: 0px 0px 0px 15px;
+
+}
+#cooliris {
+	float: right;
+	margin: 0px 0px 20px 15px;
+	width: 356px;
+	height: 300px;
+	text-align:right;
+}
+#right_x {
+	float: right;
+	width: 360px;
+	margin-top: 30px;
+}
+
+#content1 img {width:345px; margin:0px 0px 15px 15px;
+/*#fbe391;*/
+
+}
+h2 a {text-decoration:none;}
+a {color:black; outline:none;}
+
+#philosophy {margin-top:20px;}
+#content1 .profile {width:230px; float:left; height:690px; margin:5px 8px 5px 5px; }
+#content1 .profiletall {width:230px; float:left; height:750px; margin:5px 8px 5px 5px; }
+#content1 .profileshort {width:230px; float:left; height:560px; margin:5px 8px 5px 5px; }
+#content1 .profile h2, #content1 .profiletall h2, #content1 .profileshort h2, #content1 .profileinterior h2 {text-align:center;}
+#content1 img.staff { width:218px; border:6px solid #fbe391;}
+#content1 img {
+/*border:7px solid #fbe391;*/
+float:right;
+border:6px solid #fbe391;
+/*height:310px;*/
+}
+
+#content1 img.leftAlone {
+	float: none;
+	margin: 0
+
+}
+
+ul.nostylelist {list-style-type:none;}
+ul.nostylelist li {margin-left:-22px;}
+blockquote.hours {width:220px;}
+
+#content2 img, #content1 img{
+/*border:7px solid #fbe391;
+*/float:right;
+/*border:3px solid black;*/}
+#content1 img.scmms, #content2 img.scmms{border:none;}
+#content1 .profileinterior {margin:0px 10px 10px 0px; width:230px; float:left;}
+
+#content2 .profiles ul {margin-left:-40px;}
+#content2 .profiles ul li {float:left; /*margin:0px 10px 10px 10px;*/ margin:0px 1px 40px 1px; width:235px; list-style-type:none; display:inline;}
+#content2 .profiles ul li img {width:210px;   border:7px solid #fbe391; margin-bottom:5px;}
+#content2 .profiles p {margin:0 14px 0 14px;}
+
+/*#content2 .profile{
+	margin:0px 10px 10px 10px; width:230px; float:left; }
+#content2 img.staff {width:230px;   border:7px solid #fbe391; margin-bottom:5px;}
+#content2 .profile p, #content1 .profileinterior p, #content1 .profile p, #content1 .profiletall p, #content1 .profileshort p {
+	text-align:center; }
+#content2 .profile h2, #content1 .profileinterior h2 {margin-bottom:0px;}*/
+#content1 .emptyprofile {width:230px;height:100px; float:left; margin:0 10px 0 0px;}
+div#content1 ul {
+	margin:0px 0 0 0px;}
+h1#legal {display:block;
+	height:73px;
+	width:475px;
+	background-image:url(../images/legal-this-one.png);
+	background-position:-15px 0;
+	background-repeat:no-repeat;
+	text-indent: -9999px;
+	margin:-50px 0 -10px 0;}
+h1#sobo {display:block;
+	height:115px;
+	width:475px;
+	background:url(../images/sobo.png);
+	background-position:-15px 0;
+	background-repeat:no-repeat;
+	text-indent: -9999px;
+	margin:-50px 0 -10px 0;}
+h1#manage {display:block;
+	height:55px;
+	width:535px;
+	background:url(../images/manage.png);
+	background-position:-15px 3px;
+	background-repeat:no-repeat;
+	text-indent: -9999px;
+	margin:-50px 0 15px 0;}
+#content1 img.professional {border: 7px solid black;}
+h3.professional {color:black;font-size:1.1em;}
+
+blockquote {background:none;background-color:#fbe391; border:1px solid white;
+}
+blockquote a {color:black;}
+blockquote ul li {
+	padding:4px;
+	margin-left:0px; 
+	}
+blockquote ul li a {text-decoration:none;
+	color:black;}
+blockquote address {margin:0 0 5px 20px;}
+#content1 blockquote h2 {
+	font-family: 'Cabin', arial, serif; 
+	color:black;
+	font-size:2.6em;
+	margin-top:5px;
+	margin-bottom:10px;
+	line-height:1em;}
+h2.contacts {margin-top:90px; text-align:center;}
+blockquote.house {width:450px; border:1px solid white; float:left; margin:10px 0px 20px 0px;}
+#content1 
+	{width:730px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:40px;}
+#content2 h2{
+	text-align:center;
+	font-size:2.8em;
+	}
+#content2 img {border:7px solid #fbe391;width:230px;}
+
+
+
+h1 {font-family: Arial, Helvetica, sans-serif;
+	font-size:2em;
+	margin:15px 0 0 0;
+	font-weight:bold;
+	}
+#content2 h1{
+	text-align:center;
+	font-size:2.9em;
+	}
+h2 {font-family: 'Cabin', arial, serif;
+	font-size:1.7em;
+	margin:10px 0 0 15px;
+	}
+h3 {color:#d13c01;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.4em;}
+	
+h3 a {
+	color:#d13c01;
+	font-family:Arial, Helvetica, sans-serif;}
+h4 {font-size:1.4em;}
+h5 {font-size:1.3em;}
+h6 {font-size:1.3em; font-weight: lighter;}
+
+#content1 p {font-size:1em;
+	margin:10px 20px 0px 15px; line-height:140%; 
+	}
+
+.mini-feature {height:215px;
+	width:239px;
+	float:left;
+	
+	}
+#content2 {float:left; padding:20px;}
+#disability-statement {width:730px;
+	overflow:auto;}
+.external-link, .more {margin-left:20px;}
+.mini-feature h3 {width:220px;}
+.mini-feature p {width:220px; line-height:140%;}
+
+
+#content2 .profiles h3 {text-align:center;color:black;}
+#content2 .profiles h2 {font-size:1.8em; font-weight:bold; font-family: 'Sue Ellen Francisco', arial, serif;}
+
+.left img{
+	float: left;
+	height: auto;
+}

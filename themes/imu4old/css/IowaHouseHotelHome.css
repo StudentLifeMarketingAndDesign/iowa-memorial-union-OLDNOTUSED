@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* page.css elements */
+
+.main-feature-tabs2 {
+	display:none;
+}
+div#foot_bevel {
+	display:none;
+}
+div#bodywrap {
+	height: auto;
+	width: 980px;
+	border-right: 1px solid #666666;
+	border-left: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	background:  #FFFFFF url(../images/iowa_house_hotel/ihhome.jpg) no-repeat -3px 40px;
+}
+#minisite-header {
+	height:45px;
+	width: 100%;
+	margin-left: -2px;
+	display: block;
+	clear: left;
+	
+}
+#minisite-header h1 {
+	background: url(../images/iowa_house_hotel/blue-trans.png) repeat;
+	height: 45px;
+	display: inline;
+	font: lighter italic 36px georgia;
+	color: #FFFFFF;
+	padding: 0 43px;
+}
+div#interior-links-wrapper {
+	width: 171px;
+	background-color: transparent;
+	border-left: none;
+	margin-right: 25px;
+}
+/* end page.css elements */
+
+
+div#content-container {
+	float:left;
+	border: none;
+	width:980px;
+	height:auto;
+	text-align:left;
+	background: url(../images/iowa_house_hotel/iowahouse_lower.png) 0px 370px repeat-x;
+}
+#header-description h1 {
+	color: #FFFFFF;
+	height: 35px;
+	width: auto;
+	font: italic 20px Georgia, "Times New Roman", Times, serif;
+	background: url(../images/iowa_house_hotel/blacktrans.png) repeat;
+	margin: 325px 0px 0px 0px;
+	text-align: right;
+	padding: 10px 20px 0px 0px;
+}
+#header-description {
+	float: left;
+	width: 780px;
+	display: block;
+	text-align: left;
+	height: 360px;
+	padding-left: 0px;
+}
+
+.content-wrapper {
+width: 750px;
+}
+#content1 p {
+	font: normal lighter 14px georgia;
+	width: 300px;
+}
+#content1 ul {
+	list-style-type:square;
+	margin: 0px 10px 0px 30px;
+	padding: 10px 0px 0px 0px;
+	font: normal lighter 14px/30px georgia;
+}
+#content1 {
+	float: left;
+	width: 320px;
+	text-align: left;
+	height: auto;
+	padding: 30px;
+}
+#content1 h4 {
+	font: normal lighter 22px georgia;
+	color: #0059A2;
+	margin: 0px;
+	padding: 5px 0px 5px 0px;
+}
+#content1 hr {
+	background: no-repeat;
+	background-image: url(../images/iowa_house_hotel/line_gradient.png);
+	height: 7px;
+	border: none;
+}
+.content_box {
+	height: auto;
+	width:315px;
+	line-height: 18px;
+	padding-top: 18px;
+	margin: 0px 10px 20px 0px;
+	text-align: center;
+	background: url(../images/iowa_house_hotel/line_gradient.png) no-repeat bottom;
+}
+
+.content_box2 p {
+	font: lighter 14px/24px georgia;
+	color: #000000;
+	margin-top:15px;
+	margin-left: 40px;
+}
+.content_box2 {
+	height: auto;
+	width:315px;
+	line-height: 18px;
+	padding-top: 15px;
+	margin-left: -20px;
+	background-repeat: no-repeat;
+	background-position: 0px;
+	text-align: center;
+}
+.content_box a {
+	text-decoration: none;
+	color: #A6A0A2;
+}
+
+.content_box hr {
+	border: none;
+	background: no-repeat;
+	height: 26px;
+	width: 175px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content_box2 hr {
+	border: none;
+	background: no-repeat;
+	height: 26px;
+	width: 175px;
+	
+}
+
+
+hr.rightside {
+	background-image: url(../images/iowa_house_hotel/ornament.png);
+	margin-left:50px;
+	
+}
+
+/* IE Win Hack */ html>body hr.rightside { margin-left:90px;}
+/* IE Win Hack */ html>body hr.rightside {*margin-left:45px;}
+
+
+hr.upside {
+	
+	background-image: url(../images/iowa_house_hotel/ornament2.png);
+	margin-left:50px
+}
+
+/* IE Win Hack */ html>body hr.upside { margin-left:90px;}
+/* IE Win Hack */ html>body hr.upside  {*margin-left:45px;}
+
+
+
+#content2 ul {
+	list-style-type:none;
+	margin:0px 10px 0px 0px;
+	padding: 10px 0px 0px 0px;
+}
+#content2 img {
+	padding: 0px 10px 10px 10px;
+	text-align: left;
+}
+#content2 {
+	margin-top: 0px;
+	height: auto;
+	width: 350px;
+	padding: 0px 0px 6px 0px;
+	float: right;
+}
+
+#content2 h3 {
+}

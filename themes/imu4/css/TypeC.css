@@ -1,0 +1,66 @@
+/*Overwriting basic color properties */
+
+div#interior-links-wrapper .ads li {
+	background-color: transparent;
+}
+div#interior-links-wrapper {
+	background: none;
+	/*width: 160px; Not sure why we're doing this, but it makes the sidebar inconsistent between pages, so I'm taking it out for now */
+}
+.main-feature-tabs2 {
+	width: 100%;
+}
+div#foot_bevel {
+	width: 937px;
+	margin-right: 22px;
+	margin-left: 21px;
+}
+
+/*Content Wrappers and Dividers*/
+
+#content-wrapper {
+	width: 765px;
+	height: auto;
+}
+#content-divider {
+	clear:left;
+	width: 765px;
+	border-top: 1px dotted;
+}
+
+/* Content Divs */
+#content1 {
+	line-height: 1.6em;
+	float: left;
+	margin: 22px 0px 0px 0px;
+	padding: 0px 22px 22px 22px;
+}
+
+
+.image {
+	float: right;
+	padding: 0 10px 10px 10px;
+	margin-top: 15px;
+}
+
+
+#content2 {
+	margin: 22px 0 35px 0px;
+	padding: 0px 0px 25px 22px;
+	line-height: 1.6em;
+}
+
+#content2 img {
+float: left;
+padding: 0 25px 10px 0;
+}
+
+#content2 p {
+	margin-right: 0px;
+}
+
+
+
+#content1, #content2{
+width: 720px;
+}

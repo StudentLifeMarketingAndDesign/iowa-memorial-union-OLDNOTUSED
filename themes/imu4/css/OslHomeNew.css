@@ -1,0 +1,127 @@
+	
+/*Header */
+#minisite-header {
+	width:310px;
+	height:368px;}
+#minisite-header h1 {
+	width:810px;
+	height:368px;
+	background-image:url(../images/main-header.png);
+	background-repeat:no-repeat;
+	margin:0 0 0 -38px;
+	text-indent:-9999px;}
+
+div#interior-links-wrapper {
+	-x-system-font:none;
+	background-color:#aee0fa;
+	filter:alpha(opacity=88);
+	-moz-opacity:0.88;
+	-khtml-opacity: 0.88;
+	opacity: 0.88;
+	color:#999999;
+	display:inline;
+	float:right;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:10px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	height:auto;
+	letter-spacing:0;
+	line-height:16px;
+	list-style-type:none;
+	margin-bottom:0;
+	margin-left:0;
+	text-decoration:none;
+	width:170px;}
+
+
+/*Other */
+
+
+div#content-container {background-image:none;}
+
+	
+	
+	
+/*Content all pages*/
+div#bodywrap {
+	background-image:url(../images/zigstile.png);
+	background-position:0 0px;
+	
+	
+	}
+
+#content-container {
+	width:930px;
+	min-height:700px;
+	background-color:transparent;
+	margin:-323px 0 0 50px;
+	border:none;}
+
+
+div#header-column {
+	width:475px;
+	min-height:315px;
+	margin:30px 0 0 265px; 
+	float:left;
+	background-color:transparent;
+	}
+div#left-column {
+	width:250px;
+	margin:-36px 0 0 0;
+	min-height:350px;
+	float:left;
+	background-color:#aee0fa;
+	filter:alpha(opacity=88);
+	-moz-opacity:0.88;
+	-khtml-opacity: 0.88;
+	opacity: 0.88;}
+div#center-column {
+	width:250px;
+	background-color:#aee0fa;
+	min-height:350px;
+	margin:-36px 0 0 0;
+	float:left;
+	filter:alpha(opacity=88);
+	-moz-opacity:0.88;
+	-khtml-opacity: 0.88;
+	opacity: 0.88;}
+div#right-column {
+	
+	min-height:350px;
+	margin:-36px 0 0 0;
+	width:260px;
+	float:left;
+	font-size:95%;
+	background-color:#aee0fa;
+	filter:alpha(opacity=88);
+	-moz-opacity:0.88;
+	-khtml-opacity: 0.88;
+	opacity: 0.88;}
+
+
+
+/*Footer */
+div#sponsor-column {
+	width:580px;
+	margin:45px -20px 0px 0px;
+	float:left;
+	
+	}
+div#sponsor-column p img.left {
+	margin:-40px 0 0 60px;}
+div#sponsor-column h2
+	{width:100px;
+	height:45px;
+	
+	margin: -5px 0 40px 20px;
+	text-indent:-9999px;}
+div#foot_bevel {background-color:transparent;}
+
+
+/*IE STYLE*/
+html>body div#content1 { *margin-top:-35px;}
+html>body div#description-column {*margin-top:20px;}

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* IE Hacks for TypeC */
+
+#content1 img {
+
+margin-top: -15px;
+
+}
+
+#content1 p {
+
+margin-top: -2px;
+
+}

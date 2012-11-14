@@ -1,0 +1,20 @@
+/* just replacing a few items here */
+
+#header-description {
+height: 200px;
+}
+/* IE Win Hack */ html>body #header-description  { height: 250px}
+html>body #header-description  { *height: 255px; }
+
+#header-description  h1{
+margin: 177px 0px 0px 0px;
+}
+
+/* IE Win Hack */ html>body #header-description h1 { margin-top: 213px}
+
+
+.content-wrapper {
+	margin-top: 9px;
+	
+}
+

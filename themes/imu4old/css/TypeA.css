@@ -1,0 +1,72 @@
+/*Overwriting basic color properties */
+
+div#interior-links-wrapper .ads li{
+	background-color: transparent;
+}
+
+div#interior-links-wrapper {
+	background: none;
+	
+}
+.main-feature-tabs2 {
+	width: 100%;
+}
+
+div#foot_bevel {
+	width:937px;
+}
+
+#content-container {
+	background-image: url(../images/faux_columns_middle_divider.png);
+}
+/* Content Wrapper 1. Holds Content1 and Content2 */
+#content-wrapper1 {
+
+margin-top: 30px;
+background-repeat: no-repeat;
+margin-bottom: 30px;
+}
+
+#content1{
+width: 335px;
+/*border-right: dotted 1px;*/
+float: left;
+padding: 0 20px;
+
+}
+#content2{
+width: 335px;
+float: right;
+padding: 0 20px;
+}
+
+#content-wrapper1, #content-wrapper2 {
+width: 758px;
+/*border: solid 1px #FF0000;*/ 
+
+
+}
+
+#content-wrapper2 {
+height: 100%;
+clear: left;
+overflow: hidden;
+padding-top: 1px;
+border-top: dotted 1px;
+padding-bottom: 20px;
+}
+
+#content3{
+width: 335px;
+/*border-right: dotted 1px;*/
+float: left;
+padding: 20px;
+
+}
+
+#content4{
+width: 335px;
+float: right;
+padding: 20px;
+}
+

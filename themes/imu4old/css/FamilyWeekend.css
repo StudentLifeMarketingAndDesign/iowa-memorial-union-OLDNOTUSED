@@ -1,0 +1,274 @@
+
+/*Overwriting basic color properties */
+
+div#interior-links-wrapper .ads li{
+	background-color: transparent;
+}
+
+.main-feature-fabs2 {
+	width: 100%;
+}
+
+.block {
+height:300px;
+background-color:red;
+width:auto;}
+
+div#foot_bevel {
+	display:none;}
+
+h1 {
+
+padding: 0;
+margin: 0;
+
+}
+/*Content */
+
+#content1 img {
+float: left;
+padding: 0 25px 10px 0;
+}
+
+#content1 {
+width: auto;
+margin: 25px 0px 70px 0px;
+padding: 0px;
+
+}
+
+#content1, #interior-links-wrapper {
+	height: 100%;
+}
+
+.boxes2 {
+background-image: url(../images/students/social_back.png); width: 527px; height: auto;}
+	
+	
+	#content1 .boxes2 h3, #content2 .boxes2 h3 
+{
+height: auto;
+width: auto;
+font-family: Arial,Helvetica,sans-serif;
+font-style: normal;
+font-variant: normal;
+font-weight: lighter;
+font-size: 11px;
+line-height: normal;
+font-size-adjust: none;
+font-stretch: ;
+-x-system-font: none;
+color: #333333;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+padding-top: 5px;
+padding-right: 20px;
+padding-bottom: 5px;
+padding-left: 0px;
+}
+#content1 p {
+line-height: 1.7em;
+}
+
+.smallboxes {
+	width: auto;
+
+}
+
+#content2 .smallboxes h4 , #content1 .smallboxes h4{
+	padding-left:4px;
+	background-color:#C5ECFF;
+}
+
+.image-block {
+width:225px;
+margin-right:15px;}
+
+#content1 h5.color2 {
+color:#666666; 
+background-color:white;
+border-top: 1px dotted #999999;
+padding-bottom:10px;}
+
+
+
+/* Layout
+   -------------------------------- */
+
+/* Tabs
+----------------------------------*/
+
+
+.ui-tabs {
+}
+.ui-tabs .ui-tabs-nav {
+height:200px;
+width:895px;
+background-color:none;
+}
+.ui-tabs .ui-tabs-nav li {
+	clear: right;
+	margin-left: -40px;
+	list-style-type: none;
+	padding: 12px 12px 12px 4px;
+}
+
+.ui-tabs .ui-tabs-nav li img{
+	margin-bottom: -7px;	
+}
+
+
+.ui-tabs .ui-tabs-nav li a {
+	display:inline;
+	text-decoration: none;
+	color: #666666;
+	font-size: 13px;
+	padding-left:20px;
+	font-weight:bold;
+	font-family:Comic Sans MS;
+}
+
+
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+	border:none;
+	
+	background-color: none;
+	
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+	border-bottom: 0;
+	background-color: none;
+	color: #000000;
+}
+.ui-tabs .ui-tabs-panel {
+	display: block;
+	border: 0;
+	float: right;
+	width:auto;
+	background-image: none;
+	margin-top: -250px;
+	height: auto;
+}
+.ui-tabs .ui-tabs-hide { display: none !important; }
+
+#demo {
+	width: 894px;
+	height: 100%;
+}
+
+#demo h5 {
+	font: normal lighter 12px Arial, Helvetica, sans-serif;
+	margin: 10px 0px 0px 17px;
+}
+
+
+/* LINKS INSIDE TABS
+----------------------------------*/
+
+.link-block1
+
+{
+	float: left;
+	line-height: 20px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 15px 30px 20px 165px;
+	width: auto;
+}
+
+.link-block1 ul {
+
+list-style: none;
+padding: 0;
+margin: 0;
+
+}
+
+
+.link-block1 a
+
+{
+	text-decoration:none;
+	color: #666666;
+
+}
+
+
+.link-block1 h6
+
+{
+	text-decoration:none;
+	color: #000000;
+	font-size: 11px;
+	margin: 0px 0px 5px 0px;
+
+}
+
+div#interior-links-wrapper
+{
+display:none;
+}
+
+#content-container
+
+{
+
+background-image: url(../images/whitetrans.png);
+
+}
+
+div#bodywrap
+
+{
+background-image: url(../images/family/family.png);}
+
+#header { background: url(../images/family/familyweekend.png) no-repeat top;
+width:auto;
+height:200px; margin-top:-25px;}
+
+
+hr 
+{
+
+height: 2px;
+width: 100%;
+background-image:none;
+background-color:#333333;
+margin: 3px 0px 10px 0px;
+}
+
+h4.comic {
+font: bold 18px Comic Sans MS;
+margin-bottom:0px;
+margin-top:0px;
+}
+
+
+h2 {
+	display:inline;
+	color:#25651E;
+	padding: 0px;
+	font-family: Arial;
+	font-size: 11px;
+	font-style: italic;
+	font-weight: bold;
+}
+h1{
+	color:#65393B;
+	font: normal 22px georgia;
+	margin-bottom:0px;	
+
+}
+h3 {
+	font: normal  12px georgia;
+	display:inline;
+	text-transform:uppercase;
+	color:#333333;
+	letter-spacing:.5px;
+	padding-left:0px;
+}

@@ -1,0 +1,110 @@
+.HeaderContainer::before {
+background-color: #3F3736;
+content:url('http://imu.uiowa.edu/themes/imu4/images/uiowa-logo.gif');
+display: block;
+height: 18px;
+}
+.HeaderContainer {
+border-right: 1px solid #000;
+border-left: 1px solid #000;
+background-image: url('http://imu.uiowa.edu/themes/imu4/images/grayshade2.png');
+background-repeat: repeat-x;
+background-position: 0px 18px;
+height: 55px;
+display: block;
+width: 955px;
+}
+.HeaderContainer::after {
+background-image: url('http://imu.uiowa.edu/themes/imu4/images/grayshade2.png');
+content: 'Iowa Memorial Union';
+display: block;
+height: 18px;
+font-size: 22px;
+padding: 5px 0px 0px 2px;
+color: white;
+}
+.headerLogo {
+display: none;
+}
+.ApplicationTitle {
+content: 'Reserve A Room';
+display: none;
+}
+.emsBody {
+background-image: none;
+background-color: #999;
+}
+.menuBack {
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	padding: 10px 0px 0px 0px;
+	background-position: 0px 10px;
+	background-color: #FFF;
+}
+.master-TopLeft {
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	margin: 0px;
+	padding: 9px 0px 0px 0px;
+	background-position: 0px 20px;
+	background-color: white
+}
+.master-ContentImg{.  margin: 0px;
+}
+.emsCon {
+	border-bottom: 1px solid black;
+}
+#footer2 {
+	height: 300px;
+	color: #333;
+	display: block;
+	margin: 20px auto 0px auto;
+	border-top: 1px solid #666;
+	background-color: #F7F9F8;
+	background-image: url(http://imu.uiowa.edu/themes/imu4/images/imu_logo2.gif);
+	background-repeat: no-repeat;
+	background-position: 42px 20px;
+	width: 955px;
+	border-top: 1px solid black;
+	border-left:1px solid black;
+	border-right: 1px solid black;
+}
+.contact-box {
+width: 194px;
+height: 110px;
+border-top: 1px dotted #999;
+border-bottom: 1px dotted #999;
+margin: 60px 30px 0px 0px;
+padding: 20px 30px 45px 26px;
+float: left;
+background: #ECEFEF url(/images/footer_new.png) no-repeat;
+}
+.contact-box h5{
+font: normal 15px/12px Arial,Helvetica, sans-serif;
+text-align: left;
+color:black;
+margin-bottom: 3px;
+margin-top: 0px;
+}
+.foot-block2 p, .contact-box p {
+font: normal 11px/12px Arial, Helvetica, sans-serif;
+text-align:left;
+color: #333;
+margin: 0px;
+}
+.foot-block2 a {
+color: #476F7E;
+}
+.foot-block1 {
+float: left;
+line-height: 14px;
+margin-top:45px;
+text-align: left;
+padding-right: 40px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+}
+.foot-block1 a {
+text-decoration: none;
+color: #333;
+}

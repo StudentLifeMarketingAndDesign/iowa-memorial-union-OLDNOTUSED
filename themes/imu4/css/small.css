@@ -1,0 +1,11 @@
+html,body { margin: 0px; padding: 0px; }
+body { background: white; font-family: Arial, Helvetica, Sans, sans-serif; font-size: 12px; color: #5D5352; }
+#space { height: 20px; }
+#smallwrap {background: #FFF; margin: 0px auto; width: 400px;}
+#inner { padding: 5px; }
+.middleColumn {
+  margin: 5px 2px 2px 0px;
+}
+fieldset {
+	border: none;
+}

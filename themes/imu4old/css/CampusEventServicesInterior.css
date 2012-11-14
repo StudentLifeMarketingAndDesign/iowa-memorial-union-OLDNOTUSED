@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* page.css elements */
+
+div#foot_bevel {
+	display:none;
+}
+.main-feature-tabs2 {
+	display:none;
+}
+#minisite-header {
+	height:45px;
+	width:600px;
+	margin-left: 38px;
+}
+div#interior-links-wrapper {
+	color: #999999;
+	width: 170px;
+	background-color: #FFFFFF;
+	border-left: 1px solid white;
+}
+/* end page.css elements */
+
+#content-container {
+	float:left;
+	width:955px;
+	height:auto;
+	background: none;
+	margin: auto;
+	border: none;
+}
+#header h6 {
+	color: #FFFFFF;
+	background: url(../images/campus_event_services/blacktrans2.png) repeat;
+	height: auto;
+	width: auto;
+	margin: 0px;
+	padding: 3px 0px 0px 40px;
+	font: italic 34px Georgia;
+}
+
+
+		
+		
+		
+#header {
+	background-color: #FFFFFF;
+	width: 772px;
+	display: block;
+	height: auto;
+	padding-left: 0px;
+	background: url(../images/campus_event_services/ballroom.jpg) no-repeat 0px -260px;
+	border-top: 10px solid #FFCC66;
+	border-bottom: 1px dotted #999999;
+}
+
+#header p {
+	color: #FFFFFF;
+	background: url(../images/campus_event_services/blacktrans2.png) repeat;
+	height: auto;
+	width: auto;
+	margin: 0px;
+	padding: 3px 0px 10px 40px;
+	font: italic 12px Georgia;
+		}
+
+h5.header {
+	float: left;
+	width: 732px;
+	display: block;
+	text-align: left;
+	height: 25px;
+	padding: 6px 0px 0px 40px;
+	font: italic 12px Georgia;
+	margin-top: 0px;
+	background: #FFCC66 url(../images/campus_event_services/pattern2.png);
+}
+
+#content1 {
+	background-color: #FFFFFF;
+	float: left;
+	width: 740px;
+	text-align: left;
+	height: auto;
+	background: url(../images/campus_event_services/back_pattern.png) no-repeat 0px 300px;
+	margin-top:0px;
+	padding: 0px 0px 0px 34px;
+}
+/* IE 7 Hack */ html>body #content1 {
+*padding-top:10px;
+}
+
+#content1 p {
+	font: normal 12px/20px Arial, Helvetica, sans-serif;
+	color: #333333;
+	display: block;
+	width: auto;
+	height: auto;
+}
+
+#content1 li {
+	padding-bottom:5px;
+	color:#333333;
+}
+
+
+#content1 h3{
+	font: bold 14px "arial";
+	color: #000000;
+	width: auto;
+	height: auto;
+	margin: 0px;
+}
+
+.paragraph {
+padding-right: 60px;
+margin-top:0px;
+}
+
+tr.header {
+	
+}
+
+hr {
+	color:#666666;
+}
+
+
+
+
+#content1 h3{
+	font: bold 14px "arial";
+	color: #000000;
+	width: auto;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+
+.content-wrapper {
+	width: auto;
+	margin-top:0px;
+	padding-top: 0px;
+}
+#content2 {
+	float: right;
+	margin-top: 0px;
+	height: auto;
+	width: 445px;
+	float: right;
+	padding: 20px 0px 6px 0px;
+}
+.content_box {
+	height: auto;
+	border: 1px solid #666666;
+	margin: 0px 10px 10px 0px;
+	background-color: #E1D3D3;
+	width:250px;
+	padding: 10px;
+}
+
+.content_box img{
+margin-top: 10px;
+margin-left: 10px;
+
+
+}
+
+.content_box p{
+margin-left: 10px;
+
+
+}
+.clear {
+	clear: both;
+}
+
+
+
+.boxes {
+	line-height: 12px;
+	margin: 0px 0px 0px 10px;
+	text-align: left;
+	padding: 0px 0px 15px 0px;
+	width: 145px;
+	height: auto;
+	float:right;
+}
+
+
+.boxes h4{
+	height: auto;
+	width: auto;
+	font:lighter italic 16px Georgia;
+	color: #333333;
+	margin: 0px 0px 10px 0px;
+	padding: 4px 0px 5px 0px;
+	background-color:#FFF5DE;
+	border-bottom: 1px dotted #666666;
+	border-top: 1px solid #666666;
+}
+
+.boxes h3 {
+	font: normal lighter 11px georgia;
+	padding-right: 0px;
+		}
+		
+		.smallboxes {
+	height: 175px;
+	margin: 0px 3px 0px 0px;
+	float:left;
+	
+}
+
+#content2 .smallboxes h3, #content1 .smallboxes h3 {
+	font: normal lighter 12px georgia;
+	color:#333333;
+	padding-top: 0px;
+}
+
+#content2 .smallboxes h3 a, #content1 .smallboxes h3 a {
+	text-decoration:none;
+	color:#000000;
+}
+

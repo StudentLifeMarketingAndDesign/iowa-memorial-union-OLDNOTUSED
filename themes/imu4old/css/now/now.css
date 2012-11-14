@@ -1,0 +1,1016 @@
+/* CSS Document */
+
+.main-feature-tabs2 {
+	height:20px;
+	width: 933px;
+	float: left;
+	padding-top: 5px;
+	background-color: #CCCCCC;
+	border-bottom: 1px solid #666666;
+	background-image: url(/themes/imu4/images/now/lefttab2.gif);
+	background-repeat: repeat-x;
+}
+
+.more4{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #666666;
+	background-color: #F3F7E8;
+	margin-left: 18px;
+}
+
+
+
+/*----------------Type B w/ jquery tabs-----------------------------------*/
+
+
+
+
+
+	#now {
+	padding-right: 0px;
+	margin-top: 0px;
+	height: 418px;
+	width: 762px;
+	float: left;
+	padding-bottom: 6px;
+	display: inline;
+		}
+	
+	
+		
+
+/* ----------------------------------------------universal elements--------------------------------------- */
+
+body {
+	width: 980px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	background-color: #999999;
+	margin: 0px auto 40px auto;	
+
+}
+
+div#bodywrap {
+	height: auto;
+	width: 980px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #FFFFFF;
+}
+
+
+
+#logo {
+	height:103px;
+	width:117px;
+	float: right;
+	clear: left;
+}
+
+#logo img{
+	border: none;
+}
+
+
+#nav-bkgrd-right{
+	height:15px;
+	width:50px;
+	background: #FFFFFF url(/themes/imu4/images/grayshade.gif) repeat-x;
+	float: right;
+	clear: both;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #999999;
+}
+
+
+#ui-logo {
+	height:17px;
+	width:938px;
+	background: #3F3736;
+	padding-left: 42px;
+	padding-top: 3px;
+}
+
+#ui-logo img {
+	border: none;
+}
+
+
+#breadcrumbs {
+	clear: left;
+	float: left;
+	width: 500px;
+	padding-left: 32px;
+}
+
+#search_box {
+	padding-top: 5px;
+	width: 250px;
+	height: 25px;
+	float: left;
+}
+
+
+#search_box #s {
+    width: 200px;
+   }
+
+#search_box #go {
+    margin-top: 0px;
+}
+
+#breadcrumbs p{
+	border-left: 1px solid #999999;
+	font: normal 8px/14px Arial, Helvetica, sans-serif;
+	padding: 0px 0px 0px 5px;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+
+
+#minisite-header {
+	height:65px;
+	width:600px;
+	margin-left: 38px;
+	display: block;
+	clear: left;
+}
+
+#minisite-header img {
+	border: none;
+}
+
+
+/* nav */
+
+#nav-bkgrd-right {
+	height:15px;
+	width:58px;
+	background: #FFFFFF url(/themes/imu4/images/grayshade.gif) repeat-x;
+	float: right;
+	clear: both;
+	padding-bottom: 13px;
+	border-bottom: 1px solid #999999;
+}
+/* IE 6 Win Hack */ html>body #nav-bkgrd-right {
+	padding-bottom: 15px;
+}
+#navwrapper {
+	width:805px;
+	height:15px;
+	float: left;
+	background: #FFFFFF url(/themes/imu4/images/grayshade.gif) repeat-x;
+	border-bottom: 1px solid #999999;
+	padding-bottom: 0px;
+	
+}
+/* IE 6 Win Hack */ html>body #navwrapper {
+	padding-bottom: 15px;
+}
+#nav {
+	width:805px;
+	height:15px;
+	background: #FFFFFF url(/themes/imu4/images/grayshade.gif) repeat-x;
+	float: left;
+	padding-bottom: 0px;
+}
+/* IE 6 Win Hack */ html>body #nav {
+	
+}
+#nav form, #nav input {
+	color:#333333;
+	font-size:9px;
+}
+#nav a {
+	width: 85px;
+	color: #7c6240;
+	text-decoration: none;
+	padding: 0.5em 4px 0.25em 4px;
+	font: normal bold 9px Arial, Helvetica, sans-serif;
+	
+}
+#nav ul {
+	width:765px;
+	margin-top: 0px;
+	padding: 0;
+	list-style: none;
+	line-height: 1;
+	background:transparent;
+	color: #333333;
+}
+
+/* IE6 hack for navigation bar to be the correct width */
+html>body #nav>ul {
+
+width: 812px;
+
+}
+
+#nav ul#nav {
+	width:682px;
+	float:right;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 1;
+	background:transparent;
+}
+#nav a, #nav a:visited {
+	display: block;
+	text-decoration:none;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+#nav li ul li:hover, #nav li ul li a:hover {
+	color:#FFFFFF;
+	background:#606060;
+	
+}
+#nav li {
+	float: right;
+	display:block;
+	z-index:999999;
+}
+
+#nav ul li {
+text-transform: uppercase;
+}
+
+#nav ul li:hover a{
+color: #FFFF99;
+}
+
+#nav ul li ul li a, #nav ul li:hover ul li a {
+color: white;
+text-transform: none;
+}
+
+#nav li ul {
+	float:left;
+	position: absolute;
+	width: 143px;
+	left: -999em;
+	z-index:999999;
+	margin-left:3px;
+	margin-top: -1px;
+	background-color: #4f4f4f;
+	
+}
+#nav li ul li {
+	width:143px;
+	padding:0px 0px 0px 0px;
+	
+	z-index:999999;
+}
+#nav li ul li a, #nav li ul li a:visited {
+	padding:8px;
+	margin: 0;
+	font-size: 11px;
+	width: 120px;
+	
+}
+#nav li:hover ul, #nav li.sfhover ul{
+	left: auto;
+}
+/* ---------------------------------------------- Right Column ----------------------------------------------*/	
+
+
+#subfeature2 ul {
+	list-style: none;
+	padding:0px;
+	margin-left: 0px;
+	margin-right: 15px;
+	margin-top: 15px;
+		}
+		
+#subfeature2 li {
+
+		}
+		
+
+#subfeature2 {
+	width:347px;
+	height:auto;
+	text-align:left;
+	float: left;
+	border-left: 1px solid #CCCCCC;
+	
+}
+
+
+
+
+/* ----------------------------------------------  Left column elements ----------------------------------------------  */	
+
+#subfeature1  {
+	width:404px;
+	height:auto;
+	text-align:left;
+	line-height: 18px;
+	float: left;
+}
+
+
+
+
+/*----------------------------------------------- side-interior links and ads  ----------------------------------------------- */
+
+div#interior-links-wrapper {
+	font: normal 10px/16px Geneva, Arial, Helvetica, sans-serif;
+	color: #999999;
+	list-style-type: none;
+	text-decoration: none;
+	letter-spacing: 0px;
+	height: auto;
+	margin-left: 0px;
+	width: 170px;
+	float: right;
+	display: inline;
+	background-color: #F2F5F5;
+	margin-bottom:0px;
+	border-left: 1px solid #CCCCCC;
+}
+
+.name {
+	padding-left: 20px;
+	padding-top: 30px;
+}
+	
+div#interior-links-wrapper a {
+	text-decoration:none;
+	color: #666666;
+}
+
+div#interior-links-wrapper img {
+	border:none;
+}
+
+
+
+div#interior-links-wrapper .interiorlinks li {
+	list-style: none;
+	text-decoration:none;
+	margin-left: -20px;
+	border-top: 1px solid #CCCCCC;
+	line-height: 14px;
+}
+
+.interiorlinks  {
+	padding-bottom: 101px;
+}
+/* IE 6 Win Hack */ html>body .interiorlinks  { padding-bottom: 134px;}
+ html>body .interiorlinks  { *padding-bottom: 113px;}
+
+
+
+div#interior-links-wrapper .ads li{
+	margin-left: -40px;
+	font: normal 10px/16px Geneva, Arial, Helvetica, sans-serif;
+	color: #999999;
+	list-style-type: none;
+	text-align: center;
+	height: auto;
+	background-color: #F2F5F5;
+}
+
+.line {
+	padding-left:0px;
+}
+
+
+/*---------------------------------------------- footer ---------------------------------------------- */
+
+
+div#foot_bevel {
+	width:935px;
+	text-align: left;
+	background-color:#666666;
+	font-size: 10px;
+	height: 6px;
+	clear: both;
+	background-repeat: no-repeat;
+	margin-right: 15px;
+	margin-left: 22px;
+}
+div#footer2 {
+	width:958px;
+	height:300px;
+	color: #333333;
+	padding-left: 22px;
+	display: block;
+	background: #F7F9F8 url(../images/imu_logo2.gif) no-repeat 42px 20px;
+	border-top: 1px solid #666666;
+}
+div#footer {
+	width:965px;
+	text-align: left;
+	font-size: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	height: 20px;
+	clear: both;
+}
+.foot-block1 {
+	float: left;
+	line-height: 12px;
+	margin-top: 70px;
+	text-align: left;
+	padding-right: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+.foot-block2 {
+	float: left;
+	padding-left: 35px;
+	width: 500px;
+	margin-top: 15px;
+	clear: both;
+}
+
+.foot-block2 p, .contact-box p {
+	font: normal 9px/12px Arial, Helvetica, sans-serif;
+	text-align: left;
+	color:#333333;
+	margin: 0px;
+
+}
+
+.foot-block2 a {
+	text-decoration:none;
+	color: #333333;
+}
+.foot-block1 a {
+	text-decoration:none;
+	color:#333333;
+}
+/* IE 6 Win Hack */ html>body div#footer {
+	height:20px;
+	padding: 5px 0px 5px 15px;
+	border-top-width: 2px;
+}
+/* IE 7 Hack */ html>body div#footer {
+*height:25px;
+}
+div#footer a {
+	color:#ffffff;
+	font-size:10px;
+}
+div#footer a:link {
+	color:#ffffff;
+}
+div#footer a:visited {
+	color:#ffffff;
+}
+
+#edit-link {
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/*---------now page--also could be type D without jquery tabs-----------*/
+
+div#bodywrap-now {
+	height: auto;
+	width: 980px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #8E9795;
+}
+
+#now-feature {list-style-type:none; padding:0px; margin:0px}
+
+.now-feature-text {
+	display: block;
+	border-top: 1px dotted #666; 
+	margin-top: 0px;
+	padding-top: 5px;
+}
+
+img {
+	border: none;
+}
+
+#now-feature li {
+	margin-top: 0px;
+	height: 200px;
+	width: 300px;
+	padding-left: 60px;
+	line-height: 20px;
+	font-size: 11px;
+}
+
+
+
+	
+	.now {
+	padding-right: 0px;
+	float: right;
+		}
+		
+	
+
+		
+			
+		div#column-design2 h1 {
+	font: lighter 20px/20px Arial, Helvetica, sans-serif;
+	color: #993333;
+	padding-top: 40px;
+	padding-bottom: 50px;
+	text-align: right;
+	padding-right: 40px;
+}
+
+		div#column-design2 h4 {
+	font:  normal bold 9px Arial, Helvetica, sans-serif;
+	color: #666666;
+	border-bottom: 1px dashed #999999;
+	background: url(/themes/imu4/images/now/cube.png) no-repeat 70px 0px;
+	margin-left: 100px;
+	padding-left: right;
+}
+	
+	#minisite-header-now {
+	height:65px;
+	width:600px;
+	margin-left: 46px;
+	padding-left: 10px;
+	display: block;
+	clear: left;
+}
+
+div#column-design2 {
+	background-color: #FFFFFF;
+	float: left;
+	width: 404px;
+	display: block;
+	text-align: left;
+	height: 423px;
+	/*background-image: url(/themes/imu4/images/now/nowslush4.jpg);*/
+	background-repeat: no-repeat;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+}
+
+
+
+div#column-design2 img {
+float: left;
+}
+
+
+#minisite-header-now img {
+	border: none;
+}
+
+
+#main-feature3 {
+	padding-right: 0px;
+	margin-top: 0px;
+	height: 423px;
+	width: 357px;
+	background-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+	float: left;
+		}
+		
+		
+			
+			
+		#subfeature-wrapper3 {
+	float:left;
+	width:933px;
+	height:auto;
+	margin-left:11px;
+	text-align:left;
+	border: 1px solid #666666;
+	background-color: #FFFFFF;
+	background-image: url(/themes/imu4/images/now/back1.jpg);
+	background-repeat: repeat-y;
+}
+
+/* IE 6 Win Hack */ html>body #subfeature-wrapper3 { margin-left: 22px;}
+
+
+
+/*---------now rss page-------------*/
+
+div#column-design-rss {
+	background-color: #FFFFFF;
+	float: left;
+	width: 205px;
+	display: block;
+	text-align: left;
+	height: 475px;
+	background-image: url(/themes/imu4/images/now/now-rss1.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+
+
+#main-feature-rss {
+	padding-right: 100px;
+	margin-top: 0px;
+	height: 450px;
+	width: 397px;
+	background-color: #FFFFFF;
+	padding-bottom: 6px;
+	float: left;
+	padding-top: 30px;
+	padding-left: 60px;
+	background-image: url(/themes/imu4/images/now/back-rss.jpg);
+	background-repeat: repeat-y;
+	background-position: right top;
+		}
+
+/* category colored dots */
+
+.arts {
+	padding:0 0 0 15px;
+	background-image: url(/themes/imu4/images/now/categories/arts.gif); /* 1 */
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+}
+
+.film {
+	padding:0 0 0 15px;
+	background-image: url(/themes/imu4/images/now/categories/film.gif); /*3*/
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+}
+.lecture {
+	padding:0 0 0 15px;
+	background-image: url(/themes/imu4/images/now/categories/lecture.gif); /*4*/
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+}
+.performance {
+	padding:0 0 0 15px;
+	background-image: url(/themes/imu4/images/now/categories/performance.gif);/*6*/
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+}
+.UISG {
+	padding:0 0 0 15px;
+	background-image: url(/themes/imu4/images/now/categories/UISG.gif);/*7*/
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+}
+.misc {
+	padding:0 0 0 15px;
+	background-image: url(/themes/imu4/images/now/categories/misc.gif);/*5*/
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+}
+
+.concert {
+	padding:0 0 0 15px;
+	background-image: url(/themes/imu4/images/now/categories/concert.gif);/*5*/
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+}
+
+
+/* Now/later/Feature Information Boxes */
+
+
+
+#featureList {list-style-type:none; padding:0px; margin:0px}
+#featureList li {
+	padding-right: 0;
+	padding-left: 0px;
+}
+
+#featureList li.lastInList {background:none; border-bottom:4px solid #262626}
+#featureList li h2 {
+	font-size:15px;
+	font-weight:normal;
+	padding:0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+#featureList li h2 a {text-decoration:none}
+#featureList li h2 a:hover {text-decoration:underline}
+#featureList li img {
+	float:left;
+	border: 1px solid #ccc;
+	padding:1px;
+	margin-top: 0;
+	margin-right: 9px;
+	margin-bottom: 0;
+}
+
+#featureList .textDetail {
+	width:260px
+}
+#featureList .textDetailCenter {
+	width:220px;
+}
+
+#featureList .textDetailTop {
+	line-height: 20px;
+}
+/* IE 6 Win Hack */ html>body #featureList .textDetailTop {line-height: 18px;}
+
+/* IE 7 Hack */ html>body #featureList .textDetailTop  {*line-height: 20px; }
+		
+
+
+#featureList .textDetail h2 a {
+	font-size:20px;
+	color: #C46D6F;
+}
+
+#featureList .textDetailCenter h2 a {
+	font-size:20px;
+	color: #C46D6F;
+}
+
+#featureList .textDetail a {font-size:10px}
+#featureList li p img {border:none; padding:0px; margin:0 0 0 4px; float:none; vertical-align:middle}
+#featureList li p.overview {font-family:Arial, Helvetica, sans-serif; font-size:11px; margin-bottom:10px}
+#featureList li .featureDetails {
+	background-color: #F2F8FF;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-top-color: #666666;
+	border-bottom-color: #666666;
+	margin-top: 0px;
+	margin-right: 10;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	padding-top: 15px;
+	padding-left: 10px;
+	background-image: url(/themes/imu4/images/now/rippedpaper.png);
+	background-repeat: no-repeat;
+	width: 373px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: dotted;
+	border-left-style: dotted;
+	border-right-color: #999999;
+	border-left-color: #999999;
+}
+
+#featureList li .featureDetailsCenter {
+	background-color: #FFFFCC;
+	margin-top: 0px;
+	/*margin-right: 10px;*/
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	background-image: url(/themes/imu4/images/now/rippedpaper.png);
+	background-repeat: no-repeat;
+	width: 325px;
+	border: 1px dotted #666666;
+}
+
+
+
+
+#featureList li .featureDetailsTop {
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #666666;
+	padding-top: 10px; 
+}
+
+/* IE 6 Win Hack */ html>body #featureList li .featureDetailsTop {
+	padding-top: 0px; 
+}
+
+/* IE 7 Hack */ html>body #featureList li .featureDetailsTop  {*padding-top: 10px; }
+		
+
+#featureList li p.overview {
+}
+
+#featureList li p span {margin:0px; padding:0px}
+
+.supportedBy {
+	font-size:12px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align: right;
+	color: #333333;
+}
+
+
+#bottomTexture {
+	font-size:11px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	width: 327px;
+	text-align: right;
+	background-image: url(/themes/imu4/images/now/gradation.jpg);
+	height: 30px;
+	color: #666666;
+	background-repeat: no-repeat;
+	background-position: 0px -28px;
+	margin-top: 0px;
+	font-style: italic;
+	padding-right: 10px;
+	padding-top: 2px;	/*border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #666666;*/
+	/*margin-right: 10px;*/
+	margin-left: 10px;
+}
+
+
+/* IE 6 Win Hack */ /*html>body .bottomTexture  {
+	margin-bottom: 0px; width: 328px;}*/
+
+/* IE 7 Hack */ /*html>body .bottomTexture  {*width: 320px;}*/
+
+.leftTexture {
+	font-size:11px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	background-image: url(/themes/imu4/images/now/gradation4.jpg);
+	height: 30px;
+	color: #666666;
+	background-repeat: no-repeat;
+	background-position: 0px -27px;
+	margin-top: 0px;
+	font-style: italic;
+	padding-right: 10px;
+	padding-top: 2px;
+	width: 375px;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #666666;
+	text-align: right;
+}
+
+
+#leftTexture {
+	font-size:11px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align: right;
+	background-image: url(/themes/imu4/images/now/gradation4.jpg);
+	height: 30px;
+	color: #666666;
+	background-repeat: no-repeat;
+	background-position: 0px -27px;
+	margin-top: 0px;
+	font-style: italic;
+	padding-right: 10px;
+	padding-top: 2px;
+	width: 375px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.topCategory {
+	font-size:11px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	width: 332px;
+	text-align: right;
+	background-image: url(/themes/imu4/images/now/gradation2.jpg);
+	height: 30px;
+	color: #666666;
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	margin-top: 0px;
+	font-style: italic;
+	padding-right: 10px;
+	padding-top: 0px;
+}
+
+.redLink {color:#cc0000; font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; text-decoration:none}
+.redLink:hover {text-decoration:underline}
+.cleaner {
+	clear:both;
+	height: 2px;
+}
+
+.cleaner2 {
+	clear:both;
+	background-image: url(/themes/imu4/images/now/gradation2.jpg);
+	height: 30px;
+	width: 337px;
+	margin-top: 0px;
+	/*margin-right: 10px;*/
+	margin-left: 10px;
+	margin-bottom:-3px;
+}
+
+
+
+.cleaner3 {
+	clear:both;
+	background-image: url(/themes/imu4/images/now/gradation3.jpg);
+	height: 30px;
+	margin-top: 0px;
+	margin-bottom: -3px;
+	width: 385px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+
+.floatLeft {
+	float:left;
+}
+.floatRight {float:right}
+.greyItalic {
+	color:#666666;
+	font-style:italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+	margin-bottom: 3px;
+}
+
+
+
+.greyItalic a {color:#666; text-decoration:underline}
+.Location {
+	color: #0066CC;
+	width: 200px;
+	text-align: right;
+	margin-bottom: 2px;
+}
+
+.Featurebox {
+	color: #669933;
+	text-align: left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 9px;
+	background-image: url(/themes/imu4/images/now/1.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 20px;
+}
+
+#text {
+	width: 316px;
+	padding-bottom: 0px;
+	padding-left: 60px;
+	float: left;
+	padding-right: 30px;
+	color: #666666;
+	height: 392px;
+		}
+
+	.now2 {
+padding-top: 10px;
+padding-bottom: 10px;
+		}
+
+	
+	.later {
+	padding-bottom: 10px;
+padding-top: 10px;
+		}
+
+ul#twitter_update_list {
+	margin:0 0 0 12px;
+	padding:0;
+	list-style:none;
+	font-size:11px;
+}
+
+ul#twitter_update_list li {
+	margin:0 0 10px 0;
+	padding:0 0 10px 0;
+	list-style:none;
+	border-bottom:1px dotted #bbb;
+}
+
+img.ad {
+padding-left: 10px;
+margin-bottom:-30px;}
+
+img.ad2 {
+padding-left: 10px;
+margin-bottom:14px;}
+/* IE 7 Win Hack */ html>body img.ad {
+	*margin-bottom:-25px;
+}

@@ -1,0 +1,60 @@
+a {
+	color: #476F7E;
+}
+.feedback_current {
+	display: none;
+}
+/*	
+#content1 h1,#content2 h1, #content3 h1, #content4 h1, div.content1 h1, div.content2 h1, div.content3 h1, div.content4 h1 {
+	font: normal lighter 24px Arial, Helvetica, sans-serif;
+	color: #4E7989;
+	margin: 0px;
+}
+
+#content1 h2, #content2 h2, #content3 h2, #content4 h2, div.content1 h2, div.content2 h2, div.content3 h2, div.content4 h2   {
+	font: normal lighter 21px Arial, Helvetica, sans-serif;
+	color: #879696;
+	margin: 0px;
+	padding: 0px;
+}
+
+#content1 h3, #content2 h3, #content3 h3, #content4 h3,  div.content1 h3, div.content2 h3, div.content3 h3, div.content4 h3   {
+	font-family: "arial";
+	font-variant: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	color: #a32e18;
+	margin: 0px;
+	padding: 0px;
+}
+
+#content1 h4, #content2 h4, #content3 h4, #content4 h4, div.content1 h4, div.content2 h4, div.content3 h4, div.content4 h4   {
+	font: normal lighter 16px Arial, Helvetica, sans-serif;
+	color:#660000;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+
+
+#content1 h5, #content2 h5, #content3 h5, #content4 h5, div.content1 h5, div.content2 h5, div.content3 h5, div.content4 h5   {
+	font: normal bold 14px Arial, Helvetica, sans-serif;
+	color:#333333;
+	margin: 0px;
+	padding: 0px;
+}
+
+#content1 h6, #content2 h6, #content3 h6, #content4 h6, div.content1 h6, div.content2 h6, div.content3 h6, div.content4 h6   {
+	font: normal bold 11px Arial, Helvetica, sans-serif;
+	color:#333333;
+	text-transform:uppercase;
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+	color:#2929F0;
+}
+*/

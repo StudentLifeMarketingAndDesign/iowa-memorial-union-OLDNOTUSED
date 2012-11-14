@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* page.css elements */
+
+div#foot_bevel {
+	display:none;
+}
+.main-feature-tabs2 {
+	display:none;
+}
+#minisite-header {
+	height:45px;
+	width:600px;
+	margin-left: 38px;
+}
+div#interior-links-wrapper {
+	color: #999999;
+	width: 170px;
+	background-color: #FFFFFF;
+	border-left: 1px solid white;
+}
+/* end page.css elements */
+
+#content-container {
+	float:left;
+	width:955px;
+	height:auto;
+	background: none;
+	margin: auto;
+	border: none;
+}
+#header h6 {
+	color: #FFFFFF;
+	background: url(../images/campus_event_services/blacktrans.png) repeat;
+	height: 40px;
+	width: 400px;
+	margin: 0px;
+	padding: 3px 0px 6px 40px;
+	font: italic 34px Georgia;
+}
+#header a {
+	color: white;
+}
+#header {
+	background-color: #FFFFFF;
+	width: 772px;
+	display: block;
+	height: 310px;
+	padding-left: 0px;
+	background: url(../images/campus_event_services/ballroom.jpg) no-repeat 0px -60px;
+	border-top: 10px solid #FFCC66;
+	border-bottom: 1px dotted #999999;
+}
+/*#header p {
+	color: #FFFFFF;
+	background: url(../images/campus_event_services/blacktrans.png) repeat;
+	height: 20px;
+	width: 400px;
+	margin: 0px;
+	padding: 3px 0px 0px 40px;
+	font: italic 12px Georgia;
+		}*/
+		
+		#header p {
+	display:none;
+}
+h5.header {
+	float: left;
+	width: 736px;
+	display: block;
+	text-align: left;
+	height: 25px;
+	padding: 6px 0px 0px 36px;
+	font: italic 12px Georgia;
+	margin-top: 237px;
+	background: #FFCC66 url(../images/campus_event_services/pattern2.png);
+}
+#content1 {
+	background-color: #FFFFFF;
+	float: left;
+	width: 738px;
+	text-align: left;
+	height: auto;
+	background: url(../images/campus_event_services/back_pattern.png) no-repeat 0px 300px;
+	margin-top:0px;
+	padding: 10px 0px 0px 34px;
+}
+html>body #content1 {
+	padding-top:0px;
+}
+html>body #content1 {
+*padding-top:20px;
+}
+#content1 p {
+	margin-top: 0px;
+	font: normal 12px/20px Arial, Helvetica, sans-serif;
+	color: #333333;
+	paddingt: 0px;
+	display: block;
+	width: auto;
+	height: auto;
+	margin-bottom: 0px;
+}
+
+#right{
+  float: right;
+  padding: 4px;
+}
+
+
+#right img{
+  padding-bottom: 14px;
+}
+
+
+img.right{
+  float: right;
+
+  padding: 4px;
+
+}
+
+tr.header {
+}
+hr {
+	color:#666666;
+}
+.content-wrapper {
+	width: auto;
+	margin-top:0px;
+	padding-top: 0px;
+}
+#content2 {
+	float: right;
+	margin-top: 0px;
+	height: auto;
+	width: 445px;
+	float: right;
+	padding: 20px 0px 6px 0px;
+}
+.content_box {
+	height: auto;
+	border: 1px solid #666666;
+	margin: 0px 10px 10px 0px;
+	background-color: #E1D3D3;
+	width:250px;
+	padding: 10px;
+}
+
+.content_box img {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.content_box p {
+	margin-left: 10px;
+}
+.clear {
+	clear: both;
+}

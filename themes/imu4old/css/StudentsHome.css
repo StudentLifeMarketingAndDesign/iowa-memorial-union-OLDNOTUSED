@@ -1,0 +1,231 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div#interior-links-wrapper {
+	font: normal 10px/16px Geneva, Arial, Helvetica, sans-serif;
+	color: #999999;
+	list-style-type: none;
+	text-decoration: none;
+	letter-spacing: 0px;
+	height: auto;
+	margin-left: 0px;
+	width: 170px;
+	float: right;
+	display: inline;
+	background-color:transparent;
+	margin-bottom:0px;
+}
+#subfeature-wrapper2 {
+	float:left;
+	width:933px;
+	height:auto;
+	margin-left:11px;
+	text-align:left;
+	background: transparent url(../images/students/students_columns.png) no-repeat 0px 0px;
+}
+/* IE 6 Win Hack */ html>body #subfeature-wrapper2 {
+	margin-left: 22px;
+}
+div#bodywrap4 {
+	height: auto;
+	width: 980px;
+	border-right: 1px solid #666666;
+	border-left: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	background:  #FFFFFF url(../images/students/studentsback.png) repeat;
+}
+#content3 {
+	float: left;
+	width: 760px;
+	display: block;
+	text-align: left;
+	height: auto;
+	border-bottom: 1px dotted #999999;
+	background: #FFFFFF url(../images/students/students-back-stripe.png) no-repeat 0px -201px;
+	padding-top: 171px;
+}
+div#minisite-header2 {
+	background: url(../images/students/students-back-stripe.png) no-repeat 0px 0px;
+	height: 200px;
+	width: 800px;
+	margin-left: 22px;
+	margin-top:-76px;
+}
+/* IE Win Hack */ html>body div#minisite-header2 {
+	margin-top:0px;
+}
+html>body div#minisite-header2 {
+*margin-top:-73px;
+}
+#minisite-header {
+	display:none;
+}
+#minisite-header h1 {
+	display:none;
+}
+div#foot_bevel {
+	width:933px;
+	text-align: left;
+	background-color:#666666;
+	font-size: 10px;
+	height: 6px;
+	clear: both;
+	background-repeat: no-repeat;
+	margin-right: 15px;
+	margin-left: 22px;
+}
+div#bodywrap {
+	height: auto;
+	width: 980px;
+	border-right: 1px solid #666666;
+	border-left: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	background: #FFFFFF url(../images/students/studentsback.png) 0px -12px repeat;
+}
+#content-wrapper2 {
+	width: 931px;
+	height: 910px;
+}
+#content-wrapper2, #content-wrapper1 {
+}
+#content-wrapper1 {
+	height: auto;
+	width: auto;
+	margin-bottom: 10px;
+}
+.readmore a {
+	text-decoration: none;
+	color: #0099ff;
+}
+#image {
+	float: left;
+	width: 422px;
+	display: block;
+	text-align: left;
+	height: 365px;
+	background-color: transparent;
+}
+#image img {
+	padding: 0px 0px 0px 0px;
+	border-top: 12px solid #A32E18;
+}
+#content1 {
+	float: left;
+	width:243px;
+	clear:both;
+	display: block;
+	text-align: left;
+	height: auto;
+	padding-left: 20px;
+	background-color: #FFFFFF;
+	border-right: 1px dotted #999999;
+}
+#content1 h3 {
+	padding-right: 10px;
+	color: #663366;
+	font: normal 16px "arial";
+	padding-left: 20px;
+	margin:0px;
+	width: 200px;
+	background: url(../images/students/asterix.png) no-repeat -6px 0px;
+}
+#content1 p {
+	font: lighter italic 11px/14px arial;
+	color: #333333;
+	margin-right: 15px;
+	padding-left: 20px;
+}
+#content2 p {
+	font: normal lighter 12px/22px arial;
+}
+#content2 {
+	height: auto;
+	width: 484px;
+	background-color: #FFFFFF;
+	float: left;
+	padding: 20px 0px 6px 10px;
+	background: url(../images/students/students_back.png) repeat-x;
+}
+/* IE Win Hack */ html>body #content2 {
+	width: 486px;
+}
+#content1 h5.color1, #content2 h5.color1 {
+	background-color:#663366;
+}
+#content1 h5.color2, #content2 h5.color2 {
+	background-color:#663366;
+}
+#content1 h5.color3, #content2 h5.color3 {
+	background-color:#663366;
+}
+#content1 h5.color3, #content1 h5.color1, #content1 h5.color2, #content2 h5.color3, #content2 h5.color1, #content2 h5.color2 {
+	width: auto;
+	font: normal lighter 13px/14px Trebuchet MS;
+	color: #ffffff;
+	letter-spacing: 1px;
+	margin: 0px;
+	padding: 5px 15px 5px 5px;
+	text-transform: uppercase;
+}
+#content1 h5.color3, #content1 h5.color1, #content1 h5.color2, #content2 h5.color3, #content2 h5.color1, #content2 h5.color2 a {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#content2 h1 {
+	font: normal lighter 20px/14px Trebuchet MS;
+	color:#000000;
+	margin-top: -10px;
+	text-transform: uppercase;
+}
+#content1 h2 {
+	font: normal lighter 20px/14px Trebuchet MS;
+	color:#000000;
+	text-transform: uppercase;
+	background: url(../images/students/students_back.png) no-repeat;
+	padding: 10px;
+}
+#content1 h4 {
+	font: normal 11px/14px Trebuchet MS;
+	color:#666666;
+	text-transform: uppercase;
+	padding-left: 20px;
+	padding-top: 0px;
+	margin-bottom:-1px;
+}
+#content1 h5 {
+	font: normal bold 12px/14px Trebuchet MS;
+	color:#FF3300;
+	display:inline;
+	padding-left: 5px;
+}
+#content1 h6 {
+	font: normal 12px/14px Trebuchet MS;
+	color:#9999CC;
+	display:inline;
+	padding-left: 20px;
+	margin:0px;
+}
+#content1 h5 a {
+	color:#FF3300;
+	text-decoration:none;
+}
+#content1 img {
+	display:inline;
+	margin-bottom: -10px;
+	padding-left: 20px;
+	border:none;
+}
+#content1 h1 {
+	font: normal lighter 20px/14px Trebuchet MS;
+	color:#000000;
+	margin-top: 0px;
+	text-transform: uppercase;
+	padding-left: 0px;
+}
+/* IE Win Hack */ html>body #content1 h1 {
+	padding-left: 20px;
+	margin-top: -40px;
+}
+html>body #content1 h1 {
+*margin-top: 0px;
+}

@@ -1,0 +1,41 @@
+body {
+	background-image: url(http://studentlife.uiowa.edu/themes/doss/images/background.png)
+}
+
+#body-wrapper {
+
+	width: 1000px;
+	margin: auto;
+	background: #f4f4f4;
+	min-height: 600px;
+	-webkit-box-shadow:0px 0px 7px #212121;
+	-moz-box-shadow:0px 0px 7px #212121;
+}
+
+#content {
+	padding: 30px;
+}
+
+#content ul {
+	list-style-type: square;
+
+
+}
+
+h1 {
+	font-size: 28px;
+	color: white;
+	margin: 0;
+}
+
+h2 {
+	color: #2f2f2f 
+
+
+}
+
+#heading {
+	background-color: #666;
+	padding: 30px;
+	border-bottom: 1px solid #aaa;
+}

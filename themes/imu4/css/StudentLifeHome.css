@@ -1,0 +1,432 @@
+h1, h2, h3, h4, h5, h6 p, ul, li {
+	font-family:Arial, Helvetica, sans-serif;
+	color:black;
+}
+/*h3 {
+	font-size:1.2em;
+	width:480px;
+}*/
+#content1 h2.subhead {
+	font-size:2.6em;
+	margin-top:-50px;
+	width:480px;
+}
+#content1 p.blog {
+	width:430px;
+	line-height:140%;
+	font-size:1.1em;
+}
+h2.subhead a {
+	color:black;
+}
+body p {
+	font-size:1em;
+}
+
+#content1 h2.blog {
+	font-family: 'Cabin', arial, serif;
+	font-size:4.5em;
+	font-weight:normal;
+	text-transform:lowercase;
+}
+#content1 h2.subhead {
+	font-family: 'Cabin', arial, serif;
+	font-size:2.3em;
+	margin-bottom:10px;
+}
+a {outline:none;}
+#content1 h2.blog a {
+	color: #fc5a0a;
+}
+
+.blog_entry {
+	width: 440px;
+	margin:0 0 20px 0;
+}
+
+.blog_entry h3 a {
+	color:black;
+	text-decoration:none;
+	font-size: 20px;
+	font-weight:normal;
+}
+.blog_entry h3 {
+	margin-bottom:-10px;
+}
+.blog_entry h4 {
+	font-weight:normal;
+	color:#666;
+	line-height:90%;
+}
+
+blockquote#osl {
+	background:none;
+	background-color:/*#fbe391;#fff6d0;*/
+	rgba(255, 255, 255, .5);
+	border: 2px solid black;
+	float:right;
+	width:204px;
+	padding: 20px;
+}
+blockquote#osl h2 {
+	display: block;
+	height:151px;
+	background:url(../images/csil.png);
+	margin:0;
+
+	background-repeat:no-repeat;
+	background-position:-8px -5px;
+	text-indent: -9999px;
+}
+blockquote#osl a {
+	/*color:black;*/
+	text-decoration:none;
+	font-size: 14px;
+	padding-top:10px;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #333;
+	display: block;
+}
+blockquote#osl ul {
+	list-style: none;
+	font-weight:bold;
+	margin: 0;
+	margin-top: 10px;
+	padding: 0;
+	
+}
+
+blockquote#osl p {
+margin: 20px 0 20px 0;
+padding: 0;
+line-height:150%;
+}
+
+blockquote#osl ul {
+margin-bottom:10px;
+}
+
+span.contact {
+	font-weight:normal;
+}
+h3#connect {
+	display: block;
+	height:37px;
+	background:url(../images/connected.png);
+	background-position:-8px 0;
+	margin:0;
+	background-repeat:no-repeat;
+	text-indent: -9999px;
+}
+blockquote.org-callout p {
+	width:218px;
+	float:left;
+	font-family: 'Cabin', arial, san-serif;
+font-size: 1.3em;
+line-height: 120%;
+padding-top: 20px;
+margin-bottom: 0;
+
+}
+blockquote.org-callout {
+	margin-left:0px;
+}
+blockquote.org-callout {
+	background:none;
+	width: 800px;
+	min-height: 238px;
+	float: left;
+	/*background-color:#fbe391;
+	border: 1px solid #9c9b9b;*/
+}
+blockquote.org-callout h3 a {
+	display: block;
+	height:268px;
+	width:465px;
+	background:url(../images/buttonorgsync.png);
+	background-position:0px 0px;
+	background-repeat:no-repeat;
+	text-indent: -9999px;
+	margin-top:0px;
+}
+blockquote.org-callout a {
+	display: block;
+	height:100px;
+	width:180px;
+	background:url(../images/button.png);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	text-indent: -9999px;
+	float:left;
+}
+.blog_entry {
+	float:left;
+}
+/*blog styles*//*
+#student-blog h1{ font-family: 'Reenie Beanie', arial, serif;
+	font-size:5.4em;
+	font-weight:bolder;
+	letter-spacing:-.05em;
+	margin-top:10px}
+#student-blog h3 { font-family: 'Reenie Beanie', arial, serif;
+	font-size:2.5em;
+	letter-spacing:-.05em;
+	text-align:center;
+	margin:-33px 0 -5px 0;}
+#student-blog h4 
+	{ font-family:  arial, serif;
+	font-size:1.5em;
+	margin-top:-20px;}
+#student-blog h5
+	{ font-family: arial, serif;
+	font-size:1.2em;
+	margin-top:15px;}
+#student-blog p {
+	margin:-25px 0 0 0;}
+#student-blog {
+	width: 480px;
+	min-height: 390px;
+	margin:10px;
+	float: left;
+	}
+span.underline {
+	text-decoration:underline;}
+#student-blog a {
+	color:#000;}
+/*end blog styles*/
+
+
+
+/*OSL call out styles*/
+/*#osl-box h2 {display: block; 
+	height:90px; 
+	background:url(../images/OSL.png);
+	margin:0 0 0 10px;
+	background-repeat:no-repeat;
+	background-position:-8px 0;
+	text-indent: -9999px;}
+#osl-box h3 {display: block; 
+	height:37px; 
+	background:url(../images/connected.png);
+	background-position:-8px 0;
+	margin:0 0 0 10px;
+	background-repeat:no-repeat;
+	text-indent: -9999px;}
+#osl-box ul {
+	margin:-5px 0 0 -30px;
+	font-weight:bold;
+	line-height:15px;}
+#osl-box ul li span {
+	font-weight:normal;}
+#osl-box ul li {
+	list-style-type:none;
+}
+#osl-box p {
+	margin:16px 12px;
+	line-height:14px;}
+#osl-box {
+	float: left;
+	min-height: 390px;
+	width: 230px;
+	margin:10px;
+	border: 1px solid #9c9b9b;
+	background-color:#fbe391;
+	}*/
+/*end OSL call out styles*/
+
+
+
+/*event styles*/
+.box {
+	background-color:#ff681f;
+	height:115px;
+	width:210px;
+	margin:5px 0 0 5px;
+}
+.event1 h5, .event1 p, .event2 h5, .event2 p, .event3 h5, .event3 p {
+	margin:0 5px 5px 7px;
+	font-size:.95em;
+}
+.event1 h4, .event2 h4, .event3 h4 {
+	margin:5px 0 0 7px;
+	font-size:1.1em;
+}
+/*.event1 h3, .event2 h3, .event3 h3 {
+	font-family: 'Reenie Beanie', arial, serif;
+	font-size:2.4em;
+	margin:0px 0 0 0px;
+	padding:20px 0 0 7px;
+	width:75px;
+	height:80px;
+	color:white;
+	float:left;
+}*/
+.event1 img, .event2 img, .event3 img {
+	
+	margin:3px 0px 0 44px;
+}
+.event1 {
+	width: 220px;
+	float: left;
+	min-height: 230px;
+	border: 3px solid #ff9b4a;
+	background-color:#fdfcfb;
+	margin-right:16px;
+}
+.event2 {
+	width: 220px;
+	float: left;
+	min-height: 230px;
+	border: 3px solid #ff9b4a;
+	background-color:#fdfcfb;
+	margin-right:16px;
+}
+.event3 {
+	width: 220px;
+	float: left;
+	min-height: 230px;
+	border: 3px solid #ff9b4a;
+	background-color:#fdfcfb;
+	margin-left:0px;
+
+}
+
+/*end event styles*/
+
+
+/*orgsync styles*//*
+#student-organizations {
+	margin:10px;
+	padding:0;}
+h2.org a {display: block; 
+	height:110px; 
+	background:url(../images/org.png);
+	background-position:-10px -7px;
+	background-repeat:no-repeat;
+	text-indent: -9999px;
+	margin-top:-10px;}
+#student-organizations p {
+	margin:-5px 0 0 18px;
+	font-size:1.1em;}
+#button {display: block; 
+	height:100px;
+	width:180px;
+	background:url(../images/button.png);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	text-indent: -9999px;}
+#left-content {width:218px;
+	float:left;
+	margin:0 20px 0 0;}
+#right-content {width:180px;
+	float:left;}
+#student-organizations {
+	width: 480px;
+	min-height: 238px;
+	float: left;
+	background-color:#fbe391;
+	border: 1px solid #9c9b9b;}*/
+
+/*end orgsync styles*/
+
+
+/*twitter styles*//*
+#twitter {
+	float: left;
+	min-height: 238px;
+	width: 230px;
+	margin:10px;
+	background-color:ffffff;
+	background: rgba(255,255,255,.6);}
+#twitterhead {}
+#twitterbody {height:90px;}
+#twitterfoot {}
+img.twtr-profile-img {border:0 none;
+	display:block;
+	float:left;
+	height:31px;
+	width:31px;
+	margin:5px 5px 5px 5px;}
+#twitter h4
+	{font-family:Arial, Helvetica, sans-serif;
+	font-size:.9em;
+	margin:5px 0 0 40px;
+	line-height:1.2em;
+	width:auto;
+	padding:2px 0 0 0;}
+#twitter h5 a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.1em;
+	color:#000000;
+	text-decoration:none;
+	margin:0px 0 0 0px;
+	line-height:1.2em;}
+#twitter h5 a:hover {
+	text-decoration:underline;}
+ #twitter h6, #twitter p {
+	margin-left:10px;}
+#twitter h6 {
+	font-size:1em;}*/
+
+/*end twitter styles*/
+
+#content-header{background-image:url(http://imu.uiowa.edu/themes/imu4/images/slilogo.png);
+	display:block;
+	width:795px;
+	height:394px;
+	background-repeat:no-repeat;
+	background-position:0px -9px;
+margin:-40px 2px 0 -34px;	}
+
+#disability-statement {
+	padding-top:15px;
+}
+#content-header {
+	border: 1px red;
+}
+#content-header img {
+	float: left;
+	margin-left: -60px;
+	margin-top: -25px;
+}
+
+
+#content1 {
+	margin: -50px 20px -10px 20px;
+}
+#disability-statement {
+	margin:10px;
+	font-size:.85em;
+	clear:both;
+}
+/*IE STYLE*//*
+html>body #student-blog h1{ *font-size:4.8em;}
+html>body #student-blog h3 { *line-height:2em;}
+html>body #osl-box ul {*margin:-5px 0 0 12px;}
+html>body #student-blog p {*margin:0;}
+html>body #student-organizations p {*margin:0px 0 0 18px;}*/
+html>body h2.org a {
+*margin-top:10px;
+}
+html>body event {
+*margin:9px;
+}
+html>body #twitter {
+*background-color:#ffffff;
+}
+
+div.cooliris {float:right; margin-top:50px; margin-right:50px;}
+
+.ads{
+	display: none;
+	
+}
+
+a.facebook-link {
+	color: #3B5998;	
+}
+
+a.twitter-link {
+	color: #00abdf;
+	
+}

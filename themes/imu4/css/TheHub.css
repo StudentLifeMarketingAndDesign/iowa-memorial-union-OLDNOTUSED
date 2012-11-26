@@ -1,0 +1,230 @@
+/* Override default styles */
+
+#minisite-header, #foot_bevel, #breadcrumbs, #search_box{
+	display: none;
+	
+}
+
+#header { padding: 0;}
+
+#content-container { 
+	
+	background-image:url('../images/thehub/main_bg.jpg');
+	min-height:400px;
+	margin: 0;
+	width: 100%;
+	
+}
+
+#breadcrumbs.hubcrumbs {
+	display: block;
+	padding: 0;	
+}
+
+#breadcrumbs {
+	margin: 10px 0;
+}
+
+#breadcrumbs p{
+	font-size: 1.5em;
+	color: white;
+	border: 0;
+	margin: 0;
+
+}
+
+#breadcrumbs a{
+	color: #fdcf00;
+}
+
+h1{
+	float: left;
+	
+}
+
+/* Header */
+
+.header{
+	min-height:305px;
+	background-image: url('../images/thehub/header_bg.jpg');
+}
+
+.header-content{
+	padding: 10px;
+}
+
+.hublogo {
+	float: left;
+	display: block;
+	
+}
+.header-details{
+	width: 575px;
+	float:right;
+	text-align: right;
+	color: white;
+}
+
+.tagline{
+	font-size: 3em;
+	margin-top: 50px;
+}
+
+.location{
+	font-size: 2em;
+}
+
+.location span{
+	color: #fdcf00;
+}
+
+/* Sections */
+
+p {
+	color: white;
+	text-shadow: 0px 1px 0px #333;
+}
+
+h2, h3, h4 {
+	font-family: open-sans, sans-serif;
+	text-transform: lowercase;
+	text-shadow: #787878 1px 0px 0px;
+
+
+}
+
+h2{
+	margin-top: 40px;
+	text-align: center;
+}
+
+h3{
+	color: #fdcf00;
+	font-size: 2em;
+	
+}
+
+h4{
+	color: #FDF3C8;
+	font-size: 1.5em;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #666;
+	
+}
+
+.section-intro{
+	font-size: 2em;
+	text-align: center;
+	
+}
+
+img.arrow{
+	position: absolute;
+	margin-top: 17px;
+	margin-left: 460px;
+}
+
+.section{
+	background: #2c2b2b;
+	-webkit-box-shadow: inset 0px 5px 14px 4px rgba(0, 0, 0, 0.3);
+box-shadow: inset 0px 5px 14px 4px rgba(0, 0, 0, 0.3);
+	min-height: 400px;
+}
+
+.section a {
+	color: #eb4949;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+.section p{
+	font-size: 1.4em;
+}
+
+.section-content-container{
+	margin: 20px;
+}
+
+/* Ticket Section-Specific */
+
+.tickets-content{
+	width:	46%;
+	float: left;
+}
+
+.tickets-content p{
+	color: #fdf3c8;
+}
+
+.dates {
+	margin-top: 0;
+	color: #fdeda5;
+	
+}
+
+.events{
+	width: 50%;
+	float: right;
+}
+
+.events .event {
+	overflow:auto;
+	margin-bottom:20px;
+	background: #222226;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.events .event img{
+	float: right;
+	border:1px solid #cccccc;
+}
+
+
+.events .event .info {
+	margin:0;
+	padding:0;
+	float: left;
+	width:270px;
+	font-size: 1em;
+}
+
+.events .event .info h3 {
+	font-family: 'Kreon', serif;
+	font-weight:400;  /*300,400,700*/
+	font-size:1.8em;
+	
+	padding:0;
+	margin:10px 0 0 0;
+}
+
+.event h3{
+	margin: 5px 0;
+	
+}
+
+.events .event .info h3 a {
+	text-decoration:none;
+}
+
+.events .event .info h4 {
+	margin: 0;
+	
+}
+
+.events .event .info p.description {
+	margin-top:0;
+}
+
+/* Services-specific Styles */
+
+.services-listing {
+
+	width: 45%;
+	float: left;
+}
+
+.hosting-an-event {
+	width: 45%;
+	float:right;
+}

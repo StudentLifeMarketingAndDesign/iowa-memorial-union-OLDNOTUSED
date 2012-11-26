@@ -2,18 +2,17 @@
 /**
  * Defines the Minisite page type
  */
-class IowaHouseHotelHome extends Page {
+class TheHubPage extends Page {
 
 static $db = array(
 
-	"Content2a" => "HTMLText"
+
 
 );
 
 function getCMSFields() {
 	$fields = parent::getCMSFields();
-	
-	$fields->addFieldToTab('Root.Content.Content2', new HTMLEditorField('Content2a'));
+
 	
 	$fields->removeByName('Content3');
 	$fields->removeByName('Content2Title');
@@ -24,11 +23,11 @@ function getCMSFields() {
 	
    }}
 
-class IowaHouseHotelHome_Controller extends Page_Controller {
+class TheHubPage_Controller extends Page_Controller {
 
 function init() {
 		parent::init();
-		Requirements::themedCSS("IowaHouseHotelHome");
+		Requirements::themedCSS("TheHub");
 	
 	
 	

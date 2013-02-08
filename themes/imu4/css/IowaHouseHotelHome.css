@@ -11,7 +11,7 @@ div#foot_bevel {
 }
 div#bodywrap {
 	height: auto;
-	width: 980px;
+	width: 982px;
 	border-right: 1px solid #666666;
 	border-left: 1px solid #666666;
 	border-bottom: 1px solid #666666;
@@ -70,7 +70,7 @@ div#content-container {
 }
 
 .content-wrapper {
-width: 750px;
+width: 970px;
 }
 #content1 p {
 	font: normal lighter 14px georgia;
@@ -180,10 +180,19 @@ hr.upside {
 	padding: 0px 10px 10px 10px;
 	text-align: left;
 }
+
 #content2 {
 	margin-top: 0px;
+	margin-left: 80px;
 	height: auto;
 	width: 350px;
+	padding: 0px 0px 6px 0px;
+	float: left;
+}
+
+#content3 {
+	margin-top: 0px;
+	height: auto;
 	padding: 0px 0px 6px 0px;
 	float: right;
 }

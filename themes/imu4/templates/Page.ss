@@ -17,7 +17,10 @@ $MetaTags(False)
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 
-<script type="text/javascript" src="$ThemeDir/javascript/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="//use.typekit.net/rex6hem.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
 <script type="text/javascript" src="$ThemeDir/javascript/jquery-ui-1.8.6.custom.min.js"></script>
 <script type="text/javascript" src="$ThemeDir/javascript/topup/javascripts/top_up-min.js"></script>
 <script type="text/javascript">
@@ -36,6 +39,8 @@ $(document).ready(function leaveFrame() {
 });
 </script>
 <script type="text/javascript" src="/mysite/code/javascript/dropdown.js"></script>
+<script type="text/javascript" src="$ThemeDir/javascript/rooms.js"></script>
+<link rel="stylesheet" type="text/css" href="$ThemeDir/css/rooms.css" />
 <% if customCSS %><link rel="stylesheet" type="text/css" href="http://imu.uiowa.edu/themes/imu4/css/customCSS/$customCSS" /><% end_if %>
           
 <% if ClassName = EventItem %>  
@@ -134,6 +139,10 @@ $Layout
   </div>
   
 </div>
+<div id="modal_container">
+        <div id="modal">
+        </div>
+    </div>
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-426753-1']);
@@ -144,6 +153,7 @@ $Layout
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 </script>
+
 </body>
 </html>
 

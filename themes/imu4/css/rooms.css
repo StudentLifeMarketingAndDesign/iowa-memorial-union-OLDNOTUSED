@@ -1,0 +1,709 @@
+/*
+ * Existing imu.uiowa.edu styling duplicated
+ */
+
+.container {
+    width: 61.25em;
+    margin: auto;
+}
+
+body {
+    background-color: #999;
+}
+
+#uiowa_banner {
+    background-color: #3F3736;
+    height: 1.125em;
+    overflow: hidden;
+}
+
+#top_nav {
+    background: #606060; /* Old browsers */
+    background: -moz-linear-gradient(top, #7f7f7f 0%, #606060 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7f7f7f), color-stop(100%,#606060)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #7f7f7f 0%, #606060 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #7f7f7f 0%, #606060 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #7f7f7f 0%, #606060 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #7f7f7f 0%, #606060 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7f7f7f', endColorstr='#606060', GradientType=0); /* IE6-9 */
+    border-bottom-left-radius: 0.1875em;
+    border-bottom-right-radius: 0.1875em;
+    z-index: 10;
+    position: relative;
+    height: 2.3125em;
+}
+
+#top_nav::selection,
+#top_nav *::selection {
+    background: transparent;
+}
+
+#homepage_link {
+    position: absolute;
+    top: -0.1875em;
+    right: 4.0625em;
+}
+
+#top_nav > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0.625em;
+    right: 14em;
+}
+
+#top_nav > ul > li {
+    display: inline-block;
+    position: relative;
+    margin-left: 2em;
+}
+
+#top_nav > ul > li > a {
+    font-size: 0.9375em;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvetica,Arial,sans-serif;
+    text-transform: lowercase;
+    padding: 0.5em;
+}
+
+#top_nav > ul > li > a:hover {
+    color: #ff9;
+    text-decoration: underline;
+}
+
+#top_nav > ul > li > ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: absolute;
+    top: 1.6875em;
+    right: 0;
+    background: #606060;
+    text-align: right;
+    font-size: 0.8125em;
+    font-weight: bold;
+    display: none;
+}
+
+#top_nav > ul > li:hover > ul {
+    display: block;
+    width: 12em;
+    border-radius: 0.25em;
+}
+
+#top_nav > ul > li > ul > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+    display: block;
+    border-radius: 0.25em;
+}
+
+#top_nav > ul > li > ul > li > a:hover {
+    background-color: #3F3736;
+}
+
+#logo img {
+    z-index: 999
+}
+
+#menu {
+    z-index: 0;
+}
+
+#layout {
+    background-color: white;
+    position: relative;
+    top: -0.25em;
+    border-bottom-left-radius: 0.1875em;
+    border-bottom-right-radius: 0.1875em;
+}
+
+#sidebar {
+    position: absolute;
+    top: 4em;
+    right: 0;
+    width: 18em;
+}
+
+#sidebar {
+    text-align: right;
+    margin-right: 4em;
+    font-family: proxima-nova, helvetica, arial;
+    width: 14em;
+}
+
+#sidebar h3 {
+    color: #222;
+    font-size: 1.25em;
+    margin-bottom: 0.25em;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar a {
+    display: inline-block;
+    color: #888;
+    text-decoration: none;
+    padding: 0.25em 0;
+}
+
+#sidebar a:hover {
+    text-decoration: underline;
+}
+
+* { box-sizing: border-box; outline: none; }
+
+/*
+ * Rooms Page
+ */
+
+#rooms_page {
+	font-size: 1.2307692308em;
+}
+
+#rooms_page ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#rooms_page a {
+    color: #888;
+    text-decoration: none;
+    padding: 0.25em 0;
+}
+
+#rooms_page a {
+    display: block;
+}
+
+#rooms_page a:hover {
+    text-decoration: underline;
+}
+
+#rooms_page {
+    font-family: proxima-nova, helvetica, arial;
+    padding: 2em;
+}
+
+#rooms_dropdown_listing #rooms_page {
+    padding: 1em 1.5em;
+}
+
+#rooms_page h1 {
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+#rooms_page a, #rooms_page a:hover {
+    text-decoration: none;
+}
+
+.room_listing {
+    font-family: proxima-nova, helvetica, arial;
+    clear: left;
+    margin: 0.25em 0;
+    height: 5.3125em; /* 85px */
+}
+
+.room_listing .actions {
+    float: right;
+}
+
+.room_listing .thumbnail {
+    float: left;
+}
+
+.room_listing .thumbnail img {
+    border-radius: 0.25em;
+}
+
+.room_listing .name {
+    color: #222;
+    font-weight: bold;
+    font-size: 1.5em;
+    position: relative;
+    top: 0.75em;
+}
+
+a:hover .room_listing .name {
+    text-decoration: underline;
+}
+
+.room_listing .number {
+    color: #888;
+    display: block;
+    position: relative;
+    top: 1em;
+    left: 1.35em;
+}
+
+/*
+ * Room Page
+ */
+
+#room_page {
+    font-family: proxima-nova, helvetica, arial;
+    width: 48.25em;
+    font-size: 1.25em;
+}
+
+.slideshow {
+    position: relative;
+}
+
+.slideshow::selection,
+.slideshow *::selection {
+    background: transparent;
+}
+
+.slideshow .previous,
+.slideshow .next {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.1s ease-in-out;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    -moz-transition: opacity 0.1s ease-in-out;
+}
+
+.slideshow .previous {
+    left: 0;
+    padding: 0 35% 0 5%;
+}
+
+.slideshow .next {
+    right: 0;
+    border-bottom-right-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    padding: 0 5% 0 35%;
+}
+
+.slideshow .previous:hover,
+.slideshow .next:hover {
+    opacity: 1;
+}
+
+.slideshow .previous:active,
+.slideshow .next:active {
+    opacity: 0.5;
+}
+
+.slideshow .previous:hover {
+    background: -moz-linear-gradient(left, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.3)), color-stop(100%, rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d000000', endColorstr='#00000000', GradientType=1); /* IE6-9 */
+}
+
+.slideshow .next:hover {
+    background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,0.3))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%); /* IE10+ */
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#4d000000', GradientType=1); /* IE6-9 */
+}
+
+.slideshow .previous img,
+.slideshow .next img {
+    position: relative;
+    top: 47%;
+}
+
+.slideshow .displayed img {
+    width: 100%;
+    display: block;
+    border-bottom-right-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+}
+
+.slideshow .hidden {
+    display: none;
+}
+
+.slideshow_fraction {
+    float: right;
+    color: #aaa;
+    padding: 0.5em;
+    font-size: 0.875em;
+}
+
+#room_page .name {
+    font-size: 1.875em;
+    font-weight: bold;
+    color: #222;
+    padding-left: 0;
+}
+
+#room_page .number {
+    color: #888;
+    font-size: 1.125em;
+    margin-left: 0.25em;
+}
+
+#room_page .info_pane {
+    padding: 2em 0 2em 2em;
+}
+
+#room_page .deet .heading {
+    text-transform: uppercase;
+    color: #888;
+    font-size: 0.75em;
+    display: block;
+    background: #eee;
+    background: rgba(0,0,0, 0.05);
+    border-top-left-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
+    padding: 0.4em;
+    margin-top: 1em;
+}
+
+#room_page .deet .content {
+    display: block;
+    padding: 0.5em 0.3em;
+    color: #444;
+}
+
+#room_page .deet .content.listing div > span {
+    display: inline-block;
+    width: 1.75em;
+    text-align: center;
+}
+
+#room_page .deet .rates.content > div {
+    margin: 0.375em 0;
+}
+
+#room_page .deet .content img {
+    position: relative;
+    top: 0.25em;
+    margin-right: 0.25em;
+}
+
+.dolla_dolla_bill {
+    font-family: source-code-pro;
+    background: #d1e9be; /* Old browsers */
+    background: -moz-linear-gradient(top, #d1e9be 0%, #c4dbb3 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d1e9be), color-stop(100%, #c4dbb3)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #d1e9be 0%, #c4dbb3 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #d1e9be 0%, #c4dbb3 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #d1e9be 0%, #c4dbb3 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #d1e9be 0%, #c4dbb3 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d1e9be', endColorstr='#c4dbb3', GradientType=0); /* IE6-9 */
+    box-shadow: 0 0.075em 0.075em rgba(0,0,0, 0.1);
+    color: white;
+    color: #6f7a66;
+    font-size: 0.875em;
+    padding: 0.15em 0.6em;
+    border-radius: 0.15em;
+    margin-right: 0.3em;
+    min-width: 3em;
+    display: inline-block;
+    text-shadow: 0 0.75em 0.75 rgba(255,255,255, 0.8);
+}
+
+.dolla_dolla_bill > .sign {
+    color: #6f7a66;
+    color: white;
+    font-weight: bold;
+    margin-right: 0.125em;
+    text-shadow: 0 0 0.125em rgba(0,0,0, 0.8);
+}
+
+.reserve_this_room {
+    display: block;
+    border: 0.1em solid #07c;
+    background: #0099cc; /* Old browsers */
+    background: -moz-linear-gradient(top, #0099cc 0%, #0077cc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0099cc), color-stop(100%, #0077cc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #0099cc 0%, #0077cc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #0099cc 0%, #0077cc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #0099cc 0%, #0077cc 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #0099cc 0%, #0077cc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0099cc', endColorstr='#0077cc', GradientType=0); /* IE6-9 */
+    border-radius: 0.25em;
+    padding: 0.25em 0.625em;
+    text-shadow: 0.1em 0.1em 0.1em rgba(0,0,0, 0.3);
+    box-shadow: inset 0 0.1em 0 rgba(255,255,255, 0.2),
+                0 0.1em 0.2em rgba(0,0,0, 0.2);
+    color: white;
+    margin-top: 0.5em;
+    font-size: 0.875em;
+    cursor: pointer;
+}
+
+.reserve_this_room:active {
+    background: #0088cc; /* Old browsers */
+    background: -moz-linear-gradient(top, #0088cc 0%, #0077cc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0088cc), color-stop(100%, #0077cc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #0088cc 0%, #0077cc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #0088cc 0%, #0077cc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #0088cc 0%, #0077cc 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #0088cc 0%, #0077cc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0077cc', GradientType=0); /* IE6-9 */
+}
+
+.standard_setup_notice {
+	margin-top: 2em;
+	color: #999;
+	text-align: center;
+	font-size: 0.875em;
+}
+
+/*
+ * Reserve a room page
+ */
+
+#reserve_a_room {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 1000px;
+}
+
+#toggle_rooms_dropdown {
+	clear: both;
+    font-family: proxima-nova, helvetica, arial;
+    background: #f0f0f0; /* Old browsers */
+    background: -moz-linear-gradient(top, #f0f0f0 0%, #cccccc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f0f0f0), color-stop(100%, #cccccc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f0f0f0 0%, #cccccc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f0f0f0 0%, #cccccc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f0f0f0 0%, #cccccc 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #f0f0f0 0%, #cccccc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#cccccc', GradientType=0); /* IE6-9 */
+    padding: 0.5em 0.75em 0.4em 0.85em;
+    color: #888;
+    text-shadow: 0.1em 0.1em 0 #fff;
+    border-radius: 0.25em;
+    cursor: pointer;
+    box-shadow: 0 0.0625em 0.25em rgba(0,0,0, 0.2);
+    display: inline-block;
+    font-size: 0.9375em;
+font-size: 1em;
+    float: right;
+    position: relative;
+    right: 15em;
+    top: 0.275em;
+}
+
+#toggle_rooms_dropdown:hover {
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #cccccc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ffffff 0%, #cccccc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#cccccc', GradientType=0); /* IE6-9 */
+}
+
+#toggle_rooms_dropdown.expanded {
+    background: #fff; /*expanded*/
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#toggle_rooms_dropdown img {
+    opacity: 0.4;
+    position: relative;
+    top: -0.125em;
+    padding-left: 0.25em;
+}
+
+#toggle_rooms_dropdown img.flipped {
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    position: relative;
+    left: 0.2625em;
+    top: -0.0625em;
+}
+
+#rooms_dropdown_listing {
+    display: none;
+    background: #fff;
+    width: 30em;
+    max-height: 30em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    top: 2.25em;
+    right: 15em;
+    border-radius: 0.25em;
+    border-top-right-radius: 0;
+    box-shadow: 0 0.5em 1em rgba(0,0,0, 0.5);
+    z-index: 99;
+    padding: 1em;
+}
+
+#rooms_dropdown_listing a {
+	text-decoration: none;
+}
+
+#rooms_dropdown_listing::-webkit-scrollbar {
+    background: transparent;
+    width: 0.5em;
+}
+
+#rooms_dropdown_listing::-webkit-scrollbar-track {
+    background: #ccc;
+    border-bottom-right-radius: 0.1875em;
+}
+
+#rooms_dropdown_listing::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 0.1875em;
+}
+
+#rooms_dropdown_listing h1 {
+    display: none;
+}
+
+#rooms_dropdown_listing .room_listing .thumbnail img {
+    width: 6.75em;
+}
+
+#rooms_dropdown_listing .room_listing {
+    font-size: 0.875em;
+}
+
+#rooms_dropdown_listing .room_listing .number {
+	left: 1.8em;
+}
+
+/*
+ * Modal
+ */
+
+#modal_container {
+}
+
+#modal .slideshow .next {
+    border-top-right-radius: 0.25em;
+}
+
+#modal .slideshow .previous {
+    border-top-left-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
+}
+
+#modal .slideshow .displayed img {
+    border-radius: 0.25em;
+}
+
+#modal #room_page .info_pane {
+    padding: 2em 0;
+}
+
+#modal_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0.3)), color-stop(100%, rgba(0,0,0,0.5))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d000000', endColorstr='#80000000', GradientType=0); /* IE6-9 */
+    z-index: 999;
+    display: none;
+}
+
+#modal {
+    background: white;
+    width: 60em; /* 772px */
+    max-height: 90%;
+    margin: 2em auto;
+    padding: 3em 0 1em 0;
+    border-radius: 1em;
+    position: relative;
+    box-shadow: 0 0.5em 1em rgba(0,0,0, 0.5);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#modal::-webkit-scrollbar {
+	display: none;
+}
+
+#modal #room_page {
+    margin: 1em auto 0 auto;
+    padding: 0 2em;
+}
+
+#modal .reserve_this_room {
+	display: none;
+}
+
+.close_modal.top {
+    font-size: 1.25em;
+    cursor: pointer;
+    font-family: proxima-nova, helvetica, arial;
+    position: absolute;
+    top: 0;
+    left: 2em;
+    right: 2em;
+    text-align: center;
+    background: #eeeeee; /* Old browsers */
+    background: -moz-linear-gradient(top, #eeeeee 0%, #dddddd 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #dddddd)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #eeeeee 0%, #dddddd 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #eeeeee 0%, #dddddd 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #eeeeee 0%, #dddddd 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #eeeeee 0%, #dddddd 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#dddddd', GradientType=0); /* IE6-9 */
+    padding: 0.75em 1.5em;
+    border-bottom-left-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+    color: #999;
+    text-shadow: 0.0625em 0.0625em 0 white;
+    -webkit-transition: color 0.1s ease-in-out;
+    -moz-transition: color 0.1s ease-in-out;
+}
+
+.close_modal.top:hover {
+    background: #e8e8e8; /* Old browsers */
+    background: -moz-linear-gradient(top, #e8e8e8 0%, #dddddd 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e8e8e8), color-stop(100%, #dddddd)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #e8e8e8 0%, #dddddd 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #e8e8e8 0%, #dddddd 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #e8e8e8 0%, #dddddd 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #e8e8e8 0%, #dddddd 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8e8e8', endColorstr='#dddddd', GradientType=0); /* IE6-9 */
+    color: #888;
+}
+
+.close_modal:not(.top) {
+	color: #888;
+	text-align: center;
+	cursor: pointer;
+	padding: 1em 0;
+	display: block
+}
+
+.close_modal:not(.top):hover {
+	color: #666;
+}
+
+#nav ul {
+    z-index: 999999;
+}

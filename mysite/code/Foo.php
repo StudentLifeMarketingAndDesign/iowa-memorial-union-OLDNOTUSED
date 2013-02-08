@@ -2,7 +2,7 @@
 /**
  * Defines the Minisite page type
  */
-class CampusEventServicesInterior extends TypeA {
+class Foo extends Page {
 
     static $db = array(
     );
@@ -25,15 +25,14 @@ class CampusEventServicesInterior extends TypeA {
    }
 }
 
-class CampusEventServicesInterior_Controller extends Page_Controller {
+class Foo_Controller extends Page_Controller {
 
-    function init() {
-		parent::init();
-		Requirements::themedCSS('CampusEventServicesInterior');
+	function init () {
+		return Controller::init();
 	}
 
-	function isReserveARoomPage () {
-    	return $this->Title == 'Reserve a Room';
+	function index () {
+    	return $this->renderWith(array('Foo'));
 	}
 
 	function isMeetingsPage () {

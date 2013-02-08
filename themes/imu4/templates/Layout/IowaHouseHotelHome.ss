@@ -10,13 +10,15 @@
     <div class="clear-left"></div>
 
   <div class="content-wrapper">
+  
+  	
     <div id="content1"> <img src="$ThemeDir/images/iowa_house_hotel/line_gradient.png" />
       <h4>$Content1Title</h4>
       <hr />
      $Content1
      
       </div>
-      
+     
       
       
     <div id="content2">
@@ -32,10 +34,15 @@
         <hr class="upside" />
           
           </div>
-      
+                
           
         <br/>
    
+    </div>
+    
+    <div id="content3">
+    	<div class="content_box" style="background: none; width: auto;"><a href="http://www.hawkshop.com"><img src="$ThemeDir/images/iowa_house_hotel/HawkshopAd.jpg" /></a></div>
+
     </div>
     
     

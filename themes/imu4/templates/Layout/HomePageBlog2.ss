@@ -174,7 +174,7 @@ $(document).ready(function() {
 			<h2><a href="/news">Under the Dome <span class="tint">:: UI Student Blog</span></a></h2>
 			
 			<% cached %>
-			<% control RSSItems(5, http://imu.uiowa.edu/news/feed/) %>
+			<% control RSSItems(5, http://afterclass.uiowa.edu/blog/feed/) %>
 				<div class="blog-post">
 					
 					<h3><a href="$Link">$Title</a></h3>

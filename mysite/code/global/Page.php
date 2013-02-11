@@ -103,7 +103,7 @@ class Page extends SiteTree {
 	  /**
    * Return a list of all the pages to cache
    */
-  function allPagesToCache() {
+ /* function allPagesToCache() {
     // Get each page type to define its sub-urls
     $urls = array();
  
@@ -115,12 +115,12 @@ class Page extends SiteTree {
     }
  
     return $urls;
-  }
+  }*/
  
  /**
    * Get a list of URLs to cache related to this page
    */
-  function subPagesToCache() {
+  /*function subPagesToCache() {
     $urls = array();
  
     // add current page
@@ -138,7 +138,7 @@ class Page extends SiteTree {
     $urls = $this->subPagesToCache();
     if($p = $this->Parent) $urls = array_merge((array)$urls, (array)$p->subPagesToCache());
     return $urls;
-  }
+  }*/
 
 }
 

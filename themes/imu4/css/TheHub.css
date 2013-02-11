@@ -88,27 +88,28 @@ p {
 h2, h3, h4 {
 	font-family: open-sans, sans-serif;
 	text-transform: lowercase;
-	text-shadow: #787878 1px 0px 0px;
+	text-shadow: #962f33 1px 0px 0px;
+	font-weight: normal;
 
 
 }
 
 h2{
-	margin-top: 40px;
+	margin-top: 20px;
 	text-align: center;
 }
 
 h3{
 	color: #fdcf00;
 	font-size: 2em;
-	
+	text-align: center;
 }
 
 h4{
 	color: #FDF3C8;
-	font-size: 1.5em;
+	font-size: 1.7em;
 	padding-bottom: 3px;
-	border-bottom: 1px solid #666;
+	margin: 5px 0;
 	
 }
 
@@ -128,13 +129,13 @@ img.arrow{
 	background: #2c2b2b;
 	-webkit-box-shadow: inset 0px 5px 14px 4px rgba(0, 0, 0, 0.3);
 box-shadow: inset 0px 5px 14px 4px rgba(0, 0, 0, 0.3);
-	min-height: 400px;
+	min-height: 300px;
 }
 
 .section a {
 	color: #eb4949;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: normal;
 	
 }
 .section p{
@@ -171,7 +172,7 @@ box-shadow: inset 0px 5px 14px 4px rgba(0, 0, 0, 0.3);
 	overflow:auto;
 	margin-bottom:20px;
 	background: #222226;
-	padding: 20px;
+	padding: 10px;
 	border-radius: 10px;
 }
 

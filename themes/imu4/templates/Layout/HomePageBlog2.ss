@@ -151,10 +151,10 @@ $(document).ready(function() {
 	<div id="content-home">
 		
 		<div id="events-home">
-			<h2><a href="http://afterclass.uiowa.edu/">After Class <span class="tint">:: Upcoming Events</span></a></h2>
+			<h2><a href="http://afterclass.uiowa.edu/">After Class <span class="tint">:: Upcoming Events at the IMU</span></a></h2>
 			
 			<% cached %>
-        	<% control RSSEvents(3,http://afterclass.uiowa.edu/events/newrss/) %>
+        	<% control RSSEvents(3,http://afterclass.uiowa.edu/events/categoriesrss/iowa_memorial_union) %>
         	
 				<div class="event">
 					<% if Smallimage %><a href="$Link"><img src="$Smallimage" /></a><% end_if %>
@@ -168,6 +168,7 @@ $(document).ready(function() {
 			
 			<% end_control %>
 			<% end_cached %>
+			<p><a href="http://afterclass.uiowa.edu" target="_blank">See more events at After Class &raquo;</a></p>
 		</div>
 		
 		<div id="blog-home">
@@ -449,7 +450,4 @@ $(document).ready(function() {
 	</div>
 	
 	<div class="clear-left"></div>
-
-
-</div>
 

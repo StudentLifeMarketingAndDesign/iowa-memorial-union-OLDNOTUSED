@@ -40,7 +40,7 @@ h4.hide {
 	margin-left: 18px;
 }
 body {
-	width: 980px;
+	/*width: 980px;*/
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
 	background-color: #999999;
@@ -53,10 +53,12 @@ div#bodywrap {
 	border-left: 1px solid #666666;
 	border-bottom: 1px solid #666666;
 	background-color: #FFFFFF;
+	margin: auto;
+	margin-top: 10px;
 }
 
 #logo {
-	width: 980px;
+	/*width: 980px;*/
 	height: 18px;
 	background-color: #3f3736;
 
@@ -116,7 +118,7 @@ div#bodywrap {
 
 
 #header {
-	width: 980px;
+	/*width: 980px;*/
 	padding-bottom: 7px;
 	border-bottom: 1px solid #999;
 	background: white;
@@ -124,7 +126,7 @@ div#bodywrap {
 
 #imulogo {
 	position: absolute;
-	margin-left: 675px;
+	margin-left: 800px;
 	margin-top: 15px;
 	
 }
@@ -214,7 +216,7 @@ text-transform: lowercase;
 #nav li:hover ul {
 	left: auto;
 	margin-left: 15px;
-	top: 50px;
+	top: 90px;
 }
 
 #nav li ul li a {

@@ -58,7 +58,7 @@ function prepareReserveARoomPage () {
     // preload the content for the rooms dropdown element at the top of the page
     $.ajax({
         method: 'GET',
-        url: '/imu/meetings',
+        url: '/meetings',
         success: function (data) {
             var roomsDropdownListing = $('#rooms_dropdown_listing');
             roomsDropdownListing.html($('#rooms_page', data).html());
@@ -153,7 +153,7 @@ $(window).on('scroll', function () {
 });
 
 $(document).on('click', '.reserve_this_room', function () {
-	document.location = 'http://hulk.imu.uiowa.edu/imu/reservearoom/';
+	document.location = 'http://imu.uiowa.edu/reservearoom/';
     /*var clickedButton = $(this);
     clickedButton.toggleClass('expanded')
                  .siblings('.how_to_reserve_this_room').toggle('fade', 100);

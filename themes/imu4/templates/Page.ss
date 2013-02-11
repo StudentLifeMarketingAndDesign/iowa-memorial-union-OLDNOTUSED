@@ -51,7 +51,7 @@ $(document).ready(function leaveFrame() {
 
 <body>
 <!-- alert -->
-
+<% include DivisionBarNonResponsive %>
 
 
 

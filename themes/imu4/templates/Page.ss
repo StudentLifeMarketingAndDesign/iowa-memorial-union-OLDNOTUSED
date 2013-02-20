@@ -9,6 +9,8 @@ $SeoTitle
 $Title - Iowa Memorial Union - The University of Iowa
 <% end_if %>
 </title>
+<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/rooms.css" />
+
 $MetaTags(False)
 <!--[if IE 7]>
 <link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/ie7/{$ClassName}_ie7.css" />
@@ -39,14 +41,14 @@ $(document).ready(function leaveFrame() {
 });
 </script>
 <script type="text/javascript" src="/mysite/code/javascript/dropdown.js"></script>
-<script type="text/javascript" src="$ThemeDir/javascript/rooms.js"></script>
-<link rel="stylesheet" type="text/css" href="$ThemeDir/css/rooms.css" />
 <% if customCSS %><link rel="stylesheet" type="text/css" href="http://imu.uiowa.edu/themes/imu4/css/customCSS/$customCSS" /><% end_if %>
           
 <% if ClassName = EventItem %>  
 <meta name="title" content="$Title" />
 <link rel="image_src" href="{$BaseHref}$EventImage.URL" / > 
 <% end_if %>
+<script type="text/javascript" src="{$ThemeDir}/javascript/rooms.js"></script>
+
 </head>
 
 <body>

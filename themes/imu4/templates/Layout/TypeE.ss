@@ -5,11 +5,11 @@
     <% include SubNavigation %>
     <% include Ads %>
   </div>
+  <% if ContentImage %>
     <div id="content-image">
-    	<% if ContentImage %>
-      		$ContentImage
-        <% end_if %>
+      	$ContentImage
     </div>
+    <% end_if %>
     <div id="content1">
     $Content1</div>
   <div class="clear"></div>  

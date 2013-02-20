@@ -77,6 +77,7 @@ blockquote#osl h2 {
 	background-repeat:no-repeat;
 	background-position:-8px -5px;
 	text-indent: -9999px;
+	background-size: 100%;
 }
 blockquote#osl a {
 	/*color:black;*/
@@ -376,7 +377,7 @@ img.twtr-profile-img {border:0 none;
 	height:394px;
 	background-repeat:no-repeat;
 	background-position:0px -9px;
-margin:-40px 2px 0 -34px;	}
+margin:-40px 2px 0 -44px;	}
 
 #disability-statement {
 	padding-top:15px;
@@ -415,7 +416,7 @@ html>body #twitter {
 *background-color:#ffffff;
 }
 
-div.cooliris {float:right; margin-top:50px; margin-right:50px;}
+div.cooliris {float:right; margin-top:50px; margin-right:85px;}
 
 .ads{
 	display: none;

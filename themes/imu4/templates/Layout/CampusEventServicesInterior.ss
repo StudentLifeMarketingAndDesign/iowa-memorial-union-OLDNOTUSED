@@ -9,7 +9,7 @@
   <% include Ads %>
 </div>
 <div id="contenthead">
-    <p><strong>We are currently updating our Event Services system, some parts of this website might be unavailable for up to two hours. 2/11/13 - IMU Staff</strong></p><h6>$Title<br /></h6>
+<h6>$Title<br /></h6>
 $Content1
 <h5 class="header">Catering - Event Spaces - Iowa House Hotel</h5>
 </div>

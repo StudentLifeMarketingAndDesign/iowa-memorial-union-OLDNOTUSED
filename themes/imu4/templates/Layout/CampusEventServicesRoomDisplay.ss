@@ -21,7 +21,6 @@ background: url($ContentImage.URL) no-repeat 0px 0px;
         <h5 class="header">Catering - Event Spaces - Iowa House Hotel</h5>
     </div>-->
     <div class="content-wrapper">
-    <p><strong>We are currently updating our Event Services system, some parts of this website might be unavailable for up to two hours. 2/11/13 - IMU Staff</strong></p>
         <!--<div id="content1">$Content1</div> 
         <div id="content2">$Content2</div>-->
 

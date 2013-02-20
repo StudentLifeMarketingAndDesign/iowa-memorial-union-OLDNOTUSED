@@ -54,12 +54,11 @@ div#bodywrap {
 	border-bottom: 1px solid #666666;
 	background-color: #FFFFFF;
 	margin: auto;
-	margin-top: 10px;
 }
 
 #logo {
 	/*width: 980px;*/
-	height: 18px;
+	/*height: 18px;*/
 	background-color: #3f3736;
 
 }
@@ -127,7 +126,8 @@ div#bodywrap {
 #imulogo {
 	position: absolute;
 	margin-left: 800px;
-	margin-top: 15px;
+	margin-top: -2px;
+	z-index: 1000;
 	
 }
 
@@ -216,7 +216,7 @@ text-transform: lowercase;
 #nav li:hover ul {
 	left: auto;
 	margin-left: 15px;
-	top: 90px;
+	top: 70px;
 }
 
 #nav li ul li a {

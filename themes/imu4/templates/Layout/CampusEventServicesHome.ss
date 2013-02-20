@@ -10,7 +10,7 @@
   <h5 class="header"><img src="$ThemeDir/images/campus_event_services/pattern2.png" width="772" height="25" /> </h5>
 </div>
 <div class="content-wrapper">
-    <p><strong>We are currently updating our Event Services system, some parts of this website might be unavailable for up to two hours. 2/11/13 - IMU Staff</strong></p>
+
  <div id="content1">
   $Content1
   	</div>

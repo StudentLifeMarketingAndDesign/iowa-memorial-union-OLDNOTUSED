@@ -9,7 +9,13 @@ div#bodywrap {
 	background-repeat: no-repeat;
 	background-position: 0 62px;
 	}
-	
+#breadcrumbs {
+	display: none;
+}
+
+#search_box {
+	display: none;
+}
 /*Header */
 #minisite-header h1 {
 	width:271px;
@@ -268,7 +274,7 @@ div#events-column h2 {
 	border:none;
 	padding-top:0px;}
 div#content1 {width:965px;
-	margin: -18px 0px 70px 0px;
+	margin: 93px 0px 70px 0px;
 	padding: 22px;}
 	/*background-image:url(../images/famwkddate.png);
 	background-repeat: no-repeat;

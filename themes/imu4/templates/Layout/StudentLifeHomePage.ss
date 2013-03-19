@@ -62,62 +62,36 @@
 	<h2 class="blog">From the <a href="http://imu.uiowa.edu/news/">Blog</a></h2>
 	<h2 class="subhead">want to contribute? <a href="http://imu.uiowa.edu/news/submit/">write a post</a></h2>
 	
-	<% control BlogEntries(5, http://imu.uiowa.edu/news/category/studentlife/feed/) %>
+	<% cached %>
+	<% control RSSEvents(5, http://imu.uiowa.edu/news/category/studentlife/feed/) %>
 		<div class="blog_entry">
 			<h3><a href="$Link" target="_blank">$Title</a></h3>
 			<h4>$Date.Format(F j&#44; Y)</h4>
 			<p class="blog">$Description.BigSummary(50) <a href="$Link" target="_blank">more...</a></p>
 		</div>
-		
-	
-		
-		
 	<% end_control %>
+	<% end_cached %>
 	
 	<div class="clear"></div>
 	
 	<% if ShowContent %>
 	$Content1
 	<% end_if %>
-	
-<% control RSSEvents(3,http://afterclass.uiowa.edu/events/categoriesrss/Bijou-CAB-SCOPE-Recreational%20Services-Dance%20Marathon-Center%20for%20Student%20Involvement%20and%20Leadership?z) %>
-	<% if Link %>
-	<div class="event{$Pos}">
-		<div class="box">
-			<a href="$Link"><img src="$Smallimage" /></a>
-		</div>
-		<h4><a href="$Link">$Title</a></h4>
-		<h5>$Dates</h5>
-		<p>$Description.Summary(25)</p>
-		<p>
-	</div>
-	<% end_if %>
-<% end_control %>
-
-
-<!--<% control EventItems(StudentLife, 3) %>
-<div class="event{$Pos}">
-	<div class="box">
-            <% if EventExternalUrl %>
-				<a href="$EventExternalUrl">
-			<% else %>
-				<a href="$Link">
-			<% end_if %>
-				$EventImage.SetWidth(131)
-				</a>
+<% cached %>
+		<% control RSSEvents(3,http://afterclass.uiowa.edu/events/categoriesrss/Bijou-CAB-SCOPE-Recreational%20Services-Dance%20Marathon-Center%20for%20Student%20Involvement%20and%20Leadership?z) %>
+			<% if Link %>
+			<div class="event{$Pos}">
+				<div class="box">
+					<a href="$Link"><img src="$Smallimage" /></a>
+				</div>
+				<h4><a href="$Link">$Title</a></h4>
+				<h5>$Dates</h5>
+				<p>$Description.Summary(25)</p>
+				<p>
 			</div>
-		<h4><a href="$Link">$Title</a></h4>
-		<h5> <% if EventDateAlt %>
-            $EventDateAlt
-            <% else %>
-                <% if EventDate %>
-                    $EventDate.Format(F j)
-                <% end_if %> 
-            <% end_if %></h5>
-		<p>$EventDescription.Summary(30)</p>
-		<p>
-	</div>	
-<% end_control %>-->
+			<% end_if %>
+		<% end_control %>
+<% end_cached %>
 
 
 <div style="clear: left;"></div>

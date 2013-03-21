@@ -13,11 +13,13 @@ body p{font-size:1em;}
 }
 
 #content-container {
-	background: url(../images/zigstile2.png);
+	/*background: url(../images/zigstile2.png);*/
 	border: none;
 	padding: 0;
-	width: 980px;
+	/*width: 980px;*/
 	margin-top: 50px;
+	margin-left: 0;
+	background-image: none;
 	
 }
 div#bodywrap {	background-color: #aee0fa;
@@ -25,7 +27,7 @@ div#bodywrap {	background-color: #aee0fa;
 	}
 #content-inner {
 	width: 757px;
-	float: right;
+	/*float: right;*/
 	background-color: #aee0fa;
 	background: rgba(174,224,250,.9);
 	min-height: 600px;
@@ -33,7 +35,7 @@ div#bodywrap {	background-color: #aee0fa;
 	
 	}
 
-div#content-header img#cloud {margin:-50px 2px 0 -34px;
+div#content-header img#cloud {margin:-50px 2px 0 -10px;
 
 
 }
@@ -41,7 +43,8 @@ div#content-header img#cloud {margin:-50px 2px 0 -34px;
 div#interior-links-wrapper{
 	background: #AEE0FA;
 	background: rgba(174,224,250,1);
-	width: 180px;	
+	width: 180px;
+	text-align: right;	
 	}
 	
 /* IE 7 Win Hack */ html>body div#interior-links-wrapper ul.interiorlinks  ul li {*margin-left:0px;}
@@ -60,11 +63,11 @@ div#interior-links-wrapper ul.interiorlinks  {
 
 div#interior-links-wrapper ul.interiorlinks  ul li {
 font-size:12px;
-border-top:1px solid white;
+/*border-top:1px solid white;*/
 margin:0 0 0 -75px;}
 
 div#interior-links-wrapper ul.interiorlinks  ul li a {
-color:#666;}
+color:#555;}
 
 div#interior-links-wrapper ul.interiorlinks li a{
 color:black;
@@ -74,12 +77,18 @@ color:black;
 
 
 div#interior-links-wrapper ul.interiorlinks li  {
-font-size:16px;
+font-size:14px;
 line-height:18px;
 background:none;
 color:#333;
 font-weight:bold;
 margin: 0px 0px 0px -35px;
+padding-right: 0;
+}
+
+div#interior-links-wrapper ul.interiorlinks>li{
+	border-bottom: 1px solid #96c1d7;
+	
 }
 
 div#interior-links-wrapper ul.interiorlinks li ul {
@@ -138,7 +147,7 @@ h4 {font-size:12px;}
 h5 {font-size:10px;}
 h6 {font-size:10px;}*/
 /*IE STYLE*/
-html>body div#interior-links-wrapper  { *background-color:#aee0fa;}
+html>body div#interior-links-wrapper  { background-color:#aee0fa;}
 div#cloudfooter {background-image:url(http://imu.uiowa.edu/themes/imu4/images/cloud_footer.png);
 	background-repeat:repeat-x;
 	height:253px;
@@ -157,9 +166,8 @@ div#cloudfooter {background-image:url(http://imu.uiowa.edu/themes/imu4/images/cl
 }
 .staff-member {
 	padding: 10px 0;
-	border-top: 1px white solid;
-	border-bottom: 1px white solid;
-	
+	border-top: 1px #96C1D7 solid;
+	border-bottom: 1px #96C1D7 solid;
 
 }
 

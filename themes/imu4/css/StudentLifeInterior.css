@@ -2,7 +2,9 @@
 #content1 .feature {width:710px; min-height:200px;
 	margin:40px 0 0 20px; overflow:auto;
 	
-	background-color: rgba(255, 255, 255, .5);}
+	background-color: rgba(255, 255, 255, .5);
+	border: 1px solid #96C1D7;
+	}
 #content1 .feature img {width:350px; 
 /*#fbe391;*/
 margin:20px 20px 20px 15px;
@@ -90,7 +92,7 @@ h1#manage {display:block;
 #content1 img.professional {border: 7px solid black;}
 h3.professional {color:black;font-size:1.1em;}
 
-blockquote {background:none;background-color:#fbe391; border:1px solid white;
+blockquote {background:none;background-color:#fbe391; border:1px solid #96C1D7;
 }
 blockquote a {color:black;}
 blockquote ul li {
@@ -108,7 +110,7 @@ blockquote address {margin:0 0 5px 20px;}
 	margin-bottom:10px;
 	line-height:1em;}
 h2.contacts {margin-top:90px; text-align:center;}
-blockquote.house {width:450px; border:1px solid white; float:left; margin:10px 0px 20px 0px;}
+blockquote.house {width:450px; border:1px solid #96C1D7; float:left; margin:10px 0px 20px 0px;}
 #content1 
 	{width:730px;
 	float:left;
@@ -181,7 +183,7 @@ h6 {font-size:1.3em; font-weight: lighter;}
 }
 
 #content-container{
-	background: url(http://imu.uiowa.edu/themes/imu4/images/zigstile2.png) repeat;
+	/*background: url(http://imu.uiowa.edu/themes/imu4/images/zigstile2.png) repeat;*/
 }
 
 /*button styles*/

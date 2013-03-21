@@ -47,7 +47,7 @@
 		
 	
 	
-		<div id="disability-statement" style="margin-left: 55px;"><p>Individuals with disabilities are encouraged to attend all University of Iowa sponsored events. If you are a person with a disability who requires a reasonable accommodation in order to participate in this program, please contact the Center for Student Leadership and Involvement in advance at 319-335-3059. </p></div>
+		<div id="disability-statement"><p>Individuals with disabilities are encouraged to attend all University of Iowa sponsored events. If you are a person with a disability who requires a reasonable accommodation in order to participate in this program, please contact the Center for Student Leadership and Involvement in advance at 319-335-3059. </p></div>
 	
 	
 
@@ -59,4 +59,3 @@
 
   <div class="clear"></div>  
   </div>
-</div>

@@ -46,10 +46,7 @@
 			</div>
 			<% end_control %>
 	<% end_if %>
-			<div class="
-			
-			
-			clear"></div>
+			<div class="clear"></div>
 			$Content2
 			
 		<% if StudentLifeStaffMembers %>
@@ -70,7 +67,7 @@
 		
 		</div>
 		
-		<% end_if %>
+		<% end_if %><%-- end if StudentLifeStaffMembers --%>
 			
 	</div>
 		<!--end content2 -->

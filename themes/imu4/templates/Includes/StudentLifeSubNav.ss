@@ -3,19 +3,19 @@
 <ul class= "interiorlinks">
 	<% control Menu(2) %>
 	<% if LinkOrCurrent = link %>
-	<li><a class="$RedirectionType" href="<% if ExternalLink %> $ExternalLink <% else %> $Link <% end_if %>" title="Go to the $Title.XML page">$MenuTitle</a>
+	<li class="$LinkOrSection"> <a class="$RedirectionType" href="<% if ExternalLink %> $ExternalLink <% else %> $Link <% end_if %>" title="Go to the $Title.XML page">$MenuTitle</a>
 		<% else %>
-	<li>$MenuTitle</li>
+	<li class="section" class="$LinkOrSection">$MenuTitle</li>
 	<% end_if %>
 	<% if Children %>
 	<% if LinkOrSection = section %>
 	<ul>
 		<% control Children %>
 		<% if LinkOrSection = link %>
-		<li><a class="$RedirectionType" href="<% if ExternalLink %> $ExternalLink <% else %> $Link <% end_if %>" title="Go to the $Title.XML page">$MenuTitle</a>
+		<li class="$LinkOrSection"><a class="$RedirectionType" href="<% if ExternalLink %> $ExternalLink <% else %> $Link <% end_if %>" title="Go to the $Title.XML page">$MenuTitle</a>
 		</li>
 		<% else %>
-		<li><a class="$RedirectionType" href="<% if ExternalLink %> $ExternalLink <% else %> $Link <% end_if %>" title="Go to the $Title.XML page">$MenuTitle</a></li>
+		<li class="$LinkOrSection"><a class="$RedirectionType" href="<% if ExternalLink %> $ExternalLink <% else %> $Link <% end_if %>" title="Go to the $Title.XML page">$MenuTitle</a></li>
 			<% if Children %>
 			<ul>
 				<% control Children %>

@@ -1,7 +1,7 @@
 h1, h2, h3, h4, h5, h6 p, ul, li {
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:'Lato', Arial, Helvetica, sans-serif;
 	color:black;
-}
+	}
 /*h3 {
 	font-size:1.2em;
 	width:480px;
@@ -24,13 +24,13 @@ body p {
 }
 
 #content1 h2.blog {
-	font-family: 'Cabin', arial, serif;
+	font-family: 'Lato', arial, serif;
 	font-size:4.5em;
 	font-weight:normal;
 	text-transform:lowercase;
 }
 #content1 h2.subhead {
-	font-family: 'Cabin', arial, serif;
+	font-family: 'Lato', arial, serif;
 	font-size:2.3em;
 	margin-bottom:10px;
 }
@@ -122,7 +122,7 @@ h3#connect {
 blockquote.org-callout p {
 	width:218px;
 	float:left;
-	font-family: 'Cabin', arial, san-serif;
+	font-family: 'Lato', arial, san-serif;
 font-size: 1.3em;
 line-height: 120%;
 padding-top: 20px;

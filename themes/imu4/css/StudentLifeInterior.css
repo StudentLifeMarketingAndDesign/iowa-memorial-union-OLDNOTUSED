@@ -1,4 +1,4 @@
-#content2 .profiles h2 {font-size:1.8em; font-weight:bold; font-family: 'Sue Ellen Francisco', arial, serif;}
+#content2 .profiles h2 {font-size:1.8em; font-weight:bold; font-family: 'Lato', arial, serif;}
 #content1 .feature {width:710px; min-height:200px;
 	margin:40px 0 0 20px; overflow:auto;
 	
@@ -103,7 +103,7 @@ blockquote ul li a {text-decoration:none;
 	color:black;}
 blockquote address {margin:0 0 5px 20px;}
 #content1 blockquote h2 {
-	font-family: 'Cabin', arial, serif; 
+	font-family: 'Lato', arial, serif; 
 	color:black;
 	font-size:2.6em;
 	margin-top:5px;
@@ -123,7 +123,7 @@ blockquote.house {width:450px; border:1px solid #96C1D7; float:left; margin:10px
 #content2 img {border:7px solid #fbe391;width:230px;}
 
 
-h1 {font-family: Arial, Helvetica, sans-serif;
+h1 {font-family: 'Lato', Arial, Helvetica, sans-serif;
 	font-size:2em;
 	margin:15px 0 0 0;
 	font-weight:bold;
@@ -132,17 +132,17 @@ h1 {font-family: Arial, Helvetica, sans-serif;
 	text-align:center;
 	font-size:2.9em;
 	}
-h2 {font-family: 'Cabin', arial, serif;
+h2 {font-family: 'Lato', arial, serif;
 	font-size:1.7em;
 	margin:15px 0 0 20px;
 	}
 h3 {color:#d13c01;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:'Lato',Arial, Helvetica, sans-serif;
 	font-size:1.4em;}
 	
 h3 a {
 	color:#d13c01;
-	font-family:Arial, Helvetica, sans-serif;}
+	font-family: 'Lato', Arial, Helvetica, sans-serif;}
 h4 {font-size:1.4em;}
 h5 {font-size:1.3em;}
 h6 {font-size:1.3em; font-weight: lighter;}

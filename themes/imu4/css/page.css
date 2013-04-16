@@ -216,7 +216,7 @@ text-transform: lowercase;
 #nav li:hover ul {
 	left: auto;
 	margin-left: 15px;
-	top: 70px;
+	top: 60px;
 }
 
 #nav li ul li a {

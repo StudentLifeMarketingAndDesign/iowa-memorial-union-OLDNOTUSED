@@ -153,7 +153,7 @@ $(document).ready(function() {
 		<div id="events-home">
 			<h2><a href="http://afterclass.uiowa.edu/">After Class <span class="tint">:: Upcoming Events at the IMU</span></a></h2>
 			
-			<% cached %>
+		
         	<% control RSSEvents(3,http://afterclass.uiowa.edu/events/categoriesrss/iowa_memorial_union) %>
         	
 				<div class="event">
@@ -161,18 +161,18 @@ $(document).ready(function() {
 					<div class="info">
 						<h3><a href="$Link">$Title</a></h3>
 						<% if Dates %><h4>$Dates</h4><% end_if %>
-						<p class="description">$Description.Summary(25) [<a href="$Link">more</a>]</p>
+						<p class="description">$Description.FirstSentence[<a href="$Link">more</a>]</p>
 					</div>
 				</div>
 		
 			
 			<% end_control %>
-			<% end_cached %>
+		
 			<p><a href="http://afterclass.uiowa.edu" target="_blank">See more events at After Class &raquo;</a></p>
 		</div>
 		
 		<div id="blog-home">
-			<h2><a href="/news">Under the Dome <span class="tint">:: UI Student Blog</span></a></h2>
+			<h2><a href="/news">After Class <span class="tint">:: Student News and Features</span></a></h2>
 			
 			<% cached %>
 			<% control RSSItems(5, http://afterclass.uiowa.edu/blog/feed/) %>

@@ -28,7 +28,7 @@ function getCMSFields() {
 	
    }}
 
-class StudentLifeHomePage_Controller extends Page_Controller {
+class StudentLifeHomePage_Controller extends RssBlogPostsPage_Controller {
 
 function init() {
 		parent::init();

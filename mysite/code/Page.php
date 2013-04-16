@@ -361,7 +361,8 @@ class Page_Controller extends ContentController {
 
 	}
 	
-	function RSSEvents($numItems = 30, $feedURL="http://hulk.imu.uiowa.edu/afterclass_dev/events/newrss/") {
+	/*
+function RSSEvents($numItems = 30, $feedURL="http://hulk.imu.uiowa.edu/afterclass_dev/events/newrss/") {
 			// echo "1";return new DataObjectSet();
 			
 			$output = new DataObjectSet();
@@ -430,6 +431,7 @@ class Page_Controller extends ContentController {
 			 return $output;
 		  } 
 		}//end function RSSEvents()
+*/
 	
 	function EditURL() {
 		return "/admin/show/".$this->ID."/";

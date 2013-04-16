@@ -40,7 +40,7 @@ a {outline:none;}
 }
 
 .blog_entry {
-	width: 440px;
+	width: 420px;
 	margin:0 0 20px 0;
 }
 
@@ -372,8 +372,8 @@ img.twtr-profile-img {border:0 none;
 /*end twitter styles*/
 
 #content-header{background-image:url(http://imu.uiowa.edu/themes/imu4/images/slilogo.png);
+	background-size: contain;
 	display:block;
-	width:795px;
 	height:394px;
 	background-repeat:no-repeat;
 	background-position:0px -9px;
@@ -393,7 +393,7 @@ margin:-40px 2px 0 -10px;	}
 
 
 #content1 {
-	margin: -50px 20px -10px 20px;
+	margin: 0px 20px -10px 20px;
 }
 #disability-statement {
 	margin:10px;
@@ -416,7 +416,7 @@ html>body #twitter {
 *background-color:#ffffff;
 }
 
-div.cooliris {float:right; margin-top:50px; margin-right:85px;}
+div.cooliris {float:right; margin-top:50px; margin-right:40px;}
 
 .ads{
 	display: none;

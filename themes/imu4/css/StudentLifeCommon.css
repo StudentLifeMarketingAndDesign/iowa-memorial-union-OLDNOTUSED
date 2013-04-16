@@ -26,8 +26,8 @@ div#bodywrap {	background-color: #aee0fa;
 	background: rgba(174,224,250,1);
 	}
 #content-inner {
-	width: 757px;
-	/*float: right;*/
+	width: 730px;
+	float: left;
 	background-color: #aee0fa;
 	background: rgba(174,224,250,.9);
 	min-height: 600px;

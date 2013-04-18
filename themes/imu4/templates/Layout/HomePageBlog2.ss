@@ -134,7 +134,7 @@ $(document).ready(function() {
 		</div>
 		<ul id="main-feature-nav">
 			<% control GetHomeFeatures %>
-			<li class="$LinkingMode $FirstLast published-{$Published}"><a href="$LinkURL" class="goto{$Pos}">$Title<br/><% if Tagline %><span class="sub">$Tagline</span><% end_if %></a></li>
+			<li class="$LinkingMode $FirstLast published-{$Published}"><a href="$LinkURL">$Title<br/><% if Tagline %><span class="sub">$Tagline</span><% end_if %></a></li>
 			<% end_control %>
 		</ul>
 		<div class="clear"></div>

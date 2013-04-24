@@ -55,7 +55,6 @@ div#description-column h3 {
 	border:none;
 	background-color:transparent;}
 	
-	/*some new shizz */
 
 div#interior-links-wrapper a, div#interior-links-wrapper h3 a {
 	color:white;}
@@ -66,8 +65,9 @@ div#interior-links-wrapper {
 	background-color:transparent;
 	display:none;}
 	
-/*Begin COMMENTING OUT NAVIGATION*/
-	
+div#events-column{
+	font-size: 2em;
+}
 	
 div#content1 ul.nav li {display:inline;
 		list-style-type:none;
@@ -76,112 +76,28 @@ div#content1 ul.nav li {display:inline;
 div#content1 ul.nav {margin-top:-10px;
 					margin-left:-60px; width:980px;
 					}
+div#content1 h1 {
+	color: white;
+}
+ul.nav li {
+	display:block; 
+	float:left;
+	border-right: 2px solid #222;
+	
+}
 
-ul.nav li a.home {background:url(../images/interiorlinks.png); 
-				repeat:none; 
-				display:block;
-				height:26px; 
-				text-indent:-9999px;
-				background-position:0px -8px;
-				width:75px; 
-				float:left;}
-ul.nav li a.athletics {background:url(../images/interiorlinks.png); 
-				repeat:none;
-				display:block;
-				height:26px; 
-				text-indent:-9999px;
-				background-position:-82px -8px;
-				width:180px; 
-				float:left;}
-ul.nav li a.football {background:url(../images/interiorlinks.png); 
-				repeat:none;
-				display:block;
-				height:26px; 
-				text-indent:-9999px;
-				background-position:-271px -8px;
-					width:118px; 
-					float:left;}
-ul.nav li a.travel {background:url(../images/interiorlinks.png); 
-				repeat:none;
-				display:block;
-				height:26px; 
-				text-indent:-9999px;
-				background-position:-397px -8px;
-					width:100px; 
-					float:left;}
-ul.nav li a.faq {background:url(../images/interiorlinks.png); 
-				repeat:none; 
-				background-position:-505px -8px;
-				display:block;
-				height:26px; 
-				text-indent:-9999px;
-					width:83px; float:left;}
-ul.nav li a.events {background:url(../images/interiorlinks.png); 
-				repeat:none; 
-				background-position:-593px -8px;
-				display:block;
-				height:26px; 
-				text-indent:-9999px;
-				width:102px; 
-				float:left;
-				
-			
-				
-			}
-			
+ul.nav li.last {
+	border-right: none;
+}
 
+ul.nav li a {
+	color: #222;
+	font-size: 1.3em;
+	padding: 1em;
+	text-decoration: none;
+	font-weight: bold;
 
-
-ul.nav li a.home:hover {background:url(../images/interiorlinks.png); 
-				repeat:none; 
-				display:block;
-				height:26px; 
-				text-indent:-9999px;
-				background-position:0px -49px;
-				width:75px; 
-				float:left;}
-ul.nav li a.athletics:hover {background:url(../images/interiorlinks.png); 
-				repeat:none;
-				display:block;
-				height:26px; 
-				text-indent:-9999px;
-				background-position:-82px -49px;
-				width:180px; 
-				float:left;}
-ul.nav li a.football:hover {background:url(../images/interiorlinks.png); 
-				repeat:none;
-				display:block;
-				height:26px; 
-				text-indent:-9999px;
-				background-position:-271px -49px;
-					width:118px; 
-					float:left;}
-ul.nav li a.travel:hover {background:url(../images/interiorlinks.png); 
-				repeat:none;
-				display:block;
-				height:26px; 
-				text-indent:-9999px;
-				background-position:-397px -49px;
-					width:100px; 
-					float:left;}
-ul.nav li a.faq:hover {background:url(../images/interiorlinks.png); 
-				repeat:none; 
-				background-position:-505px -49px;
-				display:block;
-				height:26px; 
-				text-indent:-9999px;
-					width:83px; float:left;}
-ul.nav li a.events:hover {background:url(../images/interiorlinks.png); 
-				repeat:none; 
-				background-position:-593px -49px;
-				display:block;
-				height:26px; 
-				text-indent:-9999px;
-				width:102px; 
-				float:left;
-				
-				
-				}
+}
 
 	
 	
@@ -222,12 +138,13 @@ div#description-column p{
 	margin:7px 0 0 5px;}
 div#events-column {
 	color:white;
-	font-size:95%;
-	width:420px;
+	font-size: 1.8em;
+	/*width:420px; */
+	width: 500px;
 	min-height:450px;
 	float:left;
 	margin:45px 0px 0 25px;
-	padding-right:10px;}
+/*	padding-right:10px;*/}
 div#events-column a {
 	color:white;}
 div#events-column ul {margin:5px 0 -2px 0}
@@ -259,8 +176,8 @@ div#events-column h3 {
 	margin:0px 0 0px 0;
 	color:#ffcc66;}
 div#events-column ul li {
-	list-style: none;
-	margin:10px 0 5px 0;}	
+	list-style: square;
+	margin: 1em 0;}	
 div#events-column p {
 	margin:5px 0 5px 0;}		
 div#events-column h2 {
@@ -329,6 +246,7 @@ div#contacts-column p {
 	width:600px;
 	min-height:530px;
 	float:left;
+	font-size: 1.3em;
 	margin:50px 0 0 40px;}
 /*#interior-page p img.dm {padding:10px; float:left;}*/
 #interior-page h1
@@ -338,7 +256,7 @@ div#contacts-column p {
 	{color:#FEE0A4;
 	font-weight:normal;}
 #interior-page h3, #interior-page p, #interior-page a 
-	{color:white;
+	{color:#FC6; text-decoration: none;
 	}
 #interior-page h3, #interior-page h3 a {
 	font-weight:normal; color:#ffcc66; }

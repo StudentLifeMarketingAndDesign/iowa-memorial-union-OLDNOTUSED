@@ -11,7 +11,7 @@
 		<li> <a class="travel" href="/travel/"> Travel</a></li>
 		<li> <a class="faq" href="/frequently-asked-questions/"> FAQ </a></li>
 		<li> <a class="events" href="/event-details/"> Events </a></li>
-		<li> <a class="nodisplay" href=""> </a></li>
+		<li class="last"> <a class="events" href="/photos/"> Photos </a></li>
 	</ul>
   
   <span class="content1"> 
@@ -47,14 +47,14 @@ $EventsColumn
 
 
 
-<div id="description-column">
+<!--<div id="description-column">
 
-<!--<h2 id="paragraph">Family Weekend</h2>
+<h2 id="paragraph">Family Weekend</h2>
 <h2 id="registration"><a href="http://www.signmeup.com/67378">Register Now</a></h2>
-<p>If you have already registered for Family Weekend, but would like to purchase additional event tickets or t-shirts, have your original confirmation number in-hand and <a href="http://www.signmeup.com/67380" target="_blank">click here </a> to place your order.</p>-->
+<p>If you have already registered for Family Weekend, but would like to purchase additional event tickets or t-shirts, have your original confirmation number in-hand and <a href="http://www.signmeup.com/67380" target="_blank">click here </a> to place your order.</p>
 $DescriptionColumn
 
-</div>
+</div>-->
 
 <div id="sponsor-column">
 $SponsorColumn

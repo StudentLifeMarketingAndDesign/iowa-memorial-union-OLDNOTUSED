@@ -153,9 +153,9 @@ $(document).ready(function() {
 		<div id="events-home">
 			<h2><a href="http://afterclass.uiowa.edu/">After Class <span class="tint">:: Upcoming Events at the IMU</span></a></h2>
 			
-		
+			
         	<% control RSSEvents(3,http://afterclass.uiowa.edu/events/categoriesrss/iowa_memorial_union) %>
-        	
+        		<% if Title %>
 				<div class="event">
 					<% if Smallimage %><a href="$Link"><img src="$Smallimage" /></a><% end_if %>
 					<div class="info">
@@ -164,6 +164,7 @@ $(document).ready(function() {
 						<p class="description">$Description.FirstSentence[<a href="$Link">more</a>]</p>
 					</div>
 				</div>
+				<% end_if %>
 		
 			
 			<% end_control %>

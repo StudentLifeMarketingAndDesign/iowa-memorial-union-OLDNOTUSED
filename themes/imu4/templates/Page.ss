@@ -1,5 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"><head>
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+<head>
 <% base_tag %>
 
 <title>
@@ -25,6 +27,8 @@ $MetaTags(False)
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
 <script type="text/javascript" src="$ThemeDir/javascript/jquery-ui-1.8.6.custom.min.js"></script>
 <script type="text/javascript" src="$ThemeDir/javascript/topup/javascripts/top_up-min.js"></script>
+<script type="text/javascript" src="division-bar/js/division-bar.js"></script>
+
 <script type="text/javascript">
 TopUp.images_path = "$ThemeDir/javascript/topup/images/top_up/";
 TopUp.players_path = "$ThemeDir/javascript/topup/players/";
@@ -53,7 +57,7 @@ $(document).ready(function leaveFrame() {
 
 <body>
 <!-- alert -->
-<% include DivisionBarNonResponsive %>
+<% include DivisionBar %>
 
 
 

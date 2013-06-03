@@ -1,3 +1,4 @@
+<span class="family-weekend-year">2013</span>
 <div id="content-container">
 
 <span class="main-feature-tabs2">   </span>
@@ -33,9 +34,6 @@
 
   <% else %>
   
-  <div id="contacts-column">
-$ContactsColumn
-</div>
 
 <div id="events-column">
 $EventsColumn

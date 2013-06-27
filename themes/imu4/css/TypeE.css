@@ -52,3 +52,9 @@ padding: 0 15px 10px 0;
 border-bottom:8px solid #666666;
 
 }
+
+#col1, #col2{
+	width: 40%;
+	padding:5%;
+	float:left;
+}

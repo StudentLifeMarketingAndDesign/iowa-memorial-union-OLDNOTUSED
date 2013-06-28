@@ -30,9 +30,21 @@
 					        
 					            <div id="slider" class="nivoSlider">
 					               
+					              <% if ContentImage %>
+					              <a href=""><img src="$ContentImage.URL" alt="$ContentImageCaption" title="$ContentImageCaption" /></a>
+					              <% end_if %>
 					               
-					              <a href=""><img src="assets/Uploads/Memorials.jpg" alt="Lorem Ipsum Dolor Sit Amet" /></a>
+					              <% if ContentImage2 %>
+					              <a href=""><img src="$ContentImage2.URL" alt="$ContentImageCaption2" title="$ContentImageCaption2" /></a>
+					              <% end_if %>
 					               
+					              <% if ContentImage3 %>
+					              <a href=""><img src="$ContentImage3.URL" alt="$ContentImageCaption3" title="$ContentImageCaption3" /></a>
+					              <% end_if %>
+					               
+					              <% if ContentImage4 %>
+					              <a href=""><img src="$ContentImage4.URL" alt="$ContentImageCaption4" title="$ContentImageCaption4" /></a>
+					              <% end_if %>
 					              
 					              
 					            </div>

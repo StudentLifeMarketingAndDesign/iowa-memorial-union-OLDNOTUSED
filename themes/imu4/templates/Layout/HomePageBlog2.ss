@@ -154,7 +154,7 @@ $(document).ready(function() {
 			<h2><a href="http://afterclass.uiowa.edu/">After Class <span class="tint">:: Upcoming Events at the IMU</span></a></h2>
 			
 			
-        	<% control RSSEvents(3,http://afterclass.uiowa.edu/events/categoriesrss/iowa_memorial_union) %>
+        	<% control RSSEvents(3,http://afterclass.uiowa.edu/events/categoriesrss/Iowa Memorial Union) %>
         		<% if Title %>
 				<div class="event">
 					<% if Smallimage %><a href="$Link"><img src="$Smallimage" /></a><% end_if %>
@@ -219,11 +219,11 @@ $(document).ready(function() {
 			<h3>Social Media</h3>
 			<div class="sidebar-content">
 				<div class="facebook-embed">
-					<iframe src="http://www.facebook.com/plugins/like.php?app_id=130657357028805&amp;href=facebook.com%2Fuiowa.imu&amp;send=false&amp;layout=standard&amp;width=272&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:272px; height:80px;" allowTransparency="true"></iframe>
+					<iframe src="http://www.facebook.com/plugins/like.php?app_id=130657357028805&amp;href=facebook.com%2Fuistudentlife&amp;send=false&amp;layout=standard&amp;width=272&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:272px; height:80px;" allowTransparency="true"></iframe>
 				</div>
 				<ul class="badges">
 					<li id="social-twitter"><a href="http://twitter.com/imubuddy">Twitter</a></li>
-					<li id="social-facebook"><a href="http://facebook.com/uiowa.imu">Facebook</a></li>
+					<li id="social-facebook"><a href="http://facebook.com/uistudentlife">Facebook</a></li>
 					<li id="social-youtube"><a href="http://youtube.com/imubuddy">YouTube</a></li>
 					<li id="social-flickr"><a href="http://flickr.com/imubuddy">Flickr</a></li>
 					<li id="social-rss"><a href="#">RSS</a></li>

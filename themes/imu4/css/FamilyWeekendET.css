@@ -200,7 +200,7 @@ div#events-column {
 	color: #000;
 	font-size: 1.8em;
 	/*width:420px; */
-	width: 500px;
+	/*width: 500px;*/
 	min-height:450px;
 	float:left;
 	margin:45px 0px 0 25px;

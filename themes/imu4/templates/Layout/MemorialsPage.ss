@@ -45,6 +45,10 @@
 					              <% if ContentImage4 %>
 					              <a href=""><img src="$ContentImage4.URL" alt="$ContentImageCaption4" title="$ContentImageCaption4" /></a>
 					              <% end_if %>
+					               
+					              <% if ContentImage5 %>
+					              <a href=""><img src="$ContentImage5.URL" alt="$ContentImageCaption5" title="$ContentImageCaption5" /></a>
+					              <% end_if %>
 					              
 					              
 					            </div>
@@ -57,14 +61,17 @@
     	<h2>Honor Role</h2>
     		$HonorRole
     		<br />
-    	<h2>Memorials</h2>
-    		$Memorials
     	</div>
     	
   		<div id="col2">
+  		<iframe align="center" src="http://www.flickr.com/slideShow/index.gne?group_id=&user_id=&set_id=72157634450600924&text=" frameBorder="0" width="324" height="324" scrolling="no"></iframe><br/>
+  		<!--
   		<h2>Share Your Story</h2>
    			$ShareYourStory
+   			-->
     	</div>
+    	<h2>Memorials</h2>
+    		$Memorials
     	
     	
     	

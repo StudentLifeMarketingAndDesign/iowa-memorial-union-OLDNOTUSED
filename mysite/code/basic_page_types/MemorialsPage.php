@@ -10,7 +10,8 @@ class MemorialsPage extends TypeE {
    	'ShareYourStory' => 'HTMLText',
    	'ContentImageCaption2' => 'Text',
    	'ContentImageCaption3' => 'Text',
-   	'ContentImageCaption4' => 'Text'
+   	'ContentImageCaption4' => 'Text',
+   	'ContentImageCaption5' => 'Text'
    );
    
    
@@ -18,7 +19,8 @@ class MemorialsPage extends TypeE {
    static $has_one = array(
    	'ContentImage2' => 'Image',
    	'ContentImage3' => 'Image',
-   	'ContentImage4' => 'Image'
+   	'ContentImage4' => 'Image',
+   	'ContentImage5' => 'Image'
  
    );
 
@@ -36,6 +38,8 @@ function getCMSFields() {
 	$fields->addFieldToTab('Root.Content.Images', new TextField('ContentImageCaption3', 'Caption 3'));
 	$fields->addFieldToTab('Root.Content.Images', new ImageField('ContentImage4', 'Content Image ( 735x331 pixels )'));
 	$fields->addFieldToTab('Root.Content.Images', new TextField('ContentImageCaption4', 'Caption 4'));
+	$fields->addFieldToTab('Root.Content.Images', new ImageField('ContentImage5', 'Content Image ( 735x331 pixels )'));
+	$fields->addFieldToTab('Root.Content.Images', new TextField('ContentImageCaption5', 'Caption 5'));
 	
 	return $fields;
    }}

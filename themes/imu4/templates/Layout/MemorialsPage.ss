@@ -58,8 +58,8 @@
     $Content1
     
     	<div id="col1">
-    	<h2>Honor Role</h2>
-    		$HonorRole
+    	<h2>Honor Roll</h2>
+    		$HonorRoll
     		<br />
     	</div>
     	

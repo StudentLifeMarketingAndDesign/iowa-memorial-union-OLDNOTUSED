@@ -5,7 +5,7 @@
 class MemorialsPage extends TypeE {
 
    static $db = array(
-   	'HonorRole' => 'HTMLText',
+   	'HonorRoll' => 'HTMLText',
    	'Memorials' => 'HTMLText',
    	'ShareYourStory' => 'HTMLText',
    	'ContentImageCaption2' => 'Text',
@@ -27,7 +27,7 @@ class MemorialsPage extends TypeE {
 
 function getCMSFields() {
 	$fields = parent::getCMSFields();
-	$fields->addFieldToTab('Root.Content.Main', new HTMLEditorField( 'HonorRole', 'Honor Role' ) );
+	$fields->addFieldToTab('Root.Content.Main', new HTMLEditorField( 'HonorRoll', 'Honor Roll' ) );
 	$fields->addFieldToTab('Root.Content.Main', new HTMLEditorField( 'Memorials', 'Memorials' ) );
 	$fields->addFieldToTab('Root.Content.Main', new HTMLEditorField( 'ShareYourStory', 'Share Your Story' ) );
 	

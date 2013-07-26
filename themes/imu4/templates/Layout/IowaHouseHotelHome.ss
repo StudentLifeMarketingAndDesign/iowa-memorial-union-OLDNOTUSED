@@ -31,7 +31,7 @@
      
         <hr class="rightside" />
           <p><strong>Reservations &amp; Availability</strong></p>
-<p><a class = "rButton" href="reservations/">Make Online Registrations</a></p>
+<p><a class = "rButton" href="reservations/">Make Online Reservations</a></p>
 <p>or</p>
 <p><strong>call</strong>&nbsp;<strong>319-335-3513</strong></p>
 <p>or write</p>

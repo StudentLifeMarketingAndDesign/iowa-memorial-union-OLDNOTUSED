@@ -118,7 +118,7 @@ width: 970px;
 	margin-left: 40px;
 }
 
-.content_box2 p a{
+.rButton{
 	display: block;
 	background-color: black; 
 	border-radius: 10px; 
@@ -127,7 +127,7 @@ width: 970px;
 	text-decoration: none; 
 	padding: 10px 0px 10px 0px; 
 }
-.content_box2 p a:hover{
+.rButton:hover{
 	display: block;
 	background-color: black; 
 	border-radius: 10px; 

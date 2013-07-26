@@ -154,7 +154,21 @@ $(document).ready(function() {
 			<h2><a href="http://afterclass.uiowa.edu/">After Class <span class="tint">:: Upcoming Events at the IMU</span></a></h2>
 			
 			
-        	<% control RSSEvents(3,http://afterclass.uiowa.edu/events/categoriesrss/Iowa Memorial Union) %>
+        	<% control RSSEvents(3,http://afterclass.uiowa.edu/events/categoriesrss/Iowa%20Memorial%20Union) %>
+        		<% if Title %>
+				<div class="event">
+					<% if Smallimage %><a href="$Link"><img src="$Smallimage" /></a><% end_if %>
+					<div class="info">
+						<h3><a href="$Link">$Title</a></h3>
+						<% if Dates %><h4>$Dates</h4><% end_if %>
+						<p class="description">$Description.FirstSentence[<a href="$Link">more</a>]</p>
+					</div>
+				</div>
+				<% end_if %>
+		
+			
+			<% end_control %>
+			        	<% control RSSEvents(3,http://afterclass.uiowa.edu/events/categoriesrss/Bijou%20Theatre) %>
         		<% if Title %>
 				<div class="event">
 					<% if Smallimage %><a href="$Link"><img src="$Smallimage" /></a><% end_if %>

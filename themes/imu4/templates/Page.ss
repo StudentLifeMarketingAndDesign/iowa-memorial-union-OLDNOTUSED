@@ -66,7 +66,7 @@ $(document).ready(function leaveFrame() {
 
 <!-- Page control & $LinkingMode hide feedback if on feedback page -->
 <% control Page(feedback) %>
-<div id="feedback1" style="position: fixed; left: 0px; top: 300px; width: 100px; height: 100px;" class="feedback_$LinkingMode"><a href="http://imu.uiowa.edu/feedback-small" class="tu_iframe_450x550"><img src="/$ThemeDir/images/feedback.png" alt="Feedback"></a></div>
+<div id="feedback1" style="position: fixed; left: 0px; top: 300px; width: 100px; height: 100px;" ><a href="http://imu.uiowa.edu/feedback"><img src="/$ThemeDir/images/feedback.png" alt="Feedback"></a></div>
 <% end_control %>
 <!--NEW MOBILES STYLES
 <link rel="stylesheet" href="http://imu.uiowa.edu/themes/imu4/css/screen.css" media="screen"/> 

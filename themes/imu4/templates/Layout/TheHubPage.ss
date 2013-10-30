@@ -29,9 +29,8 @@ near <span>hub</span>bard commons and starbucks</p>
 				</div><!-- end tickets-content1 -->
 			
 				<div class="events">
-					<h3>events at the imu</h3>
-						<% cached %>
-				        	<% control RSSEvents(3,http://afterclass.uiowa.edu/events/categoriesrss/iowa_memorial_union) %>
+					<h3>events at the imu:</h3>
+							<% control RSSEvents(3,http://afterclass.uiowa.edu/events/categoriesrss/Iowa%20Memorial%20Union) %>
 				        	
 								<div class="event">
 									<h4><a href="$Link">$Title</a></h4>
@@ -45,7 +44,6 @@ near <span>hub</span>bard commons and starbucks</p>
 						
 							
 							<% end_control %>
-						<% end_cached %>
 					<p><a href="http://afterclass.uiowa.edu" target="_blank"></a></p>	
 				</div><!-- end events -->		
 				<div class="clear"></div>

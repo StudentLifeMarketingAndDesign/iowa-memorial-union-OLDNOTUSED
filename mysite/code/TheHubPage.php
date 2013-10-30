@@ -35,7 +35,7 @@ function getCMSFields() {
 	
    }}
 
-class TheHubPage_Controller extends Page_Controller {
+class TheHubPage_Controller extends RSSBlogPostsPage_Controller {
 
 function init() {
 		parent::init();

@@ -52,7 +52,14 @@ $(document).ready(function leaveFrame() {
 <link rel="image_src" href="{$BaseHref}$EventImage.URL" / > 
 <% end_if %>
 <script type="text/javascript" src="{$ThemeDir}/javascript/rooms.js"></script>
+<link rel="stylesheet" href="{$ThemeDir}/javascript/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="{$ThemeDir}/javascript/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
 
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
 </head>
 
 <body>
@@ -65,9 +72,15 @@ $(document).ready(function leaveFrame() {
 <!-- end alert -->
 
 <!-- Page control & $LinkingMode hide feedback if on feedback page -->
-<% control Page(feedback) %>
-<div id="feedback1" style="position: fixed; left: 0px; top: 300px; width: 100px; height: 100px;" ><a href="http://imu.uiowa.edu/feedback"><img src="/$ThemeDir/images/feedback.png" alt="Feedback"></a></div>
-<% end_control %>
+<!--<% control Page(feedback) %>
+<div id="feedback1" style="position: fixed; left: 0px; top: 300px; width: 100px; height: 100px;" ><a href="http://imu.uiowa.edu/feedback"><img src="$ThemeDir/images/feedback.png" alt="Feedback"></a></div>
+<% end_control %> -->
+
+<div id="reconstruction-button">
+	<div id="reconstruction-container">
+	<p><a href="http://imu.uiowa.edu/reconstruction">IMU Construction Updates</a><a class="fancybox" href="http://imu.uiowa.edu/assets/RenovationPage/map1.png">Construction Entrance Maps</a><a href="maps/">General Building Maps</a><a href="feedback/">Give Us Feedback</a></p>
+	</div>
+</div>
 <!--NEW MOBILES STYLES
 <link rel="stylesheet" href="http://imu.uiowa.edu/themes/imu4/css/screen.css" media="screen"/> 
 <link rel="stylesheet" href="http://imu.uiowa.edu/themes/imu4/css/mobile.css" media="handheld,

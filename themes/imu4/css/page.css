@@ -688,3 +688,37 @@ td tr h1 {
 img.submit {
 	margin: auto;
 }
+
+#slider-wrapper.renovation .nivoSlider {
+	width: 100% !important;
+}
+
+#reconstruction-button {
+	position: fixed; 
+	left: 0px; 
+	bottom: 0px; 
+	width: 100%; 
+	background-color: #FDD346; 
+	border-top: 1px solid #d9b62c;
+}
+
+#reconstruction-container {
+	width: 965px;
+	margin: auto;
+}
+
+#reconstruction-button p{
+	margin: 10px 0;
+	margin-left: 10px;
+}
+
+#reconstruction-button a {
+	color: #333;
+	text-transform: lowercase;
+	text-decoration: none;
+	font-size: 1.5em;
+	border-right: 1px solid white;
+	border-bottom: 1px solid dashed #333;
+	
+	padding: 0 10px;
+}

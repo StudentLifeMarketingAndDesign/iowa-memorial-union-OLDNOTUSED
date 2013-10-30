@@ -698,7 +698,7 @@ img.submit {
 	left: 0px; 
 	bottom: 0px; 
 	width: 100%; 
-	background-color: #FDD346; 
+	background-color: rgba(253, 211, 70, 0.96);  
 	border-top: 1px solid #d9b62c;
 }
 
@@ -708,8 +708,9 @@ img.submit {
 }
 
 #reconstruction-button p{
-	margin: 10px 0;
+	margin: 5px 0;
 	margin-left: 10px;
+	font-weight: bold;
 }
 
 #reconstruction-button a {
@@ -721,4 +722,8 @@ img.submit {
 	border-bottom: 1px solid dashed #333;
 	
 	padding: 0 10px;
+}
+
+.slideshow.homepage {
+	height: 382px;
 }

@@ -124,7 +124,7 @@ $(document).ready(function() {
   })(); </script>
 
 
-<div class="slideshow">
+<div class="slideshow homepage">
 
 	<% control GetHomeFeatures %>
 <div class="main-feature slide{$Pos}" style="background: url($ObjectImage.URL);">

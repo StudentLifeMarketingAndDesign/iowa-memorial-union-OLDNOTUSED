@@ -78,7 +78,7 @@ $(document).ready(function leaveFrame() {
 
 <div id="reconstruction-button">
 	<div id="reconstruction-container">
-	<p><a href="http://imu.uiowa.edu/reconstruction">IMU Construction Updates</a><a class="fancybox" href="http://imu.uiowa.edu/assets/RenovationPage/map1.png">Construction Entrance Maps</a><a href="maps/">General Building Maps</a><a href="feedback/">Give Us Feedback</a></p>
+	<p><a href="http://imu.uiowa.edu/reconstruction">IMU Construction Updates</a><a class="fancybox" href="http://imu.uiowa.edu/assets/RenovationPage/map1.png">Construction Entrance Map</a><a href="maps/">General Building Maps</a><a href="feedback/">Give Us Feedback</a></p>
 	</div>
 </div>
 <!--NEW MOBILES STYLES

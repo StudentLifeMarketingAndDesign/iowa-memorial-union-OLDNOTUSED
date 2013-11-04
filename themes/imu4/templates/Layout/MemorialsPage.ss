@@ -23,31 +23,31 @@
     <% include Ads %>
   </div>
 
-    
-    </div>
+
+
     <div id="content1">
         <div id="slider-wrapper">
 					        
 					            <div id="slider" class="nivoSlider">
 					               
 					              <% if ContentImage %>
-					              <a href=""><img src="$ContentImage.URL" alt="$ContentImageCaption" title="$ContentImageCaption" /></a>
+					              <img src="$ContentImage.URL" alt="$ContentImageCaption" title="$ContentImageCaption" />
 					              <% end_if %>
 					               
 					              <% if ContentImage2 %>
-					              <a href=""><img src="$ContentImage2.URL" alt="$ContentImageCaption2" title="$ContentImageCaption2" /></a>
+					              <img src="$ContentImage2.URL" alt="$ContentImageCaption2" title="$ContentImageCaption2" />
 					              <% end_if %>
 					               
 					              <% if ContentImage3 %>
-					              <a href=""><img src="$ContentImage3.URL" alt="$ContentImageCaption3" title="$ContentImageCaption3" /></a>
+					              <img src="$ContentImage3.URL" alt="$ContentImageCaption3" title="$ContentImageCaption3" />
 					              <% end_if %>
 					               
 					              <% if ContentImage4 %>
-					              <a href=""><img src="$ContentImage4.URL" alt="$ContentImageCaption4" title="$ContentImageCaption4" /></a>
+					              <img src="$ContentImage4.URL" alt="$ContentImageCaption4" title="$ContentImageCaption4" />
 					              <% end_if %>
 					               
 					              <% if ContentImage5 %>
-					              <a href=""><img src="$ContentImage5.URL" alt="$ContentImageCaption5" title="$ContentImageCaption5" /></a>
+					              <img src="$ContentImage5.URL" alt="$ContentImageCaption5" title="$ContentImageCaption5" />
 					              <% end_if %>
 					              
 					              
@@ -61,7 +61,8 @@
     	<h2>Honor Roll</h2>
     		$HonorRoll
     		<br />
-    	</div>
+    </div>
+   
     	
   		<div id="col2">
   		<iframe align="center" src="http://www.flickr.com/slideShow/index.gne?group_id=&user_id=&set_id=72157634450600924&text=" frameBorder="0" width="324" height="324" scrolling="no"></iframe><br/>

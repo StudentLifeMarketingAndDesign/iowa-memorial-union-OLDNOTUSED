@@ -20,7 +20,8 @@ class MemorialsPage extends TypeE {
    	'ContentImage2' => 'Image',
    	'ContentImage3' => 'Image',
    	'ContentImage4' => 'Image',
-   	'ContentImage5' => 'Image'
+   	'ContentImage5' => 'Image',
+   
  
    );
 
@@ -30,7 +31,6 @@ function getCMSFields() {
 	$fields->addFieldToTab('Root.Content.Main', new HTMLEditorField( 'HonorRoll', 'Honor Roll' ) );
 	$fields->addFieldToTab('Root.Content.Main', new HTMLEditorField( 'Memorials', 'Memorials' ) );
 	$fields->addFieldToTab('Root.Content.Main', new HTMLEditorField( 'ShareYourStory', 'Share Your Story' ) );
-	
 	$fields->addFieldToTab('Root.Content.Images', new TextField('ContentImageCaption', 'Caption 1'));
 	$fields->addFieldToTab('Root.Content.Images', new ImageField('ContentImage2', 'Content Image ( 735x331 pixels )'));
 	$fields->addFieldToTab('Root.Content.Images', new TextField('ContentImageCaption2', 'Caption 2'));

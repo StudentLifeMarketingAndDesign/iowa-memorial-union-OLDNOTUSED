@@ -57,21 +57,26 @@
 					        </div>
     $Content1
     
-    	<div id="col1">
     	<h2>Honor Roll</h2>
     		$HonorRoll
-    		<br />
-    </div>
+
    
     	
-  		<div id="col2">
-  		<iframe align="center" src="http://www.flickr.com/slideShow/index.gne?group_id=&user_id=&set_id=72157634450600924&text=" frameBorder="0" width="324" height="324" scrolling="no"></iframe><br/>
-  		<!--
-  		<h2>Share Your Story</h2>
-   			$ShareYourStory
-   			-->
-    	</div>
-    	<h2>Memorials</h2>
+
+    	<div class="clear"></div>  
+    	<h2>Documents</h2>
+    		<div id="col1">
+    			<a href=" assets/Iowaandwar.pdf"><img src = "assets/IowaAndwar.png" width="325" ></a>
+    			<h3>Iowa and War: The State University of Iowa and the Civil War</h3><p>by <h4>  Ellen M. Rich</h4>
+Published by the State Historical Society of Iowa, 1918</p>
+    		</div>
+    		<div id="col2">
+    			<a href=" assets/fortheiowadead001.pdf"><img src = "assets/FortheIowaDead.png" width="336"></a>
+    			<h3>For the Iowa Dead</h3><p> by</p> <h4>Paul Engle </h4> <p>
+Written for a Service of Dedication at the State University of Iowa, 25 March 1956</p>
+    		</div>
+    	<div class = "clear"></div>
+       	<h2>Memorials</h2>
     		$Memorials
     	
     	

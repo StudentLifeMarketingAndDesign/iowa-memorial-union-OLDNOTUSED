@@ -168,7 +168,7 @@ $(document).ready(function() {
 		
 			
 			<% end_control %>
-			        	<% control RSSEvents(3,http://afterclass.uiowa.edu/events/categoriesrss/Bijou%20Theatre) %>
+			   <% control RSSEvents(3,http://afterclass.uiowa.edu/events/categoriesrss/Bijou%20Theatre) %>
         		<% if Title %>
 				<div class="event">
 					<% if Smallimage %><a href="$Link"><img src="$Smallimage" /></a><% end_if %>
@@ -233,7 +233,7 @@ $(document).ready(function() {
 			<h3>Social Media</h3>
 			<div class="sidebar-content">
 				<div class="facebook-embed">
-					<iframe src="http://www.facebook.com/plugins/like.php?app_id=130657357028805&amp;href=facebook.com%2Fuistudentlife&amp;send=false&amp;layout=standard&amp;width=272&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:272px; height:80px;" allowTransparency="true"></iframe>
+				<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fuistudentlife&amp;width=275&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=false&amp;appId=127918570561161" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:275px; height:290px;" allowTransparency="true"></iframe>
 				</div>
 				<ul class="badges">
 					<li id="social-twitter"><a href="http://twitter.com/imubuddy">Twitter</a></li>

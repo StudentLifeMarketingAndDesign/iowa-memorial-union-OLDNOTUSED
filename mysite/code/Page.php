@@ -339,7 +339,8 @@ class Page_Controller extends ContentController {
 		("<!--[if IE 6]><style type='text/css'>@import url(/themes/" . SSViewer::current_theme()."/css/ie6/". $this->ClassName. "_ie6.css);</style><![endif]-->");
 		Requirements::insertHeadTags
 		("<!--[if IE 7]><style type='text/css'>@import url(/themes/" . SSViewer::current_theme()."/css/ie7/". $this->ClassName. "_ie7.css);</style><![endif]-->");	
-		
+		Requirements::block(SAPPHIRE_DIR .'/thirdparty/jquery/jquery.js'); 
+Requirements::block(SAPPHIRE_DIR .'/thirdparty/jquery/jquery-packed.js'); 
 		Requirements::themedCSS("page");
 		Requirements::themedCSS("typography");
 		Requirements::themedCSS("form");

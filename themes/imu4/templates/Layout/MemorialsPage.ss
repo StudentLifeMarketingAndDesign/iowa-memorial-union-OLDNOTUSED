@@ -66,14 +66,15 @@
     	<div class="clear"></div>  
     	<h2>Documents</h2>
     		<div id="col1">
-    			<a href=" assets/Iowaandwar.pdf"><img src = "assets/IowaAndWar.png" width="325" ></a>
+    			<a href="assets/iowaandwar.pdf"><img src = "assets/IowaAndWar.png" width="325" ></a>
     			<strong>Iowa and War: The State University of Iowa and the Civil War</strong><p>by <b>  Ellen M. Rich</b><br>
-Published by the State Historical Society of Iowa, 1918</p>
+Published by the State Historical Society of Iowa, 1918<br /><a href="assets/iowaandwar.pdf">Download the PDF</a></p>
     		</div>
     		<div id="col2">
-    			<a href=" assets/fortheiowadead001.pdf"><img src = "assets/FortheIowaDead.png" width="336"></a>
+    			<a href="assets/fortheiowadead001.pdf"><img src = "assets/FortheIowaDead.png" width="336"></a>
     			<strong>For the Iowa Dead</strong><p> by <b>Paul Engle </b> <br>
-Written for a Service of Dedication at the State University of Iowa, 25 March 1956</p>
+Written for a Service of Dedication at the State University of Iowa, 25 March 1956<br />
+<a href="assets/fortheiowadead001.pdf">Download the PDF</a></p>
     		</div>
     	<div class = "clear"></div>
        	<h2>Memorials</h2>

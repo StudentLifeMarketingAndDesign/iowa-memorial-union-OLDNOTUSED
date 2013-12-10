@@ -14,6 +14,7 @@ background: url($ContentImage.URL) no-repeat 0px 0px;
     <div id="interior-links-wrapper">
         <% include SubNavigation %>
         <% include Ads %>
+        <li><a class="ads-one" href="http://www.facebook.com/imuevents"><img src="$ThemeDir/images/Facebook_LikeUs_IES.png" /></a></li>
     </div>
     <!--<div id="ces-header">
         <h6>$Title</h6>

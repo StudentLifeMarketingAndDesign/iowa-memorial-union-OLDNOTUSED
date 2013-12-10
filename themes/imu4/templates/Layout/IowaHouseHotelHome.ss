@@ -2,6 +2,7 @@
   <div id="interior-links-wrapper">
     <% include SubNavigation %>
 <% include Ads %>
+<li><a class="ads-one" href="http://www.facebook.com/iowahousehotel"><img src="$ThemeDir/images/Facebook_LikeUs_IHH.png" /></a></li>
   </div>
 
     <div id="header-description">

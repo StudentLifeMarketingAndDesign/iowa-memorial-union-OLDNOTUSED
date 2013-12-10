@@ -4,6 +4,7 @@
   <% include SubNavigation %>
   <a href="http://imu.uiowa.edu/weddings/?utm_source=browse&utm_medium=wedding+sidebar+ad&utm_term=-&utm_content=-&utm_campaign=wedding+sidebar+ad"><img src="http://imu.uiowa.edu/assets/cav.jpg" width="152" height="200"></a>
 <% include Ads %>
+<li><a class="ads-one" href="http://www.facebook.com/iowahousehotel"><img src="$ThemeDir/images/facebook_page.png" /></a></li>
 </div>
 <div id="contenthead">
   <h6>Catering • Event Spaces • Iowa House Hotel</h6>

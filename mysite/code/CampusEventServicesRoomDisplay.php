@@ -25,10 +25,11 @@ class CampusEventServicesRoomDisplay extends TypeA {
 		'HasComputer'            => 'Boolean',
 		'HasEthernetConnection'  => 'Boolean',
 		'HasProjectorScreen'     => 'Boolean',
-		'HasDVDVCR'              => 'Boolean',
+		'HasDVD'                 => 'Boolean',
 		'HasSpeakers'            => 'Boolean',
 		'HasMarkerboard'		 => 'Boolean',
-		'HasMicrophone'			 => 'Boolean'
+		'HasMicrophone'			 => 'Boolean',
+		'HasWifi'				 => 'Boolean'
     );
 
     /* // See if this will work with SS2.4
@@ -47,6 +48,11 @@ class CampusEventServicesRoomDisplay extends TypeA {
         'SlideshowImage2' => 'Image',
         'SlideshowImage3' => 'Image',
         'SlideshowImage4' => 'Image'
+    );
+    
+    static $defaults = array (
+    	"HasWifi" => true
+    
     );
 
 
@@ -85,11 +91,11 @@ class CampusEventServicesRoomDisplay extends TypeA {
         $fields->addFieldToTab('Root.Content.Amenities', new CheckboxField('HasComputer', 'Has Computer?'));
         $fields->addFieldToTab('Root.Content.Amenities', new CheckboxField('HasEthernetConnection', 'Has Ethernet Connection?'));
         $fields->addFieldToTab('Root.Content.Amenities', new CheckboxField('HasProjectorScreen', 'Has Projector Screen?'));
-        $fields->addFieldToTab('Root.Content.Amenities', new CheckboxField('HasDVDVCR', 'Has DVD/VCR Player?'));
+        $fields->addFieldToTab('Root.Content.Amenities', new CheckboxField('HasDVD', 'Has DVD Player?'));
         $fields->addFieldToTab('Root.Content.Amenities', new CheckboxField('HasSpeakers', 'Has Speakers?'));
         $fields->addFieldToTab('Root.Content.Amenities', new CheckboxField('HasMarkerboard', 'Has Markerboard?'));
         $fields->addFieldToTab('Root.Content.Amenities', new CheckboxField('HasMicrophone', 'Has Microphone?'));
-        
+        $fields->addFieldToTab('Root.Content.Amenities', new CheckboxField('HasWifi', 'Has Wifi?'));        
         // Images
         /*$fields->addFieldToTab('Root.Content.Images', new ImageField('Thumbnail', 'Thumbnail Image'));
         $fields->addFieldToTab('Root.Content.Images', new ImageField('SlideshowImage1', 'Slideshow Image 1'));
@@ -167,7 +173,8 @@ function init() {
     	return $this->HasComputer ||
     	       $this->HasEthernetConnection ||
     	       $this->HasProjector ||
-    	       $this->HasDVDVCRScreen;
+    	       $this->HasDVD ||
+    	       $this->HasWifi;
 	}
 
 }

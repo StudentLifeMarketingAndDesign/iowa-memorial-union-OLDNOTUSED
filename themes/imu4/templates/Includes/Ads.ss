@@ -1,4 +1,4 @@
-<br/><br/><br/><ul class = "ads">
+<ul class = "ads">
 
 <% control AllChildren %>
 	<% if ClassName = AdHolder %>

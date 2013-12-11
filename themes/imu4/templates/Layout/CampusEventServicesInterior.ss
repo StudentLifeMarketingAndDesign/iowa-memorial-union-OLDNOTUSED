@@ -6,8 +6,8 @@
 <span class="main-feature-tabs2"> </span>
 <div id="interior-links-wrapper">
   <% include SubNavigation %>
+  <ul class="ads"><li><a class="ads-one" href="http://www.facebook.com/imuevents"><img src="$ThemeDir/images/Facebook_LikeUs_IES.png" /></a></li></ul>
   <% include Ads %>
-  <li><a class="ads-one" href="http://www.facebook.com/imuevents"><img src="$ThemeDir/images/Facebook_LikeUs_IES.png" /></a></li>
 </div>
 <div id="contenthead">
 <h6>$Title<br /></h6>

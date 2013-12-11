@@ -8,8 +8,8 @@
 <div id="content-container"> <span class="main-feature-tabs2"> <span class="more4">- GRADUATE INTERNSHIPS & ASSISTANTSHIPS  -</span> </span>
   <div id="interior-links-wrapper">
     <% include SubNavigation %>
-    <% include Ads %>
     <li><a class="ads-one" href="http://www.facebook.com/iowahousehotel"><img src="$ThemeDir/images/Facebook_LikeUs_IHH.png" /></a></li>
+    <% include Ads %>
   </div>
   <div id="header-description">
     <h1>Iowa House Hotel</h1>

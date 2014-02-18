@@ -1,8 +1,11 @@
 <div id="content-container"> <span class="main-feature-tabs2"></span>
   <div id="interior-links-wrapper">
     <% include SubNavigation %>
-<% include Ads %>
+<ul class="ads">
 <li><a class="ads-one" href="http://www.facebook.com/iowahousehotel"><img src="$ThemeDir/images/Facebook_LikeUs_IHH.png" /></a></li>
+</ul>
+<% include Ads %>
+
   </div>
 
     <div id="header-description">

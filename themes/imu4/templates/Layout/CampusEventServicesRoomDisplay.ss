@@ -92,8 +92,8 @@ background: url($ContentImage.URL) no-repeat 0px 0px;
                         			<div><span><img src="$ThemeDir/images/projector_icon.png" width="24"></span> Projector Screen</div>
                         		<% end_if %>
 
-                        		<% if HasDVDVCR %>
-                        		    <div><span><img src="$ThemeDir/images/dvd_vcr.png" height="24"></span> DVD/VCR Player</div>
+                        		<% if HasDVD %>
+                        		    <div><span><img src="$ThemeDir/images/dvd_vcr.png" height="24"></span> DVD Player</div>
                                 <% end_if %>
 
                                 <% if HasSpeakers %>
@@ -104,7 +104,7 @@ background: url($ContentImage.URL) no-repeat 0px 0px;
                         		    <div><span><img src="$ThemeDir/images/markerboard_icon.png" height="24"></span> Markerboard</div>
                                 <% end_if %>
 
-                                <% if Microphone %>
+                                <% if HasMicrophone %>
                         		    <div><span><img src="$ThemeDir/images/microphone_icon.png" height="24"></span> Microphone</div>
                                 <% end_if %>
                                  <% if HasWifi %>

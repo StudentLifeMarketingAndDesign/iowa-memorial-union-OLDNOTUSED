@@ -20,15 +20,15 @@ $Content1
     <% if isMeetingsPage %>
         <div id="rooms_page">
             <% control Children %>
-            	<% if Number %>
+            	
 	                <a href="$Link">
 	                	<div class="room_listing">
 	                    	<span class="thumbnail">$ThumbnailImage</span>
 	                        <span class="name">$Title</span>
-	                        <span class="number">Room #$Number, Capacity: $DisplayCapacity</span>
+	                        <span class="number"><% if Number %>Room #$Number, <% end_if %>Capacity: $DisplayCapacity</span>
 	                	</div>
 	                </a>
-	            <% end_if %>
+
             <% end_control %>
         </div>
     <% end_if %>

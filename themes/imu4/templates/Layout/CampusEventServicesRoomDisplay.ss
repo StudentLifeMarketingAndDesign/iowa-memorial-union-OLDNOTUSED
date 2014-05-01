@@ -105,7 +105,7 @@ background: url($ContentImage.URL) no-repeat 0px 0px;
                                 <% end_if %>
 
                                 <% if HasMicrophone %>
-                        		    <div><span><img src="$ThemeDir/images/microphone_icon.png" height="24"></span> Microphone</div>
+                        		    <div><span><img src="$ThemeDir/images/microphone_icon.png" height="24"></span>Podium + Microphone</div>
                                 <% end_if %>
                                  <% if HasWifi %>
                         		    <div><span><img src="$ThemeDir/images/wifi_icon.png" height="24"></span> Wifi</div>

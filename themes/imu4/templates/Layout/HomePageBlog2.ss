@@ -154,7 +154,7 @@ $(document).ready(function() {
 			<h2><a href="http://afterclass.uiowa.edu/">After Class <span class="tint">:: Upcoming Events at the IMU</span></a></h2>
 			
 			
-        	<% control RSSEvents(3,http://afterclass.uiowa.edu/events/categoriesrss/iowa_memorial_union) %>
+        	<% control RSSEvents(3,http://afterclass.uiowa.edu/events/categoriesrss/Iowa%20Memorial%20Union) %>
         		<% if Title %>
 				<div class="event">
 					<% if Smallimage %><a href="$Link"><img src="$Smallimage" /></a><% end_if %>
@@ -176,7 +176,7 @@ $(document).ready(function() {
 			<h2><a href="/news">After Class <span class="tint">:: Student News and Features</span></a></h2>
 			
 			<% cached %>
-			<% control RSSItems(5, http://afterclass.uiowa.edu/blog/feed/) %>
+			<% control RSSItems(5, http://afterclass.uiowa.edu/news/feed/) %>
 				<div class="blog-post">
 					
 					<h3><a href="$Link">$Title</a></h3>

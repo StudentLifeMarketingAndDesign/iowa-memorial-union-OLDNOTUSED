@@ -9,7 +9,7 @@
   <% if ContentImage %><p> $ContentImage </p><% end_if %>
     $Content1
     
-    <iframe width="705" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=41.686438,-91.540318&amp;daddr=North+Madison+Street,+Iowa+City,+IA+52242+(Iowa+Memorial+Union)&amp;hl=en&amp;geocode=&amp;mra=dme&amp;mrcr=0&amp;mrsp=0&amp;sz=14&amp;sll=41.679707,-91.524954&amp;sspn=0.044425,0.082827&amp;ie=UTF8&amp;ll=41.679707,-91.524954&amp;spn=0.044425,0.082827&amp;output=embed&amp;s=AARTsJrT7VoqkMEcjffwLYP38h7VCCLUxg"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2980.6628014151283!2d-91.538361!3d41.66302700000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe11011416d6f1868!2sIowa+Memorial+Union!5e0!3m2!1sen!2sus!4v1400619857056" width="705" height="450" frameborder="0" style="border:0"></iframe>
   
     </div>
   </div>
